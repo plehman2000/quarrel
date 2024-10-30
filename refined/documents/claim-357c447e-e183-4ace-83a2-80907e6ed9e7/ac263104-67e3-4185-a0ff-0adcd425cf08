@@ -1,0 +1,846 @@
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml" lang="en-US"><head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta name="distribution" content="global">
+	<meta name="robots" content="follow, all">
+	<meta name="language" content="en, sv">
+	<meta name="viewport" content="width=device-width">
+	<link rel="Shortcut Icon" href="https://thermtide.com/wp-content/uploads/2019/11/Tide-favicon-2nd-small.png" type="image/x-icon">
+	<link rel="alternate" type="application/rss+xml" title="The Tide RSS 2.0" href="https://thermtide.com/feed/">
+	<link rel="alternate" type="text/xml" title="The Tide RSS .92" href="https://thermtide.com/feed/rss/">
+	<link rel="alternate" type="application/atom+xml" title="The Tide Atom 0.3" href="https://thermtide.com/feed/atom/">
+	<title>Moral psychology sheds light on abortion debate – The Tide</title>
+<meta name="robots" content="max-image-preview:large">
+<script type="text/javascript">
+/* <![CDATA[ */
+window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/thermtide.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.6.2"}};
+/*! This file is auto-generated */
+!function(i,n){var o,s,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),r=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===r[t]})}function u(e,t,n){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\uddfa\ud83c\uddf3","\ud83c\uddfa\u200b\ud83c\uddf3")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!n(e,"\ud83d\udc26\u200d\u2b1b","\ud83d\udc26\u200b\u2b1b")}return!1}function f(e,t,n){var r="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):i.createElement("canvas"),a=r.getContext("2d",{willReadFrequently:!0}),o=(a.textBaseline="top",a.font="600 32px Arial",{});return e.forEach(function(e){o[e]=t(a,e,n)}),o}function t(e){var t=i.createElement("script");t.src=e,t.defer=!0,i.head.appendChild(t)}"undefined"!=typeof Promise&&(o="wpEmojiSettingsSupports",s=["flag","emoji"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){i.addEventListener("DOMContentLoaded",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(s),u.toString(),p.toString()].join(",")+"));",r=new Blob([e],{type:"text/javascript"}),a=new Worker(URL.createObjectURL(r),{name:"wpTestEmojiSupports"});return void(a.onmessage=function(e){c(n=e.data),a.terminate(),t(n)})}catch(e){}c(n=f(s,u,p))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],"flag"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);
+/* ]]> */
+</script>
+		
+	<link rel="stylesheet" id="dashicons-css" href="https://thermtide.com/wp-includes/css/dashicons.min.css?ver=6.6.2" type="text/css" media="all">
+<link rel="stylesheet" id="elusive-css" href="https://thermtide.com/wp-content/plugins/menu-icons/vendor/codeinwp/icon-picker/css/types/elusive.min.css?ver=2.0" type="text/css" media="all">
+<link rel="stylesheet" id="menu-icon-font-awesome-css" href="https://thermtide.com/wp-content/plugins/menu-icons/css/fontawesome/css/all.min.css?ver=5.15.4" type="text/css" media="all">
+<link rel="stylesheet" id="foundation-icons-css" href="https://thermtide.com/wp-content/plugins/menu-icons/vendor/codeinwp/icon-picker/css/types/foundation-icons.min.css?ver=3.0" type="text/css" media="all">
+<link rel="stylesheet" id="menu-icons-extra-css" href="https://thermtide.com/wp-content/plugins/menu-icons/css/extra.min.css?ver=0.13.15" type="text/css" media="all">
+<style id="wp-emoji-styles-inline-css" type="text/css">
+
+	img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}
+</style>
+<link rel="stylesheet" id="wp-block-library-css" href="https://thermtide.com/wp-includes/css/dist/block-library/style.min.css?ver=6.6.2" type="text/css" media="all">
+<style id="classic-theme-styles-inline-css" type="text/css">
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+</style>
+<style id="global-styles-inline-css" type="text/css">
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
+:root :where(.wp-block-pullquote){font-size: 1.5em;line-height: 1.6;}
+</style>
+<link rel="stylesheet" id="wp-polls-css" href="https://thermtide.com/wp-content/plugins/wp-polls/polls-css.css?ver=2.77.2" type="text/css" media="all">
+<style id="wp-polls-inline-css" type="text/css">
+.wp-polls .pollbar {
+	margin: 1px;
+	font-size: 6px;
+	line-height: 8px;
+	height: 8px;
+	background: #d8e1eb;
+	border: 1px solid #c8c8c8;
+}
+
+</style>
+<link rel="stylesheet" id="sno-countdown-plugin-style-front-css" href="https://thermtide.com/wp-content/plugins/sno-countdown/assets/style/sno-countdown-style.css?ver=1.0.1" type="text/css" media="all">
+<link rel="stylesheet" id="sno-comments-css-css" href="https://thermtide.com/wp-content/themes/snoflex/flex-functions/comments/comments.css?ver=10.3.109" type="text/css" media="all">
+<link rel="stylesheet" id="weather-styles-css" href="https://thermtide.com/wp-content/themes/snoflex/flex-functions/weather/weather.css?ver=20220702" type="text/css" media="all">
+<link rel="stylesheet" id="flex-parallax-css" href="https://thermtide.com/wp-content/themes/snoflex/includes/parallax/css/main.css?ver=10.3.109" type="text/css" media="all">
+<link rel="stylesheet" id="flex-flexslider-css" href="https://thermtide.com/wp-content/themes/snoflex/includes/flexslider/flexslider.css?ver=10.3.109" type="text/css" media="all">
+<link rel="stylesheet" id="flex-superfish-css" href="https://thermtide.com/wp-content/themes/snoflex/includes/superfish/css/superfish.css?ver=10.3.109" type="text/css" media="all">
+<link rel="stylesheet" id="flex-remodal-css" href="https://thermtide.com/wp-content/themes/snoflex/styles/remodal.css?ver=10.3.109" type="text/css" media="all">
+<link rel="stylesheet" id="flex-remodal-default-css" href="https://thermtide.com/wp-content/themes/snoflex/styles/remodal-default-theme.css?ver=10.3.109" type="text/css" media="all">
+<link rel="stylesheet" id="flex-stylesheet-css" href="https://thermtide.com/wp-content/themes/snoflex/style.css?ver=10.3.109" type="text/css" media="all">
+<link rel="stylesheet" id="font-awesome-css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css?ver=10.3.109" type="text/css" media="all">
+<link rel="stylesheet" id="googleFonts-css" href="https://fonts.googleapis.com/css?family=Playfair+Display%3A400%2C700%7CRoboto+Slab%3A400%2C700%7CRoboto%3A400%2C700&amp;display=swap&amp;ver=6.6.2" type="text/css" media="all">
+<link rel="stylesheet" id="font-awesome-official-css" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" type="text/css" media="all" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
+<link rel="stylesheet" id="font-awesome-official-v4shim-css" href="https://use.fontawesome.com/releases/v5.15.2/css/v4-shims.css" type="text/css" media="all" integrity="sha384-1CjXmylX8++C7CVZORGA9EwcbYDfZV2D4Kl1pTm3hp2I/usHDafIrgBJNuRTDQ4f" crossorigin="anonymous">
+<style id="font-awesome-official-v4shim-inline-css" type="text/css">
+@font-face {
+font-family: "FontAwesome";
+font-display: block;
+src: url("https://use.fontawesome.com/releases/v5.15.2/webfonts/fa-brands-400.eot"),
+		url("https://use.fontawesome.com/releases/v5.15.2/webfonts/fa-brands-400.eot?#iefix") format("embedded-opentype"),
+		url("https://use.fontawesome.com/releases/v5.15.2/webfonts/fa-brands-400.woff2") format("woff2"),
+		url("https://use.fontawesome.com/releases/v5.15.2/webfonts/fa-brands-400.woff") format("woff"),
+		url("https://use.fontawesome.com/releases/v5.15.2/webfonts/fa-brands-400.ttf") format("truetype"),
+		url("https://use.fontawesome.com/releases/v5.15.2/webfonts/fa-brands-400.svg#fontawesome") format("svg");
+}
+
+@font-face {
+font-family: "FontAwesome";
+font-display: block;
+src: url("https://use.fontawesome.com/releases/v5.15.2/webfonts/fa-solid-900.eot"),
+		url("https://use.fontawesome.com/releases/v5.15.2/webfonts/fa-solid-900.eot?#iefix") format("embedded-opentype"),
+		url("https://use.fontawesome.com/releases/v5.15.2/webfonts/fa-solid-900.woff2") format("woff2"),
+		url("https://use.fontawesome.com/releases/v5.15.2/webfonts/fa-solid-900.woff") format("woff"),
+		url("https://use.fontawesome.com/releases/v5.15.2/webfonts/fa-solid-900.ttf") format("truetype"),
+		url("https://use.fontawesome.com/releases/v5.15.2/webfonts/fa-solid-900.svg#fontawesome") format("svg");
+}
+
+@font-face {
+font-family: "FontAwesome";
+font-display: block;
+src: url("https://use.fontawesome.com/releases/v5.15.2/webfonts/fa-regular-400.eot"),
+		url("https://use.fontawesome.com/releases/v5.15.2/webfonts/fa-regular-400.eot?#iefix") format("embedded-opentype"),
+		url("https://use.fontawesome.com/releases/v5.15.2/webfonts/fa-regular-400.woff2") format("woff2"),
+		url("https://use.fontawesome.com/releases/v5.15.2/webfonts/fa-regular-400.woff") format("woff"),
+		url("https://use.fontawesome.com/releases/v5.15.2/webfonts/fa-regular-400.ttf") format("truetype"),
+		url("https://use.fontawesome.com/releases/v5.15.2/webfonts/fa-regular-400.svg#fontawesome") format("svg");
+unicode-range: U+F004-F005,U+F007,U+F017,U+F022,U+F024,U+F02E,U+F03E,U+F044,U+F057-F059,U+F06E,U+F070,U+F075,U+F07B-F07C,U+F080,U+F086,U+F089,U+F094,U+F09D,U+F0A0,U+F0A4-F0A7,U+F0C5,U+F0C7-F0C8,U+F0E0,U+F0EB,U+F0F3,U+F0F8,U+F0FE,U+F111,U+F118-F11A,U+F11C,U+F133,U+F144,U+F146,U+F14A,U+F14D-F14E,U+F150-F152,U+F15B-F15C,U+F164-F165,U+F185-F186,U+F191-F192,U+F1AD,U+F1C1-F1C9,U+F1CD,U+F1D8,U+F1E3,U+F1EA,U+F1F6,U+F1F9,U+F20A,U+F247-F249,U+F24D,U+F254-F25B,U+F25D,U+F267,U+F271-F274,U+F279,U+F28B,U+F28D,U+F2B5-F2B6,U+F2B9,U+F2BB,U+F2BD,U+F2C1-F2C2,U+F2D0,U+F2D2,U+F2DC,U+F2ED,U+F328,U+F358-F35B,U+F3A5,U+F3D1,U+F410,U+F4AD;
+}
+</style>
+<link rel="stylesheet" id="snoadrotate-default-css-css" href="https://thermtide.com/wp-content/plugins/sno-ad-rotate/css/widget-default.css?ver=1.1.1" type="text/css" media="screen">
+<link rel="stylesheet" id="wp-paginate-css" href="https://thermtide.com/wp-content/plugins/wp-paginate/css/wp-paginate.css?ver=2.2.2" type="text/css" media="screen">
+<script type="text/javascript" src="https://thermtide.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js"></script>
+<script type="text/javascript" src="https://thermtide.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js"></script>
+<script type="text/javascript" id="sno-comments-js-js-extra">
+/* <![CDATA[ */
+var comment_ajax_object = {"ajaxurl":"https:\/\/thermtide.com\/wp-admin\/admin-ajax.php","nonce":"f8680a9270"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://thermtide.com/wp-content/themes/snoflex/flex-functions/comments/comments.js?ver=10.3.109" id="sno-comments-js-js"></script>
+<script type="text/javascript" src="https://thermtide.com/wp-content/themes/snoflex/flex-functions/weather/weatherViews.js?ver=20220601" id="weather-script-js"></script>
+<script type="text/javascript" src="https://thermtide.com/wp-content/themes/snoflex/includes/flexslider/jquery.flexslider.js?ver=10.3.109" id="flex-flexslider-script-js"></script>
+<script type="text/javascript" src="https://thermtide.com/wp-content/themes/snoflex/includes/superfish/js/hoverintent.js?ver=10.3.109" id="flex-hoverintent-js"></script>
+<script type="text/javascript" src="https://thermtide.com/wp-content/themes/snoflex/includes/superfish/js/superfish.js?ver=10.3.109" id="flex-superfish-js"></script>
+<script type="text/javascript" src="https://thermtide.com/wp-content/themes/snoflex/includes/superfish/js/supersubs.js?ver=10.3.109" id="flex-supersubs-js"></script>
+<script type="text/javascript" src="https://thermtide.com/wp-content/themes/snoflex/javascript/jquery-scrolltofixed-min.js?ver=10.3.109" id="flex-scrollfix-js"></script>
+<script type="text/javascript" src="https://thermtide.com/wp-content/themes/snoflex/javascript/remodal.min.js?ver=10.3.109" id="flex-remodal-js"></script>
+<script type="text/javascript" src="https://thermtide.com/wp-content/themes/snoflex/javascript/jcarousellite_1.0.1c4.js?ver=6.6.2" id="flex-bnticker-js"></script>
+<script type="text/javascript" src="https://thermtide.com/wp-content/themes/snoflex/javascript/menus-init.js?ver=10.3.109" id="flex-menus-js"></script>
+<script type="text/javascript" id="flex-theme-js-js-extra">
+/* <![CDATA[ */
+var frontend_ajax_object = {"ajaxurl":"https:\/\/thermtide.com\/wp-admin\/admin-ajax.php"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://thermtide.com/wp-content/themes/snoflex/javascript/sno-theme.js?ver=10.3.109" id="flex-theme-js-js"></script>
+<script type="text/javascript" src="https://thermtide.com/wp-content/themes/snoflex/includes/parallax/js/skrollr.js?ver=6.6.2" id="flex-parallax-js"></script>
+<script type="text/javascript" src="https://thermtide.com/wp-content/themes/snoflex/javascript/simpleParallax.min.js?ver=6.6.2" id="image-parallax-js"></script>
+<link rel="https://api.w.org/" href="https://thermtide.com/wp-json/"><link rel="alternate" title="JSON" type="application/json" href="https://thermtide.com/wp-json/wp/v2/posts/19270"><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://thermtide.com/xmlrpc.php?rsd">
+<meta name="generator" content="WordPress 6.6.2">
+<link rel="canonical" href="https://thermtide.com/19270/news/moral-psychology-sheds-light-on-abortion-debate/">
+<link rel="shortlink" href="https://thermtide.com/?p=19270">
+<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="https://thermtide.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fthermtide.com%2F19270%2Fnews%2Fmoral-psychology-sheds-light-on-abortion-debate%2F">
+<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="https://thermtide.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fthermtide.com%2F19270%2Fnews%2Fmoral-psychology-sheds-light-on-abortion-debate%2F&amp;format=xml">
+
+
+<!-- Start of Open Graph Meta Tags -->
+
+<meta property="og:title" content="Moral psychology sheds light on abortion debate">
+<meta property="og:type" content="article">
+<meta name="author" content="Crystal Li">
+<meta property="og:image" content="https://thermtide.com/wp-content/uploads/2023/06/Untitled20_20230427161754.png">
+<meta property="og:image:secure_url" content="https://thermtide.com/wp-content/uploads/2023/06/Untitled20_20230427161754.png">
+<meta property="og:image:width" content="1280">
+<meta property="og:image:height" content="1280">
+<meta property="og:site_name" content="The Tide">
+<meta property="og:description" content="Almost one year after the reversal of Roe v. Wade last June, the Supreme Court is again poised to make a major decision on abortion. As anti-abortion plaintiffs prepare to advocate in courts for the ban of Mifepristone, a pill used in over half of abortions in the US, the Supreme Court decided on April...">
+<meta name="description" content="Almost one year after the reversal of Roe v. Wade last June, the Supreme Court is again poised to make a major decision on abortion. As anti-abortion plaintiffs prepare to advocate in courts for the ban of Mifepristone, a pill used in over half of abortions in the US, the Supreme Court decided on April...">
+<meta property="article:section" content="News">
+<meta property="article:tag" content="abortion,morals,psychology,Rao,Roe v. Wade,Smith,Supreme court">
+<!-- End of Open Graph Meta Tags -->
+
+<style type="text/css" media="screen">
+ body, #wrap, #upperwrap {font-family: Roboto !important; font-weight: 400; }  textarea {font-family: Roboto !important; font-weight: 400; }  #wrap { background-color: #ffffff; } .sno-header-wrap .snoads-unplaced { background: #ffffff;} .sno-footer-wrap .snoads-unplaced { background: #ffffff;}.sc-datesport, .sports-widget-carousel ul { background: #ffdd0b; }.sc_score_link, .sc_score_link_vertical { border-color: #ffdd0b; }.storycontent p a, .carouselbyline a, a.creditline, .sno-story-wrap a { text-decoration:underline; }.aboutwriter { border-width: 10px 0 ; border-color: #000000; border-style:solid; background: #ffffff; color: #000000; }.aboutwriter { padding-left:0px; padding-right: 0px; padding-bottom: 0px; }.sc_photo { width: 190px; } .sc_bio { width: calc(100% - 205px); }.storycreditbox:nth-child(even) { padding-right: 20px; }.storycreditbox { padding-bottom: 20px; padding-left: 0px; }.storycreditboxwide { padding-right: 0px; padding-left: 0px; }.storycreditbox, .storycreditboxwide { border: 0px solid #dddddd; background: #ffffff;color: #000000;}.storycreditbox { width: calc(100% - 20px);}.sidechapter .storycreditbox { width: calc(100% - 20px);}.sc_bio { float: unset; width: 100%; }input.s { background: #dddddd; color: #aaaaaa; border-color: #dddddd; }.sno-submit-search-button { background: #dddddd; color: #aaaaaa; }.search-button-container { border-color: #dddddd; }input.s::placeholder { color: #aaaaaa; opacity: 1; }.leaderboardwrap {background:#dddddd;border-bottom: solid ;border-top:0px solid ;}.footerboardwrap {background:#dddddd;border-bottom: 0px solid ;border-top: 0px solid ;} .sno-header-wrap .snoads-unplaced, .sno-header-wrap .snoads-unplaced .leaderboardwrap { background: #ffffff;} .sno-footer-wrap .snoads-unplaced, .sno-footer-wrap .snoads-unplaced .footerboardwrap { background: #ffffff!important;}.breakingnewswrap {background-color:#ffffff !important;color:#261a18 !important;border-bottom:  solid ;border-top: 0px solid ;}#breakingnews a, #breakingnews a:hover {color: #261a18 !important;}.breakingnewswrap a, .breakingnewswrap p { color: #261a18 !important; font-family: Roboto !important; font-weight: 400; }.breakingnewsheadline, .breakingnewsdate { color: #261a18 !important; font-family: Roboto !important; font-weight: 400; }.breakingnewswrap .bndate { background: #fff170; color: #261a18 ; }.breakingnewswrap .breakingnewsheadline { background: #ffffff; }#header h3, button.sno-comment-button, span.staff_pick, span.staff_pick i { color: #000000 !important; }.teasergrade { color: #000000 !important; }.sectionhead, a:link.sectionhead , a:visited.sectionhead  { color:#000000 !important; }table.stats th:hover { color:#000000 !important; }.teasertitle { color:#000000 !important; }#pscroller3 a { color: #000000 !important; }.sportsscrollbox .sportsscore span.cat { color:#000000 !important; }.sno_teaserbar_home { border-bottom:  solid ; }.sno_teaserbar_home { border-top: 0px solid ; }#alt_wrap #altheader { border-top:  solid ; }.headerwrap { background-color: #ffffff !important; border-bottom:  solid ; border-top: 0px solid ; }#altheader { border-bottom:  solid ; }#header, #altheader, #altheader-searchbox, .altheader-left { background-color: #ffffff !important; color: #000000;}.altheader-right { background-color: #ffffff !important; }#slidemenu a, #slidemenu .mobile_menu_text { color: #000000;}#mobile-menu { background-color: #ffffff !important;}#mobile-menu .sitetitle h1 a { color: #000000 !important; }#header h1, .altheader-logo h1 {color:#000000 !important;font-family: Playfair Display !important; font-weight: 400; text-shadow: none !important;text-align: center !important; margin-left: 0px;}.home-immersion-header, .altheader-logo h1 { font-family: Playfair Display !important; font-weight: 400}#sno_longform .footerbar, #sno_longform .header, #mobile-menu h1 { font-family: Playfair Display !important; font-weight: 400; }#header a, .altheader-logo h1 a { color: #000000 !important; }#header p {color: #000000 !important; font-family: Roboto Slab !important; font-weight: 400;text-align: center !important; padding:0px;}.wp-paginate .current { background: #ffffff !important; color: #000000 !important; border-color: #000000 !important; }#menu-a-menu, #menu-more-top { float:left;}#navbar a { color: #ffc80b !important; background-color: #000000 !important; font-family: Roboto Slab !important; text-transform: capitalize !important;font-weight: 400;}.mobile-menu a {font-family: Roboto Slab !important; text-transform: capitalize !important;font-weight: 400;}#navbar a:hover, #navbar a:focus, #mini-logo-top:hover, #mini-logo-top:focus  { background-color: #ffc80b !important; color: #000000 !important;}#navbar .current-menu-ancestor a, #navbar .current-menu-item a, #navbar .current-menu-parent a {background-color: #ffc80b !important; color: #000000 !important;}#navbar .current-menu-ancestor a:hover, #navbar .current-menu-item a:hover, #navbar .current-menu-parent a:hover, #navbar .current-menu-ancestor a:focus, #navbar .current-menu-item a:focus, #navbar .current-menu-parent a:focus {background-color: #000000 !important; color: #ffc80b !important;}#navbar .menu-item-home a, #navbar .menu-item-object-custom a {color: #ffc80b !important; background-color: #000000 !important; }#navbar .menu-item-home a:hover, #navbar .menu-item-object-custom a:hover, #navbar .menu-item-home a:focus, #navbar .menu-item-object-custom a:focus {color: #000000 !important; background-color: #ffc80b !important; }.navbarwrap, #navbar, #navbar a { background: #000000;}.navbarwrap { background-color: #000000 !important; border-bottom:  solid ; border-top: 0px solid ; color: #ffc80b !important; }#navbar a { color: #ffc80b !important; background-color: #000000 !important; font-family: Roboto Slab !important; text-transform: capitalize !important;font-weight: 400;}.mobile-menu a, .mobile-menu input {font-family: Roboto Slab !important; text-transform: capitalize !important;font-weight: 400;}#menu, #slidemenu {font-family: Roboto Slab !important; text-transform: capitalize !important; font-weight: 400;}#menu-b-menu, .sno-bottom-menu { float:none; text-align: center; }.sno-bottom-menu li { background: #000000 !important; }.sno-bottom-menu > li { float: none; display: inline-block;  }.sno-bottom-menu > li a { display: inline-block; }.sno-bottom-menu ul  { text-align: left; }.sno-bottom-menu ul a { display: block; }#subnavbar a { background-color: #000000 !important; color: #ffffff !important;  font-family: Roboto Slab !important; font-weight: 400;text-transform: capitalize !important; }#subnavbar a:hover, #mini-logo-bottom:hover, #subnavbar a:focus, #mini-logo-bottom:focus { background-color: #5c5c5c !important; color: #000000 !important;  }#subnavbar .current-menu-ancestor a, #subnavbar .current-menu-item a, #subnavbar .current-menu-parent a {background-color: #5c5c5c !important; color: #000000 !important;}#subnavbar .current-menu-ancestor a:hover, #subnavbar .current-menu-item a:hover, #subnavbar .current-menu-parent a:hover, #subnavbar .current-menu-ancestor a:focus, #subnavbar .current-menu-item a:focus, #subnavbar .current-menu-parent a:focus  {background-color: #000000 !important; color: #ffffff !important;}#subnavbar .menu-item-home a, #subnavbar .menu-item-object-custom a {color: #ffffff !important; background-color: #000000 !important; }#subnavbar .menu-item-home a:hover, #subnavbar .menu-item-object-custom a:hover, #subnavbar .menu-item-home a:focus, #subnavbar .menu-item-object-custom a:focus {color: #000000 !important; background-color: #5c5c5c !important; }.subnavbarwrap {background-color: #000000 !important; border-bottom:  solid ; border-top: 0px solid ; }#subnavbar { background-color: #000000 !important; color: #ffffff !important; }.innerbackgroundwrap {background-color: #ffffff !important; }#fullwrap {background-color: #ffffff !important; border-bottom: 1px solid #ffffff; border-top: 0px solid #000000; }.wp-polls .pollbar { background: #000000;border: 1px solid #000000; }#breakingnewsbox p { color: #000000 !important; }h3.gform_title { background: #000000 !important; padding-left:7px !important;}.topnavwrap { border-bottom:  solid ; border-top: 0px solid ; background: #000000; color: #ffffff;}#topnavbar { background: #000000; color: #ffffff; }.topnavwrap a {color: #ffffff !important; }#footer, .footerwrap, .footercredit, .sno-footercredit {color: #393939;background: #dddddd;}#footer p, #footer a, .footercredit p, .footercredit a, .sno-footercredit a {color: #393939 !important;}.footerleft p {font-family: Playfair Display !important; font-weight: 400;}.footertagline p {font-family: Roboto Slab !important; font-weight: 400;}.footerwrap {border-bottom:  solid ; border-top: 0px solid ; background-color: #dddddd !important;}body {background-color: #ffffff;}#homepageright ul li, #homepageleft ul li, #homepagewide ul li, #contentleft ul li, #sidebar ul li, #sidebar ul li li, #sidebar ul li ul li, .widgetwrap ul li {background:url(/wp-content/themes/snoflex/images/bulletarrow.png) no-repeat 0px 4px; background-size:12px;}.widgettitle, .widgettitle-nonsno, .snodnetwork h3, .offset-title-wrap { font-family: Roboto Slab !important; font-weight: 400; }.widget1 { background: #000000 !important;color: #fff493 !important;border-left:1px solid #e8e8e8 !important; border-right:1px solid #e8e8e8 !important; border-top:1px solid #e8e8e8 !important; padding-left:10px !important; font-size:17px !important;line-height:27px !important;margin:0px !important;padding-top: 2px !important;}.widget1 a { color: #fff493 !important; }.widget3, .adheader{ background: #000000;color: #ffc80b; text-transform:uppercase; text-align:center; margin:0px; font-size: 12px; line-height:13px; padding-top:0px;}.widget3 a, .widget3 a:hover { color: #ffc80b !important; }.widget4 { background: #ffffff;color: #000000; padding:5px 10px 0px;font-size:16px; line-height: 28px; padding-top:4px;}.widget4 a { color: #000000 !important; }.widget6 { background: #ffffff;border: 4px solid #fff170; background-color: #ffffff; color: #000000; padding-left:10px;padding-top: 6px;font-size:22px;line-height:32px;}.widget6 a { color: #000000 !important; }.widget7 { color:#fff493 !important;background: #000000 !important;padding: 1px 10px 2px !important;margin: 1px 0px;font-size:17px; line-height: 26px;}.widget7 a { color: #fff493 !important; }.widget8 { color:#000000;background: #fff170;padding: 0px 8px; margin: 0px 0px 0px 10px;float: left;font-size:20px;line-height:30px;}.widget8 a { color: #000000 !important; }.widget2.widgettitle { background: #ffffff;color: #000000;font-size: 20px; line-height: 36px;text-align: left;text-transform:none;position: relative; z-index: 1;padding: 0;}.widget2 a { color: #000000 !important; }.widget2:before {border-top: 1px solid #000000;left: 17.5px;right: 17.5px;top: 17.5px;content: ''; position: absolute; z-index: -1;}.widget2 .sno-w-title { color: #000000; background: #ffffff;display: inline-block;padding-right: 17.5px;padding-left: 17.5px;top: 17.5px;}.widgetbody2 { border-left: 0; border-right: 0; border-bottom: 0; background-color: #ffffff;overflow:hidden;padding: 17.5px;}.widget5.widgettitle {background: #eeeeee;font-size: 20px;line-height: 36px;max-height: 36px;width: calc(100% - (0px * 2));border-left: 0px solid #aaaaaa;border-right: 0px solid #aaaaaa;border-top: 0px solid #aaaaaa;}.widget5.widgettitle .sno-w-title-before {border-left: 9px solid transparent;border-top: 18px solid #990000;border-bottom: 18px solid #990000;}.widget5.widgettitle .sno-a0 {display: none;}.widget5.widgettitle .sno-w-title-after {border-left: 9px solid #990000;border-top: 18px solid transparent;border-bottom: 18px solid transparent;}.widgetbody5.widgetbody {background: #ffffff;border-left: 0px solid #aaaaaa;border-right: 0px solid #aaaaaa;border-bottom: 0px solid #aaaaaa;}.widget5.widgettitle a {color: #ffffff!important;}.widget5.widgettitle .sno-w-title {background: #990000;color: #ffffff;}#content .widgettitle-nonsno, #homepageleft .widgettitle-nonsno, #homepageright .widgettitle-nonsno, #homepage .widgettitle-nonsno, #sidebar .widgettitle-nonsno, .sbscomments .widgettitle-nonsno, .widgettitle-nonsno { background: #000000 !important;color: #fff493 !important; border-left:1px solid #e8e8e8 !important; border-right:1px solid #e8e8e8 !important; border-top:1px solid #e8e8e8 !important; font-size:17px !important;line-height:27px !important;text-transform:none; padding-top:3px !important;}.widgetbody, #permalinksidebar, .comments, .homecolumnwide { border-left: 1px solid #e8e8e8; border-right: 1px solid #e8e8e8; border-bottom: 1px solid #e8e8e8; background-color: #ffffff;}#homepage .widgettitle-nonsno a, #sidebar .widgettitle-nonsno a, #content .widgettitle-nonsno a, .sbscomments .widgettitle-nonsno a, .widgettitle-nonsno a { color: #fff493 !important; }.widgetbody1 { border-left: 1px solid #e8e8e8; border-right: 1px solid #e8e8e8; border-bottom: 1px solid #e8e8e8; background-color: #ffffff; padding:10px;}.widgetbody2 {border-left: none;border-right: none;border-bottom: none;background-color: #ffffff; }.widgetbody3 { border-right: 0px solid #cccccc; border-left: 0px solid #cccccc;border-bottom: unset;background: #ffffff; padding:10px;}.widgetfooter3 { background: #000000;width:100%;}.widgetfooter3 { height: 13px; }.widgetbody4 { border-left: 2px solid #000000; border-right: 2px solid #000000; border-bottom: 2px solid #000000; background-color: #ffffff !important;  padding:10px !important; margin-left: 0 !important;margin-right: 0 !important;clear:both;}.widgetbody6 { border-left: 4px solid #fff170; border-right: 4px solid #fff170; border-bottom: 4px solid #fff170; background-color: #ffffff; padding:10px;}.widgetbody7 { background-color: #ffffff !important; border: unset !important;padding: 10px; }.widgetbody8 { background: #ffffff !important; padding: 10px; border-left: unset !important;border-right: unset !important;border-bottom: unset !important;}#permalinksidebar .widgettitle-nonsno, #permalinksidebar h3 { font-family: Roboto Slab !important;font-weight: 400;font-size: 16px !important; line-height: 22px !important; margin: 0px 0px 3px 0px !important; padding: 0px !important; background:none!important;color:#000000!important; text-align: left!important;border:none!important; }.mmwrap, .mmwidget { border: 1px solid  !important; }#loadingimage { left:200px !important; }.storypageslideshow .flexslider, #mmpageslideshow .flexslider {background-color: #ffffff!important;box-shadow: none;border: none;}.insert { width: 47%; height: auto; background: ; color: #000000;padding: 1.5%; line-height: 1.5em; position:absolute; right:0px; top:0px; overflow:hidden; }.insert .widgetheadline, .insert .widgetheadline a { line-height: 24px !important; font-size: 20px !important; margin: 0 0 10px 0; color: #000000; margin-bottom:6px !important; font-family: Playfair Display !important; font-weight: 400; }.widgetheadline .cat_dom_headline a { color: #000000; font-family: Playfair Display !important; font-weight: 400; }#homepagefull p { line-height: 20px; font-size:15px; margin-top:0px;}#homepagefull a img {border:none;}.captionbox p {font-size:12px !important; line-height:14px !important;font-style:italic !important;}.topcaptionbox {display:none;}.topboxsmallhover, .topboxsmallwidehover { background-image: none !important;}#footer ul li {border-top: 4px solid #000000;}li.blockscategory { background-color: #000000 !important; color: #ffffff; border-radius: 3px; padding: 6px 8px !important; }li.blockscategory:hover { background-color: #222222 !important; color: #ffffff; }li.blockscategory:hover a { color: #ffffff; }li.blockscategory a { color: #ffffff; }li.blockscategory a:hover { color: #ffffff; }#classic_story ul.snocategories { text-align: center; }#classic_story ul.snocategories li { font-size: 16px; line-height: 16px; }.full-width ul.snocategories { text-align: center; }.full-width ul.snocategories li { font-size: 18px; line-height: 18px; }#storyrails ul.snocategories { text-align: center; }#storyrails ul.snocategories li { font-size: 18px; line-height: 18px; }li.blockstag { background-color: #000000 !important; color: #ffffff; border-radius: 3px; padding: 6px 8px !important;}li.blockstag:hover { background-color: #222222 !important; color: #ffffff; }li.blockstag:hover a { color: #ffffff; }li.blockstag a { color: #ffffff; }li.blockstag a:hover { color: #ffffff; }#classic_story ul.snotags { text-align: left; }#classic_story ul.snotags li { font-size: 16px; line-height: 16px; }.full-width ul.snotags { text-align: left; }.full-width ul.snotags li { font-size: 18px; line-height: 18px; }#storyrails ul.snotags { text-align: left; }#storyrails ul.snotags li { font-size: 18px; line-height: 18px; }.storycat span { background:  !important; }.storycat, #storypage .storycat a, #storypage .storycat a:hover { color:  !important; }.sno-story-card-deck, .sno-grid-deck, .sno-carousel-deck, .catlist-deck { font-family: Roboto !important;font-weight: 400;}.storydeckbottom {border-bottom-color: #dddddd !important;}.innerbackground .storydeck p, #classic_story .storydeck p, #storyrails .storydeck p {font-size: 2em !important;font-family: Roboto !important;font-weight: 400;color: #444444 !important;}#homebreaking .homedeck p {font-size: 2em !important;font-family: Roboto !important;font-weight: 400;color: #444444 !important;}.storymeta, .storytags {border-top: 1px solid #dddddd !important;border-bottom: 1px solid #dddddd !important;background: #eeeeee !important;}.profilepreviewbox {height:  !important;}.categorypreviewbox {height: ;}#catpage h2.catprofile, #catpage h2.catprofile a {font-size: 18px !important;line-height: 22px !important;}.captionboxmit, .captionboxmittop, #storyrails .captionboxmit, #classic_story .wp-caption, #storyrails .wp-caption, #storypage .wp-caption, .lf-immersive-caption {background: #eeeeee;border: 1px solid #dddddd;border: 1px solid #dddddd;border: 1px solid #dddddd;color: #000;}.captionboxmittop {padding: 10px 10px 0;margin-bottom: 10px;}#staffpage .profilepreviewbox {background:  !important;}tr.staffstoryrow { border-bottom-color: #ffffff !important; }.photocaption, p.wp-caption-text, .photocredit, .photocreditinline {font-family: Roboto;font-weight: 400;}#sno_longform .header {background-color: #fff !important;color: #000 !important;}#sno_longform .spinner > div {background: #000;}#sno_longform .footerbar {background-color: #fff !important;color: #000 !important;border-top:  solid ; }#sno_longform #mainbody .footerbar p a {color: #000 !important;}#sno_longform .chaptermenu, #sno_longform .chaptermenu a, #sno_longform .chaptermenu ul li, #sno_longform .chaptermenu ul li a, #sno_longform .chaptermenu ul li ul li a, #sno_longform .lf-dropdown ul li, #sno_longform .lf-dropdown ul li a, #sno_longform .lf-dropdown ul li ul li, #sno_longform .lf-dropdown ul li ul li a {background-color: #fff !important;color: #000;}#sno_longform .chaptermenu ul li a:hover, #sno_longform .chaptermenu ul li a:hover, #sno_longform .lf-dropdown ul li a:hover, #sno_longform .lf-dropdown ul li a:hover {background-color: #000 !important;color: #fff !important;}#sno_longform .header a, #sno_longform .header a:hover, #sno_longform .footerbar a, #sno_longform .footerbar a:hover, #sno_longform #storypage .footerbar p {color: #000 !important;}#sno_longform .dividingline {border-top: 5px solid #393939; }#sno_longform .dividinglinedeck {border-top: 5px solid #393939; }.lf_menu_icon_bar {background-color: ;}#sno_longform #storypage .storydeck p {font-style: normal;}#sno_longform #gridpage .gridhover:hover, #sno_longform #gridpage .returntogrid:hover {border-bottom-color: #000000;}#sno_longform .storybody > .storycontent > p:first-child:first-letter { float: left; color: #000000; font-size: 92px; line-height: 75px; padding-top: 9px; padding-right: 8px; padding-left: 3px; font-family: 'Gilda Display'; }.blockscat { background: #000000; }#staffpage .blockscat { background: #ffdd0b;color: #000000;}.header-icons {position:absolute;}.header-search {position:absolute;right:5px; background:  ;padding:; }.home-immersion-text {width: 30%;top: 20%;left: 20%;right: none;bottom: none;background: rgba(0,0,0,.5) !important;border-radius: 10px;}#home-immersion .blockscat { background: #023597; }#navbar a { line-height: 30px !important; padding-top: 0 !important; padding-bottom: 0 !important; }#navbarbackground { height: 30px !important; }#subnavbar a { line-height: 30px !important; padding-top: 0 !important; padding-bottom: 0 !important; }#subnavbarbackground { height: 30px !important; }.footer-icon .sno-icon { background: #ffdd0b; color: #fff; }.footer-icon .sno-snapchat i {-webkit-text-stroke-width: 0;}.footer-icon .sno-icon:hover { background: #fff; color: #ffdd0b; }.footer-icon .sno-snapchat:hover i {-webkit-text-stroke-width: 0;}.footer-icon .sno-icon { width: 30px;height: 30px;line-height: 30px;font-size: calc(30px * 2 / 3);}.sno-custom-icon- { background: ; color: #fff; }.icon-inverse .sno-custom-icon- { background: #fff; color: ; }.sno-custom-icon-:hover, .icon-hover-standard .sno-custom-icon-:hover { background: #fff; color: ; }.icon-inverse-hover .sno-custom-icon-:hover { background: ; color: #fff; }.classic-icon .sno-custom-icon- { background: ; color: #fff; }.classic-icon .sno-icon:hover, .header-icons .social-border:hover, .social-classic .social-border:hover, .altheader-top .social-border:hover, #altheader .social-border:hover { background: #ffffff; color: #000000; }.classic-icon .sno-snapchat:hover i {-webkit-text-stroke-width: 0;}.altheader-top .social-border, #altheader .social-border {margin-right: 0px;}.altheader-top .alt-header-search-bar, #altheader .alt-header-search-bar, .alt-header-social-spacer {margin-left: 0px;}.header-icons {margin-top: 0px;margin-bottom: 0px;}.altheader-right-social, .altheader-top {padding-top: 0px;padding-bottom: 0px;}#topnavbar {padding-top: 1px;padding-bottom: 1px;}.header-icons .social-border, .social-classic .social-border, .search-spacer, .classic-icon .social-border {margin-right: 1px;}.header-icons .social-spacer, .social-classic .social-spacer, .classic-icon .social-spacer {margin-left: 1px;}.altheader-top-wrap { border-bottom:  solid ; }#footer .social-border {margin-right: 1px;}#footer .social-classic {margin-top: 1px;margin-bottom: 1px;}#footer .social-spacer {margin-left: 1px;}#altheader-searchbox .mobile-menu a:hover, .mobile-menu a:hover { background: #000 !important; color: #fff !important; }    .mobile-menu a { border-bottom-color: ; background: #fff !important; color:  !important; }    .mobile-search { background: #fff; color: ; }.sno-menu-side { color: #000000 !important; }.headerimage, #header, .headerlarge, .headermedium, .headersmall { max-width: 980px; margin: 0 auto; }.headerlarge { max-width:980px; }.headermedium { max-width: 800px; }.headersmall { max-width: 479px; }#slidemenu .border-spacer { margin-top: px; }@media only screen and (min-width: 980px) {.altheader-menu {display: none; }}@media only screen and (max-width: 979px) {.altheader-left { width:auto; }}.altheader-bar1 { background: #000000; }#topnavbar .social-border, #altheader .social-border, .altheader-top .social-border, #header .social-border { border-radius: 0px; }.footerright .social-border { border-radius: 0px; }#sno_longform #altheader-searchbox {background: #fff !important;color:  !important;}#sno_longform #altheader-searchbox a {background: #fff !important;color:  !important;}#sno_longform #altheader-searchbox a:hover {color: #fff !important;background: #000 !important;}#sno_longform .mobile-menu a {border-bottom-color:  !important;}#sno_longform #slidemenu {border-right: 1px solid  !important;}#sno_longform .mobile-search {color:  !important;background:  !important;}.hover_title { font-family: Playfair Display; font-weight: 400;}#sno_hoverbar .hoverheader { background: none !important; }#content .sharing-icon {border-radius: 0px;margin-right: 1px;margin-bottom: 1px;width: 40px;height: 40px;line-height: 40px;font-size: calc(40px * 2 / 3);}#sno_longform .lf_headerleft {background: ;color: ;}#sno_longform .altheader-menu {background: ;color: ;}@media only screen and (max-width: 800px) {.sharing-mobile-hide { display:none; }}.hover_title { background: unset !important; }#sno_hoverbar .sno-email:hover, #lf_wrap .sno-email:hover { background: #fff; color: #1f385c; }#sno_hoverbar .sno-print:hover, #lf_wrap .sno-print:hover { background: #fff; color: #546b8b;  }#sno_hoverbar .sno-facebook:hover, #lf_wrap .sno-facebook:hover { background: #fff; color: #3b5998; }#sno_hoverbar .sno-twitter:hover, #lf_wrap .sno-twitter:hover { background: #fff; color: #000000; }#sno_hoverbar .sno-pinterest:hover, #lf_wrap .sno-pinterest:hover { background: #fff; color: #c92228;  }#sno_hoverbar .sno-tumblr:hover, #lf_wrap .sno-tumblr:hover { background: #fff; color: #36465d; }#sno_hoverbar .sno-google-plus:hover, #lf_wrap .sno-google-plus:hover { background: #fff; color: #dc4a38; }#sno_hoverbar .sno-reddit:hover, #lf_wrap .sno-reddit:hover { background: #fff; color: #00bf8f; }#sno_hoverbar .sno-comments:hover, #lf_wrap .sno-comments:hover { background: #fff; color: #2e7061; }.innerbackground .sno-email:hover, .sno-side-icons .email-side-icon:hover { background: #fff; color: #1f385c; }.innerbackground .sno-print:hover, .sno-side-icons .print-side-icon:hover { background: #fff; color: #546b8b; }.innerbackground .sno-facebook:hover, .sno-side-icons .facebook-side-icon:hover { background: #fff; color: #3b5998; }.innerbackground .sno-twitter:hover, .sno-side-icons .twitter-side-icon:hover { background: #fff; color: #000000; }.innerbackground .sno-pinterest:hover, .sno-side-icons .pinterest-side-icon:hover { background: #fff; color: #c92228;  }.innerbackground .sno-reddit:hover, .sno-side-icons .reddit-side-icon:hover { background: #fff; color: #00bf8f; }.innerbackground .sno-comments:hover, .sno-side-icons .comment-side-icon:hover { background: #fff; color: #2e7061; }.sno-side-icons .like-side-icon:hover { background: #fff; color: #862635; }.sno-side-icons .email-side-icon:hover .sno-side-icon-ring { border-color: #1f385c; }.sno-side-icons .print-side-icon:hover .sno-side-icon-ring { border-color: #546b8b; }.sno-side-icons .facebook-side-icon:hover .sno-side-icon-ring { border-color: #3b5998; }.sno-side-icons .twitter-side-icon:hover .sno-side-icon-ring { border-color: #000000; }.sno-side-icons .pinterest-side-icon:hover .sno-side-icon-ring { border-color: #c92228; }.sno-side-icons .reddit-side-icon:hover .sno-side-icon-ring { border-color: #00bf8f; }.sno-side-icons .comment-side-icon:hover .sno-side-icon-ring { border-color: #2e7061; }.sno-side-icons .like-side-icon:hover .sno-side-icon-ring { border-color: #862635; }#sno_hoverbar .sharing-icon{ opacity: .8; } #sno_hoverbar .sharing-icon:hover { opacity: 1; }.innerbackground .sharing-icon{ opacity: .8; } .innerbackground .sharing-icon:hover { opacity: 1; }@media only screen and (max-width: 800px) {#progress-bar { right: 100px !important; }}@media only screen and (max-width: 850px) {#sno_hoverbar .socialmedia {display: none;}.hover_title { height: 40px; background: #ffffff;} #sno_hoverbar .lf_headerleft { background: #ffffff;} #back-top { background: #ffffff; }}.slideshow-enlarge:hover { background: #000000; }.photo-enlarge:hover { background: #000000; }.time-wrapper {}.sno-widget-area-container { margin-right: 20px; }.sno-newpage-notice { margin-bottom: 20px; }.widgetwrap { margin-bottom: 20px; }.hp_top_left, .hp_top_center { width: calc(50% - 10px) !important; }@media only screen and (max-width: 800px) {#homepage .hp_top_left, #homepage .hp_top_center { width: calc(50% - 10px) !important; }}@media only screen and (max-width: 600px) {#homepage .hp_top_left, #homepage .hp_top_center { width: 100% !important; margin-right: 0; }}.hp_top_left { margin-right: 20px !important; }.hp_bottom_left { width: calc(33.333% - 13.333333333333px); margin-right: 20px; }.hp_bottom_center { width: calc(33.333% - 13.333333333333px); margin-right: 20px; }.hp_bottom_right { width: calc(33.333% - 13.333333333333px); }#content { padding-top: 20px; }.hp_extra { margin-right: 20px; }.extracolumn-padding {padding: 20px;}.sno-hac-row-wrap, .sno-footer-credit-inner { max-width: 980px; }@media only screen and (max-width: 980px) { #wrap { margin-top: 0; } }@media only screen and (max-width: 980px) { #sno_hoverbar { display: none !important; } }.fullscreencatwrap, #wrap, #upperwrap, #topnavbar, #navbar, #navbarbackground, #subnavbar, #subnavbarbackground, #header, #breakingnews, #newsticker3-demo { max-width:980px; } .newsticker3-jcarousellite, .newsticker3-jcarousellite .info { max-width: 980px; width: 980px; }#content { width: 100%; max-width:980px; }.hp_wide_extra { width: calc(100% - 340px); max-width:640px; }.page_template .postarea { width: calc(100% - 340px - 20px); max-width: 640px; }@media only screen and (min-width: 980px) {.innerbackground, #category-widgets #content { width: 980px; max-width:980px; }#homepage, #homepagewide { width: 640px; }}@media only screen and (min-width: 600px) and (max-width: 800px) {.sno-widget-area-row .sno-wa-col-7 { width: calc(33.33% - 13.333333333333px) !important; }.sno-widget-area-row .sno-widget-area-container.sno-wa-col-7:nth-child(3n) { margin-right: 0; }.sno-widget-area-row .sno-widget-area-container.sno-wa-col-7:last-of-type { width: 100% !important; }.sno-widget-area-row .sno-widget-area-container.sno-wa-col-6 { width: calc(33.33% - 13.333333333333px) !important; }.sno-widget-area-row .sno-widget-area-container.sno-wa-col-6:nth-child(3n) { margin-right: 0; }.sno-widget-area-row .sno-widget-area-container.sno-wa-col-5 { width: calc(50% - 10px) !important; }.sno-widget-area-row .sno-widget-area-container.sno-wa-col-5:last-of-type { width: 100% !important; }.sno-widget-area-row .sno-widget-area-container.sno-wa-col-5:nth-child(2n) { margin-right: 0; }.sno-widget-area-row .sno-widget-area-container.sno-wa-col-4 { width: calc(50% - 10px) !important; }.sno-widget-area-row .sno-widget-area-container.sno-wa-col-4:nth-child(2n) { margin-right: 0; }.sno-widget-area-row .sno-widget-area-container.sno-wa-col-3 { width: calc(33.33% - 13.333333333333px) !important; }.sno-widget-area-row .sno-widget-area-container.sno-wa-col-2 { width: calc(50% - 10px) !important; }}@media only screen and (max-width: 600px) {.sno-widget-area-row .sno-widget-area-container.sno-wa-col-7 { width: 100% !important; margin-right: 0; }.sno-widget-area-row .sno-widget-area-container.sno-wa-col-6 { width: 100% !important; margin-right: 0; }.sno-widget-area-row .sno-widget-area-container.sno-wa-col-5 { width: 100% !important; margin-right: 0; }.sno-widget-area-row .sno-widget-area-container.sno-wa-col-4 { width: 100% !important; margin-right: 0; }.sno-widget-area-row .sno-widget-area-container.sno-wa-col-3 { width: 100% !important; margin-right: 0; }.sno-widget-area-row .sno-widget-area-container.sno-wa-col-2 { width: 100% !important; margin-right: 0; }}@media only screen and (max-width: 980px) {.sno-widget-area-row .sno-widget-area-row .sno-widget-area-container.sno-wa-col-5 { width: 100% !important; margin-right: 0; }.sno-widget-area-row .sno-widget-area-row .sno-widget-area-container.sno-wa-col-4 { width: 100% !important; margin-right: 0; }.sno-widget-area-row .sno-widget-area-row .sno-widget-area-container.sno-wa-col-3 { width: 100% !important; margin-right: 0; }.sno-widget-area-row .sno-widget-area-row .sno-widget-area-container.sno-wa-col-2 { width: 100% !important; margin-right: 0; }}@media only screen and (max-width: 600px) {.sno-widget-area-row .sno-widget-area-container.sno-wa-col-7 { width: 100% !important; margin-right: 0; }.sno-widget-area-row .sno-widget-area-container.sno-wa-col-6 { width: 100% !important; margin-right: 0; }.sno-widget-area-row .sno-widget-area-container.sno-wa-col-3 { width: 100% !important; margin-right: 0; }}@media only screen and (max-width: 800px) {.sno-wa-col-2 .sno-story-list-widget .story-widget-primary, .sno-wa-col-2 .sno-story-list-widget .story-widget-secondary,.sno-wa-col-3 .sno-story-list-widget .story-widget-primary, .sno-wa-col-3 .sno-story-list-widget .story-widget-secondary,.sno-wa-col-4 .sno-story-list-widget .story-widget-primary, .sno-wa-col-4 .sno-story-list-widget .story-widget-secondary,.sno-wa-col-5 .sno-story-list-widget .story-widget-primary, .sno-wa-col-5 .sno-story-list-widget .story-widget-secondary,.sno-wa-col-2 .sno-story-list-widget .list-widget-primary-area .sno-story-card,.sno-wa-col-3 .sno-story-list-widget .list-widget-primary-area .sno-story-card,.sno-wa-col-4 .sno-story-list-widget .list-widget-primary-area .sno-story-card,.sno-wa-col-5 .sno-story-list-widget .list-widget-primary-area .sno-story-card {width: 100% !important;margin-right: 0 !important;margin-left: 0;}}@media only screen and (min-width: 600px) and (max-width: 980px) {.innerbackground { width: calc(100% -  20px);}}#homepagewide { width: 100%; }#footer { max-width: 980px;}.leaderboard, .footerboard { max-width: 980px; }#homepage { width: 100%; }.jump-to-header-logo { background: none; }.jump-to-header-logo:hover { border-bottom: 1px solid #ddd; }.jump-to-header-logo, .jump-to-header-logo:hover {border: none; }#upperwrap-outer, #upperwrap { background: #000000; }.continue-overlay-link { border: 1px solid #ffffff;letter-spacing: 1px;text-transform: uppercase;font-size: 12px;}.continue-overlay-link:hover { background: #ffffff;color: #000000;}.continue-link { border: 1px solid #e5e5e5;background: #fbfbfb;color: #77777;letter-spacing: 2px;text-transform: uppercase;font-size: 10px;}.continue-link:hover { background: #161616;color: #ffffff;}.view-all-text { border: 1px solid #e5e5e5;background: #fbfbfb;color: #777777;letter-spacing: 1px;text-transform: uppercase;font-size: 14px;}.view-all-text:hover { background: #161616;color: #ffffff;}.view-all-grid-text { border: 1px solid #e5e5e5;background: #fbfbfb;color: #777777;letter-spacing: 1px;text-transform: uppercase;font-size: 14px;}.view-all-grid-text:hover { background: #161616;color: #ffffff;}.innerbackgroundwrap, #fullwrap { background-color: #ffffff}@media screen and (max-width: 800px) {html { margin-top: 0 !important; }}h1, h2, h3, h4, h5, h6 { font-family: Roboto Slab; font-weight: 400; }.collection-nav-title { font-family: Roboto; font-weight: 400; }.collection-story-container .sfi-header, .collection-viewer-wrap .collection-link { font-family: Roboto; font-weight: 400; }a, a:visited, a h3, h3 a, .widgetheadline a, a .widgetheadline { color: #000000; }a:hover, a:hover h3, a:hover .widgetheadline, h3 a:hover, .widgetheadline a:hover { color: #000000; text-decoration: underline; }a h3.homeheadline, a.homeheadline, a.headline, #content h1 a, .widgetheadline .headline, .storyheadline a, .searchheadline, h2.searchheadline, h2.searchheadline a, h2.catprofile a, #searchapge h2, #catpage h2, .maingridheadline, .homeheadline { color: #000000 !important; font-family: Playfair Display !important; font-weight: 400; }.topboxsmallwide h3, topboxsmall h3, .desc h3, .relatedtitle {font-family: Playfair Display !important; font-weight: 400; }a:hover h3.homeheadline { color: #000000 !important; text-decoration:underline !important; }#homepagefull h3.gridfallback, .bottom-row-blocks h3, .top-row-blocks h3 { font-family: Playfair Display !important; font-weight: 400; }.storyheadline { font-family: Playfair Display !important; font-weight: 400; }#storypage h1 {font-size: 2.6em !important;text-align: center !important;}#storyrails h1 {font-size: 2.6em !important;text-align: center;}#classic_story h1 {font-size: 2.6em !important;text-align: center !important;}.innerbackgroundwrap { background: #fff; }#sno_teaserbar { top: -90px; }.sno_teaserbar #stb-container { background: #fff !important; }.sno_teaserbar_home #stb-container { background: #fff !important; }.sno_teaserbar .stb_left:hover, .sno_teaserbar .stb_right:hover { color: #023597; }.sno_teaserbar_home .stb_left:hover, .sno_teaserbar_home .stb_right:hover { color: #023597; }.photo-container, .caption-container, .slideshow-caption-container a, .caption-container a, .photo-caption-container a { color: #fff !important; }.remodal-story-image, .remodal-story-image .flexslider, #sfi-email { background: #000 !important; }#sfi-email {border: 1px solid #fff; }#sfi_submit_email, #sfi_cancel_email { color: #000; }.sfi-title a, .sfi-title a:hover { color: #fff; }.sfi-title a:hover { border-bottom: 1px solid #fff;}.sfi-right:hover, .sfi-left:hover { color: #000000;}#leaderboard, #footerboard { max-width: 980px; }#catpage .catlist-tile-media-photo { height: 208.88888888889px; max-height: 208.88888888889px; }.catlist-tile {border-radius: 5px;}.catlist-tile-inner {border: 0px solid #dddddd;border-radius: 5px;}.catlist-tile img {border-radius: 5px 5px 0 0;}.catlist-tile-media-video, .catlist-tile-media-photo {border-radius: 5px 5px 0 0;}.catlist-tile-media-photo {height: 204.44444444444px;max-height: 204.44444444444px;overflow: hidden;}.catlist-tile-textarea.sno-center-v-list {left: 15px;right: 15px;}.catlist_tiles_wrap .sno-infinite-scroll-button, #category-widgets .sno-infinite-scroll-button {margin-bottom: 20px;}.catlist-tile-media-photo {background: #dddddd;}.catlist-tile-media-photo img {object-fit: contain;}.catlist-tile-inner {padding-left: 15px;padding-right: 15px;}.catlist-tile-media-photo, .catlist-tile-media-video {margin-left: -15px;width: calc(100% + 15px + 15px);}@media only screen and (min-width: 980px) {.catlist_tiles_wrap div.catlist-tile:nth-child(3n) { margin-right: 0; }.catlist-tile {width: calc((100% / 3) - 13.333333333333px);margin-right: 20px;margin-bottom: 20px;background: #efefef;}}@media only screen and (min-width: 600px) and (max-width: 979px) {.catlist-tile {width: calc((100% / 2) - 13.333333333333px);margin-right: 20px;margin-bottom: 20px;background: #efefef;}.catlist_tiles_wrap div:nth-child(2n) { margin-right: 0;}}@media only screen and (max-width: 599px) {.catlist-tile {width: 100%;margin-bottom: 20px;background: #efefef;}}#catpage .catlist-tile h2 {font-size: 22px;line-height: 1.35em;margin-bottom: 15px;margin-top: 15px;text-align: center;}#catpage .catlist-tile .catlist-meta {text-align: center;font-size: 14px;margin-bottom: 15px;}#catpage .catlist-tile .catlist-deck {text-align: center;font-size: 20px;line-height: 1.35em;margin-bottom: 15px;font-style: normal;}#catpage .catlist-tile .catlist-teaser, #catpage .catlist-tile .catlist-teaser p {font-size: 14px;line-height: 1.45;margin-bottom: 15px;}.catlist-tile ul.snotags {text-align: center;margin-bottom: 15px;}.catlist-tile .continue {margin-bottom: 15px;}@media only screen and (min-width: 980px) and (max-width: 980px) {#catpage #content {padding-left: 20px;padding-right: 20px;width: calc(100% - (2 * 20px));}}#staffpage .staffheading h1 {color: #000000;}.catlist-tile-media-photo {height: 150px;max-height: 150px;overflow: hidden;}#staffpage .catlist-tile {border-radius: 5px;border: 0px solid #eeeeee;width: calc((100% / 4) - 15px - 0px - 0px);}#staffpage .catlist-tile-inner {border: 0px solid #dddddd;border-radius: 5px;}#staffpage .catlist-tile-media-photo {border-radius: calc(5px - 0px) calc(5px - 0px) 0 0;}#staffpage .catlist-tile-media-photo img {object-fit: contain;}#staffpage .catlist-tile {background: #efefef;color: #000000;}#staffpage .catlist-tile h2 a {color: #000000 !important;}#staffpage .catlist-tile-media-photo {background: #dddddd;}#staffpage .staffnameblock {text-align: center;}#staffpage .catlist-tile h2 {font-size: 20px;text-align: center;font-weight: normal;font-style: normal;}#staffpage .catlist-tile .catlist-teaser, #staffpage .catlist-tile .catlist-teaser p {font-size: 14px;line-height: 1.5em;}@media only screen and (min-width: 980px) {#staffpage .catlist_tiles_wrap div:nth-child(4n) { margin-right: 0; }#staffpage .catlist-tile {width: calc((100% / 4) - 15px - 0px - 0px);margin-right: 20px;margin-bottom: 20px;background: #efefef;}}@media only screen and (min-width: 600px) and (max-width: 979px) {#staffpage .catlist-tile {width: calc((100% / 2) - 15px) - 0px - 0px;margin-right: 20px;margin-bottom: 20px;background: #efefef;}#staffpage .catlist_tiles_wrap div:nth-child(2n) { margin-right: 0;}}@media only screen and (max-width: 599px) {#staffpage .catlist-tile {width: calc(100% - 0px - 0px);margin-bottom: 20px;background: #efefef;}}.profile_icon {margin-right: 10px;            margin-bottom: 10px;border-radius: 7px;width: 40px;height: 40px;}.profile_icon i {line-height: 40px;width: 40px;font-size: calc(40px * 3 / 4);}.profile_bio_wrap {margin-top: 40px;margin-bottom: 40px;width: calc(70% - 20px - 20px - 0px - 0px);background: #ffffff;color: #000000;padding: 20px;border-radius: 5px;border: 0px solid #cccccc;}@media only screen and (max-width: 980px) {.profile_bio_wrap {width: calc(100% - 20px - 20px - 0px - 0px);}}.profile-panel-media {width: 200px;height: 133.33333333333px;margin-bottom: calc(0px + 0px);margin-right: calc(15px + 0px + 0px);}@media only screen and (max-width: 800px) {.profile-panel-media {margin-left: auto;margin-right: auto;float: unset;margin-bottom: 40px;}}.profile-textarea-with-media {width: calc(100% - 215px - 0px - 0px - 20px - 20px);padding-left: 20px;padding-right: 20px;}.profile-textarea-with-media.sno-center-v-outer {left: 20px;right: 20px;height: calc(133.33333333333px + 0px + 0px);padding-left: 0;padding-right: 0;}.profile-textarea {padding-left: 20px;padding-right: 20px;}@media only screen and (max-width: 800px) {.profile-textarea-with-media {width: calc(100% - 20px - 20px);}}@media only screen and (max-width: 600px) {.profile-textarea-with-media, .profile-textarea {padding-left: 0;padding-right: 0;width: 100%;}.profile-textarea-with-media.sno-center-v-outer {left: 0;right: 0;height: auto;}.profile-textarea-inner.sno-center-v {position: relative;top: 0;transform: unset;}}.profile-panel-media img {border-radius: 5px;object-fit: cover;border: 0px solid #000000 !important;}#catpage .profile-panel-inner h2 {text-align: left;font-size: 20px !important;color: #000000 !important;}.profile-panel-inner p {font-size: 14px;}.profile-sharing-area {text-align: left;}.sno-staff-profile-bar {background: #ffffff;color: #000000;margin-top: 20px;}.sno-staff-profile-bar {border-top: 1px solid #cccccc;border-bottom: 1px solid #cccccc;}#catpage .profilepreviewbox, #catpage .categorypreviewbox {background:  !important;}.catlist_fullwidth .catlist-panel-inner {background: #ffffff;}.catlist_fullwidth.catlist-panel {padding-top: 30px;padding-bottom: 30px;background: #ffffff;}.catlist_fullwidth.catlist-panel {border-bottom: 1px solid #eee;}.catlist_fullwidth .catlist-panel-media {float: left;width: 50%;max-width: 50%;margin-right: 15px;background: #eeeeee;}.catlist_fullwidth .catlist-panel-media {height: 326.66666666667px;max-height: 326.66666666667px;}.catlist_fullwidth .catlist-video-wrap { position: absolute; left: 0; right: 0; top: 50%; transform: translateY(-50%); }.catlist_fullwidth .catlist-panel-media img {object-fit: contain;}.catlist_fullwidth .catlist-textarea-with-media {float: right;width: calc(50% - 15px - 80px);padding-left: 40px;padding-right: 40px;}.catlist_fullwidth .catlist-textarea {padding-left: 80px;padding-right: 80px;}#catpage .catlist_fullwidth.catlist-panel h2 {font-size: 28px;line-height: 1.35em;text-align: center;margin-bottom: 15px;}#catpage .catlist_fullwidth.catlist-panel .catlist-deck {text-align: center;font-size: 20px;line-height: 1.35em;margin-bottom: 15px;font-style: normal;}#catpage .catlist_fullwidth.catlist-panel .catlist-meta {text-align: center;font-size: 16px;margin-bottom: 15px;}#catpage .catlist_fullwidth.catlist-panel .catlist-teaser {font-size: 16px;line-height: 1.45;margin-bottom: 15px;text-align: left;}.catlist_fullwidth.catlist-panel ul.snotags {text-align: center;}.catlist_fullwidth.catlist-panel .continue {text-align: center;margin-bottom: 15px;}.catlist_fullwidth .catlist-textarea-with-media {position: absolute;right: 0;top: 50%;transform: translateY(-50%);}#catpage .postarea.catlist_with_sidebar {width: calc(100% - 320px - 20px); }.catlist_sidebar .catlist-panel-inner {background: #ffffff;}.catlist_sidebar.catlist-panel {padding-top: 15px;padding-bottom: 15px;background: #ffffff;}.category-pagination {background: #ffffff;}.catlist_sidebar.catlist-panel {border-bottom: 1px solid #eeeeee;}.catlist_sidebar .catlist-panel-media {float: right;width: 211px;max-width: 211px;margin-left: 15px;margin-bottom: 15px;background: #ffffff;}.catlist-textarea .catlist-teaser {float: left;}.catlist_sidebar .catlist-panel-media img {object-fit: contain;}.catlist_sidebar .catlist-textarea-with-media {/*float: left; *//*width: calc(389px - 15px - 0px - 0px); *//*width: 389px; */}.catlist_sidebar .catlist-textarea {padding-left: 0px;padding-right: 0px;}#catpage .catlist_sidebar.catlist-panel h2 {font-size: 28px;line-height: 1.35em;margin-bottom: 15px;}#catpage .catlist_sidebar.catlist-panel .catlist-deck {font-size: 20px;line-height: 1.35em;margin-bottom: 15px;font-style: normal;}#catpage .catlist_sidebar.catlist-panel .catlist-meta {text-align: left;font-size: 14px;margin-bottom: 15px;}#catpage .catlist_sidebar.catlist-panel .catlist-teaser {font-size: 14px;line-height: 1.45;margin-bottom: 15px;}.catlist_sidebar.catlist-panel ul.snotags {text-align: left;}.catlist_sidebar.catlist-panel .continue {text-align: left;margin-bottom: 15px;}.sno-comment-bar { background: #efefef; color: #000000;border: 1px solid #dddddd;padding: 10px;font-size: 16px;line-height: 16px;}.sno-side-icons {top: 50%;right: 5px;bottom: unset;left: unset;transform: translateY(-50%);width: 52px;}.sno-side-icon {margin-bottom: 5px;width: 42px;height: 42px;line-height: 40px;font-size: 20px;border-radius: 30px;}        .sno-side-icon i {            line-height: 40px;        }.sno-side-icon:hover {}.sno-side-icon-ring {width: 40px;height: 40px;border-width: 1px;border-radius: 30px;}.sno-side-icon-bubble {background: #ff0000;color: #ffffff;right: -7px;top: -7px;right: -7px;left: unset;}</style><script src="https://thermtide.com/wp-includes/js/wp-emoji-release.min.js?ver=6.6.2" defer=""></script></head>
+<body data-rsssl="1" class="sno-animate-active">
+
+ 
+
+	<div id="wrap" class="bodywrap">
+                        <a href="#sno-sites-main-content" class="skip-to-content">Skip to Main Content</a>
+		<header>
+                                                                <div class="sno-header-wrap sno-header-wrap-desktop">
+                                                                                                                                    																																																																                    																				<div class="sno-designer-area-row sno-designer-area-row-desktop-1 sno-header-row-stick sno-footer-row-stick" style="background: rgb(0, 0, 0); border-bottom: 1px solid rgb(255, 255, 255); z-index: 2000;">
+						<div class="sno-hac-row-wrap">
+																																															<div class="sno-designer-area-container sno-hac-desktop-1" style="width: 100%; height: 29.9844px;">
+																			<style>.sno-hac-inner-desktop-1 {background: transparent;overflow: hidden;padding-left: 0px;padding-right: 0px;}.sno-hac-inner-desktop-1 .sno-icon {height: 19px;width: 19px;line-height: 19px;font-size: calc(19px * 2 / 3);border-radius: 5px;margin-right: 5px;}.sno-hac-inner-desktop-1 .sno-icon i {        line-height: 19px;    }    .sno-hac-inner-desktop-1 .sno-hac-iconwrap {text-align: left;margin-left: 5px;}.sno-hac-inner-desktop-1 .sno-hac-iconwrap a:nth-of-type(41) .sno-icon {margin-right: 0;}.sno-hac-inner-desktop-1 .sno-hac-iconwrap a:nth-of-type(n + 42) {display: none;}.sno-hac-inner-desktop-1 .sno-icon {margin-top: 5px;margin-bottom: 5px;}.icon-monochromatic-desktop-1 .sno-icon {background: #ffdd0b;color: #fff;} .icon-monochromatic-inverse-hover-desktop-1 .sno-icon:hover {color: #ffdd0b;background: #fff;}.icon-monochromatic-inverse-desktop-1 .sno-icon {color: #ffdd0b;background: #fff;}.icon-monochromatic-hover-desktop-1 .sno-icon:hover {background: #ffdd0b;color: #fff;}.icon-monochromatic-desktop-1 .sno-icon i, .icon-monochromatic-inverse-desktop-1 .sno-icon i {-webkit-text-stroke-width: 0px !important;}</style><div class="sno-hac-inner sno-hac-inner-desktop-1 icon-monochromatic-desktop-1 icon-monochromatic-inverse-hover-desktop-1">
+	<div class="sno-hac-iconwrap">
+		
+
+	<a target="_blank" href="https://www.instagram.com/rm_tide/">
+		<div class="sno-icon social-border sno-instagram">
+    		<i class="fa fa-instagram"></i>
+    		<span class="icon-hidden-text">Instagram</span>
+    	</div>
+	</a>
+
+	<a target="_blank" href="https://twitter.com/RM_Tide">
+		<div class="sno-icon social-border sno-twitter">
+    		<i class="fa-brands fa-x-twitter"></i>
+    		<span class="icon-hidden-text">X</span>
+    	</div>
+	</a>
+
+
+
+
+
+
+
+
+
+
+	<a target="_blank" href="https://www.youtube.com/@tidevideo7264?app=desktop">
+		<div class="sno-icon social-border sno-youtube">
+    		<i class="fa fa-youtube-play"></i>
+    		<span class="icon-hidden-text">YouTube</span>
+    	</div>
+	</a>
+
+
+	
+
+
+									
+	<a target="_blank" href="https://thermtide.com/feed/rss/">
+    	<div class="sno-icon social-border sno-rss">
+        	<i class="fa fa-rss"></i>
+        	<span class="icon-hidden-text">RSS Feed</span>
+        </div>
+	</a>
+	</div>
+</div>
+
+
+																	</div>
+																					</div>
+					</div><div class="topheaderspacer"></div>
+					<div class="clear"></div>
+																																																	                    																				<div class="sno-designer-area-row sno-designer-area-row-desktop-2 sno-designer-row-fullscreen" style="background: #ffffff; border-bottom: 1px solid #ffffff; ">
+						<div class="sno-hac-row-wrap">
+																																															<div class="sno-designer-area-container sno-hac-desktop-2" style="width: 100%; height: 31.9844px;">
+																			<style>.sno-hac-inner-desktop-2 {background: transparent;}.sno-hac-inner-desktop-2 .marquee-sibling {background: #ffdd0b;color: #000000;padding: 0 30px;font-family: Playfair Display;font-weight: normal;font-size: 16px;height: 31.9844px;line-height: 31.9844px;}.sno-hac-inner-desktop-2 .simple-marquee-container {background: #eeeeee;font-size: 16px;height: 31.9844px;line-height: 31.9844px;}.sno-hac-inner-desktop-2 .simple-marquee-container .marquee-content-items {height: 31.9844px;line-height: 31.9844px;}.sno-hac-inner-desktop-2 .marquee-content-items li {color: #000000;height: 31.9844px;line-height: 31.9844px;padding-right: 40px;font-family: Roboto;font-weight: normal;}.sno-hac-inner-desktop-2 .marquee-angle {border-top: 15.9922px solid transparent;border-bottom: 15.9922px solid transparent;border-left: 7.9961px solid #ffdd0b;margin-left: 30px;}.sno-hac-inner-desktop-2 .marquee-inverse-angle {border-top: 15.9922px solid #ffdd0b;border-bottom: 15.9922px solid #ffdd0b;border-left: 7.9961px solid #eeeeee;margin-left: 0;}.sno-hac-inner-desktop-2 .date-background {background: #444444;color: #ffffff;}.sno-hac-inner-desktop-2 li a {color: #000000 !important;}</style><div class="sno-hac-inner sno-hac-inner-desktop-2">
+	<div class="sno-hac-textwrap sno-marquee-center-v">
+		<div class="simple-marquee-container" data-activate="true">
+			<div class="marquee" data-speed=".05">
+				<ul class="marquee-content-items" aria-label="Breaking News" style="width: 5171.47px; left: 824.495px;">
+		
+						
+<li style="opacity: 1;">
+	<span class="date-background">October 23</span><a href="https://thermtide.com/24810/popular/studies-reveal-safety-issues-flaws-in-meatpacking-industry/">Studies reveal safety issues, flaws in meatpacking industry</a>	
+</li>	
+<li style="opacity: 1;">
+	<span class="date-background">October 22</span><a href="https://thermtide.com/24762/popular/tea-club-asian-american-club-partner-to-fundraise-for-typhoon-victims/">Tea Club, Asian American Club partner to fundraise for typhoon victims</a>	
+</li>	
+<li style="opacity: 1;">
+	<span class="date-background">October 21</span><a href="https://thermtide.com/24775/popular/whos-next-rm-juniors-favorite-homecoming-festivities/">Who's Next?: RM juniors' favorite Homecoming festivities</a>	
+</li>	
+<li style="opacity: 1;">
+	<span class="date-background">October 21</span><a href="https://thermtide.com/24747/la-marea/la-pupusa-un-bocado-del-cielo/">La Pupusa: “Un Bocado del Cielo”</a>	
+</li>	
+<li style="opacity: 1;">
+	<span class="date-background">October 21</span><a href="https://thermtide.com/24771/news/maryland-passes-youth-internet-safety-law/">Maryland passes youth internet safety law</a>	
+</li>	
+<li style="opacity: 1;">
+	<span class="date-background">October 18</span><a href="https://thermtide.com/24735/popular/season-7-episode-2-how-students-balance-school-and-work/">Season 7, Episode 2: How students balance school and work</a>	
+</li>	
+<li style="opacity: 1;">
+	<span class="date-background">October 18</span><a href="https://thermtide.com/24739/popular/rm-boys-soccer-paves-way-for-historic-season/">RM Boys Soccer paves way for historic season</a>	
+</li>	
+<li style="opacity: 1;">
+	<span class="date-background">October 17</span><a href="https://thermtide.com/24755/photos/photo-of-the-day-forensic-students-learn-how-to-solve-crimes/">Photo of the Day: Forensic students learn how to solve crimes</a>	
+</li>	
+<li style="opacity: 1;">
+	<span class="date-background">October 17</span><a href="https://thermtide.com/24721/popular/short-n-sweet-blends-witty-lines-with-vulnerable-lyrics/">Short 'n Sweet blends witty lines with vulnerable lyrics</a>	
+</li>	
+<li style="opacity: 1;">
+	<span class="date-background">October 16</span><a href="https://thermtide.com/24746/popular/photo-of-the-day-oral-tradition/">Photo of the Day: Oral tradition</a>	
+</li>							
+				</ul>
+			</div>
+											<div class="marquee-sibling" aria-hidden="true">
+					Breaking News											<div class="marquee-angle"></div>
+									</div>
+					</div>
+
+
+	</div>
+</div>
+																	</div>
+																					</div>
+					</div>
+					<div class="clear"></div>
+																																																	                    																				<div class="sno-designer-area-row sno-designer-area-row-desktop-3" style="background: #ffffff; border-bottom: 1px solid #ffffff; ">
+						<div class="sno-hac-row-wrap">
+																																															<div class="sno-designer-area-container sno-hac-desktop-3" style="width: 100%; height: 169.969px;">
+																			<style>.sno-hac-inner-desktop-3 {background: #ffffff;color: #000000;}.sno-hac-inner-desktop-3 h1,    .sno-hac-inner-desktop-3 h3,    .sno-hac-inner-desktop-3 .siteheadingh1 {text-align: center;color: #000000;padding: 0 15px;font-size: 36px;font-family: Roboto;font-weight: 400;margin-bottom: 0;}.sno-hac-inner-desktop-3 .sno-hac-textwrap {position: absolute;top: 50%;transform: translateY(-50%);left: 0;right: 0;}.sno-hac-inner-desktop-3 h1,    .sno-hac-inner-desktop-3 h3,    .sno-hac-inner-desktop-3 .siteheadingh1 {margin-top: 0;}.sno-hac-inner-desktop-3 .sno-hac-headerimage {object-fit: cover;}</style><a href="https://thermtide.com/">
+	<div class="sno-hac-inner sno-hac-inner-desktop-3">
+				<img src="https://thermtide.com/wp-content/uploads/2024/05/Summer-Masthead.jpeg" class="sno-hac-headerimage" alt="The Student News Site of Richard Montgomery High School">
+		<div class="sno-hidden-title">
+			<h1>The Tide</h1>
+		</div>
+		</div>
+</a>																	</div>
+																					</div>
+					</div>
+					<div class="clear"></div>
+																																																	                    																				<div class="sno-designer-area-row sno-designer-area-row-desktop-4 sno-designer-row-fullscreen" style="background: #000000; border-bottom: 1px solid #ffffff; ">
+						<div class="sno-hac-row-wrap">
+																																															<div class="sno-designer-area-container sno-hac-desktop-4" style="width: 100%; height: 29.9844px;">
+																			<style>.sno-hac-inner-desktop-4 {background: transparent;border: 0px solid #eeeeee;font-family: Roboto;}.sno-hac-inner-desktop-4 input {font-family: Roboto;    }.sno-hac-inner-desktop-4 .sno-search-center-v {left: 10%;right: 10%;}.sno-hac-inner-desktop-4 input.hac-search {background: #dddddd;color: #aaaaaa;border-color: #aaaaaa;border-width: 0px;border-radius: 0px;}.sno-hac-inner-desktop-4 input.hac-search::placeholder,.sno-hac-inner-desktop-4 .sno-hac-submit-search-button {color: #aaaaaa;}.sno-hac-inner-desktop-4 input.hac-search:focus {background: #ffffff;color: #000000;}.sno-hac-inner-desktop-4 input.hac-search:focus::placeholder,.sno-hac-inner-desktop-4 input.hac-search:focus + .sno-hac-submit-search-button {color: #000000;}.sno-hac-inner-desktop-4 .sno-hac-search-inner-wrap {width: 100%;max-width: 100%;}.sno-hac-inner-desktop-4 .sno-hac-submit-search-button {padding-right: 8px;padding-left: 8px;font-size: 9.9844px;line-height: 9.9844px;}.sno-hac-inner-desktop-4 input.hac-search {font-size: 13.9844px;line-height: 27.9688px;padding: 8px 8px;padding-right: 40px;border: 0px solid #aaaaaa;        height: 29.9844px;}</style><div class="sno-hac-inner sno-hac-inner-desktop-4">
+	<div class="sno-hac-textwrap sno-search-center-v">
+		<form method="get" action="https://thermtide.com/">
+			<div class="sno-hac-search-inner-wrap">
+				<label for="s-desktop-4" class="assistive-text">Search this site</label>
+				<input type="text" class="field hac-search" name="s" id="s-desktop-4" placeholder="Enter Search Term">
+				<button type="submit" class="sno-hac-submit-search-button sno-search fa fa-search"><span class="icon-hidden-text">Submit Search</span></button>
+			</div>
+		</form>
+	</div>
+</div>																	</div>
+																					</div>
+					</div>
+					<div class="clear"></div>
+																																																	                    																				<div class="sno-designer-area-row sno-designer-area-row-desktop-5" style="background: transparent; ">
+						<div class="sno-hac-row-wrap">
+																																															<div class="sno-designer-area-container sno-hac-desktop-5" style="width: 100%; height: 49.9844px;">
+																			<style>.sno-hac-inner-desktop-5 {background: transparent;}.sno-hac-inner-desktop-5 .sno-hac-menuwrap li.menu-item-has-children:not(.sub-menu-teasers) ul { max-width: 12em; width: 12em !important; }/* .sno-hac-inner-desktop-5 ul.sno-hac-menu-more ul.sub-menu { right: 12em; } */.sno-hac-inner-desktop-5 .sno-hac-menuwrap {margin-top: 0px;} .sno-hac-inner-desktop-5 .sno-hac-menuwrap {background: #ffffff;color: #000000;line-height: 49.9844px;height: 49.9844px;font-weight: normal;font-family: Roboto Slab;margin-left: 0px;margin-right: 0px;width: calc(100% - (2 * 0px));text-transform: capitalize; }.sno-hac-inner-desktop-5 .sno-hac-menuwrap li {background: #ffffff;color: #000000;line-height: 49.9844px;font-size: 16px;}.sno-hac-inner-desktop-5 .sno-hac-menuwrap > div > ul > li, .sno-hac-inner-desktop-5 li.menu-more-item-top {border-right: 0px solid #ffffff;border-top: 0px solid #ffffff;border-bottom: 0px solid #ffffff;}.sno-hac-inner-desktop-5 .sno-hac-menuwrap > div > ul > li:first-of-type {border-left: 0px solid #ffffff;}.sno-hac-inner-desktop-5 .sno-hac-menuwrap li a:not(.menuheadline) {color: #000000;line-height: 49.9844px;}.sno-hac-inner-desktop-5 .sno-hac-menuwrap a:not(.menuheadline):hover,.sno-hac-inner-desktop-5 .sno-hac-menuwrap a:not(.menuheadline):focus {background: #393939;color: #ffffff;}.sno-hac-inner-desktop-5 .sf-arrows > li > .sf-with-ul:after,.sno-hac-inner-desktop-5 .sf-arrows > li > .sf-with-ul:after,.sno-hac-inner-desktop-5 .sf-arrows > .sf-with-ul:after {border-top-color: #000000;}.sno-hac-inner-desktop-5 .sf-arrows > li > .sf-with-ul:focus:after,.sno-hac-inner-desktop-5 .sf-arrows > li:hover > .sf-with-ul:after,.sno-hac-inner-desktop-5 .sf-arrows > .sfHover > .sf-with-ul:after {border-top-color: #ffffff; }.sno-hac-inner-desktop-5 .sno-hac-menuwrap li li {line-height: 49.9844px;}.sno-hac-inner-desktop-5 .sno-hac-menuwrap li li a:not(.menuheadline) {line-height: 49.9844px;}.sno-hac-inner-desktop-5 ul.sf-menu > li {float: none;display: inline-block;}.sno-hac-inner-desktop-5 ul.sf-menu {float: none;text-align: center;}.sno-hac-inner-desktop-5 .sno-hac-menuwrap li a:not(.menuheadline):hover::before {border-left: 5px solid #ffdd0b;top: 5px;left: 5px;bottom: 5px;width: 5px;}</style><div class="sno-hac-inner sno-hac-inner-desktop-5">
+	<nav aria-label="Primary navigation">
+		<div class="sno-hac-menuwrap" style="overflow-y: unset;">
+			<div class="menu-navigation-bar-container"><ul id="menu-navigation-bar" class="sf-menu sf-js-enabled sf-arrows" style="touch-action: pan-y;"><li id="menu-item-1049" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-has-children menu-item-1049"><a href="https://thermtide.com/category/news/" class="sf-with-ul">News</a>
+<ul class="sub-menu" style="display: none; float: none; width: 13em;">
+	<li id="menu-item-19481" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-19481" style="white-space: normal; float: none; width: 100%;"><a href="https://thermtide.com/category/science-tech/" style="float: none; width: auto;">Science &amp; Tech</a></li>
+</ul>
+</li>
+<li id="menu-item-2407" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-2407"><a href="https://thermtide.com/category/opinions/" class="sf-with-ul">Opinions</a>
+<ul class="sub-menu" style="display: none; float: none; width: 13em;">
+	<li id="menu-item-19178" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-19178" style="white-space: normal; float: none; width: 100%;"><a href="https://thermtide.com/category/editorial-board/" style="float: none; width: auto;">Editorial Board</a></li>
+	<li id="menu-item-19179" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-19179" style="white-space: normal; float: none; width: 100%;"><a href="https://thermtide.com/category/letters-to-the-editor/" style="float: none; width: auto;">Letters to the Editor</a></li>
+</ul>
+</li>
+<li id="menu-item-1050" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-1050"><a href="https://thermtide.com/category/features/" class="sf-with-ul">Features</a>
+<ul class="sub-menu" style="display: none; float: none; width: 13em;">
+	<li id="menu-item-11814" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-11814" style="white-space: normal; float: none; width: 100%;"><a href="https://thermtide.com/category/centerspread/" style="float: none; width: auto;">Centerspread</a></li>
+	<li id="menu-item-19480" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-19480" style="white-space: normal; float: none; width: 100%;"><a href="https://thermtide.com/category/la-marea/" style="float: none; width: auto;">La Marea</a></li>
+</ul>
+</li>
+<li id="menu-item-1052" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-1052"><a href="https://thermtide.com/category/arts/" class="sf-with-ul">Arts</a>
+<ul class="sub-menu" style="display: none; float: none; width: 13em;">
+	<li id="menu-item-23586" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-23586" style="white-space: normal; float: none; width: 100%;"><a href="https://thermtide.com/category/multimedia/cartoon-corner/" style="float: none; width: auto;">Cartoon Corner</a></li>
+</ul>
+</li>
+<li id="menu-item-1051" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1051"><a href="https://thermtide.com/category/sports/">Sports</a></li>
+<li id="menu-item-13388" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-13388"><a href="https://thermtide.com/category/social-justice/">Social Justice</a></li>
+<li id="menu-item-11805" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-11805"><a href="https://thermtide.com/category/multimedia/" class="sf-with-ul">Multimedia</a>
+<ul class="sub-menu" style="display: none; float: none; width: 13em;">
+	<li id="menu-item-11807" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-11807" style="white-space: normal; float: none; width: 100%;"><a href="https://thermtide.com/category/photos/" style="float: none; width: auto;">Photos</a></li>
+	<li id="menu-item-11813" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-11813" style="white-space: normal; float: none; width: 100%;"><a href="https://thermtide.com/category/multimedia/video/" style="float: none; width: auto;">Video</a></li>
+	<li id="menu-item-11806" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-11806" style="white-space: normal; float: none; width: 100%;"><a href="https://thermtide.com/category/multimedia/tidepod/" style="float: none; width: auto;">TidePod</a></li>
+	<li id="menu-item-19181" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-19181" style="white-space: normal; float: none; width: 100%;"><a href="https://thermtide.com/category/multimedia/crosswords/" style="float: none; width: auto;">Crosswords</a></li>
+</ul>
+</li>
+<li id="menu-item-7957" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-7957"><a href="https://thermtide.com/category/print/" class="sf-with-ul">Print</a>
+<ul class="sub-menu" style="display: none; float: none; width: 13em;">
+	<li id="menu-item-19485" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-19485" style="white-space: normal; float: none; width: 100%;"><a href="https://thermtide.com/category/2023-2024/" style="float: none; width: auto;">2023-2024</a></li>
+	<li id="menu-item-19321" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-19321" style="white-space: normal; float: none; width: 100%;"><a href="https://thermtide.com/category/2022-2023/" style="float: none; width: auto;">2022-2023</a></li>
+	<li id="menu-item-14671" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-14671" style="white-space: normal; float: none; width: 100%;"><a href="https://thermtide.com/category/2021-2022-print-issues/" style="float: none; width: auto;" class="sf-with-ul">2021-2022</a>
+	<ul class="sub-menu" style="display: none; left: 100%; float: none; width: 13em;">
+		<li id="menu-item-14672" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-14672" style="white-space: normal; float: none; width: 100%;"><a href="https://thermtide.com/category/2021-2022-print-issues/october-2021-issue/" style="float: none; width: auto;">October 2021 Issue</a></li>
+		<li id="menu-item-15088" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-15088" style="white-space: normal; float: none; width: 100%;"><a href="https://thermtide.com/category/2021-2022-print-issues/november-2021-issue/" style="float: none; width: auto;">November 2021 Issue</a></li>
+		<li id="menu-item-15441" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-15441" style="white-space: normal; float: none; width: 100%;"><a href="https://thermtide.com/category/2021-2022-print-issues/december-2021-issue/" style="float: none; width: auto;">December 2021 Issue</a></li>
+		<li id="menu-item-16343" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-16343" style="white-space: normal; float: none; width: 100%;"><a href="https://thermtide.com/category/2021-2022-print-issues/february-2022-issue/" style="float: none; width: auto;">February 2022 Issue</a></li>
+		<li id="menu-item-16342" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-16342" style="white-space: normal; float: none; width: 100%;"><a href="https://thermtide.com/category/2021-2022-print-issues/april-2022-issue/" style="float: none; width: auto;">April 2022 Issue</a></li>
+	</ul>
+</li>
+	<li id="menu-item-11715" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-11715" style="white-space: normal; float: none; width: 100%;"><a href="https://thermtide.com/category/2019-print-issues/" style="float: none; width: auto;" class="sf-with-ul">2019-2020</a>
+	<ul class="sub-menu" style="display: none; left: 100%; float: none; width: 13em;">
+		<li id="menu-item-8809" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-8809" style="white-space: normal; float: none; width: 100%;"><a href="https://thermtide.com/category/2019-print-issues/october-2019-issue/" style="float: none; width: auto;">October 2019 Issue</a></li>
+		<li id="menu-item-9473" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-9473" style="white-space: normal; float: none; width: 100%;"><a href="https://thermtide.com/category/2019-print-issues/november-2019-issue/" style="float: none; width: auto;">November 2019 Issue</a></li>
+		<li id="menu-item-9968" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-9968" style="white-space: normal; float: none; width: 100%;"><a href="https://thermtide.com/category/2019-print-issues/january-2020-issue/" style="float: none; width: auto;">January 2020 Issue</a></li>
+		<li id="menu-item-10361" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-10361" style="white-space: normal; float: none; width: 100%;"><a href="https://thermtide.com/category/2019-print-issues/february-2020-issue/" style="float: none; width: auto;">February 2020 Issue</a></li>
+	</ul>
+</li>
+</ul>
+</li>
+<li id="menu-item-2365" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-2365"><a href="https://thermtide.com/about-us/" class="sf-with-ul">About</a>
+<ul class="sub-menu" style="display: none; float: none; width: 13em;">
+	<li id="menu-item-3290" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3290" style="white-space: normal; float: none; width: 100%;"><a href="https://docs.google.com/forms/d/e/1FAIpQLSeW5QbT6chYh4AceXr4TR_QcBypaNi2CcVjYyViMeR8Zcc3iw/viewform?usp=sf_link" style="float: none; width: auto;">Apply</a></li>
+	<li id="menu-item-5883" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5883" style="white-space: normal; float: none; width: 100%;"><a href="https://thermtide.com/about-us/staff/" style="float: none; width: auto;">Staff</a></li>
+	<li id="menu-item-2363" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2363" style="white-space: normal; float: none; width: 100%;"><a href="https://thermtide.com/about-us/contact-us/" style="float: none; width: auto;">Contact Us</a></li>
+	<li id="menu-item-24331" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24331" style="white-space: normal; float: none; width: 100%;"><a href="https://thermtide.com/staff-manual/" style="float: none; width: auto;">Staff Manual</a></li>
+</ul>
+</li>
+</ul></div>			<ul class="sno-menu-more sf-arrows" style="display:none">
+				<li class="menu-more-item-top">
+					<a href="/" class="sf-with-ul">More<span class="sf-sub-indicator"></span></a>
+					<ul class="sno-hac-menu-more"></ul>
+				</li>
+			</ul>
+		</div>
+	</nav>
+</div>
+
+
+																	</div>
+																					</div>
+					</div>
+					<div class="clear"></div>
+							                </div>
+                            <div class="sno-header-wrap sno-header-wrap-tablet">
+                                                                                                                                    																																																																                    																				<div class="sno-designer-area-row sno-designer-area-row-tablet-1" style="background: transparent; ">
+						<div class="sno-hac-row-wrap">
+																																															<div class="sno-designer-area-container sno-hac-tablet-1" style="width: 13%; height: 95px;">
+																			<style>    .sno-hac-inner-tablet-1 {background: #ffffff;color: #000000;}.sno-hac-inner-tablet-1 .sno-hac-menu-icon {font-size: 26px;line-height: calc(46px - (2 * 1px));height: calc(46px - (2 * 1px));width: 46px;border: 1px solid #000000;background: #ffffff;color: #000000;}.sno-hac-inner-tablet-1 .sno-hac-menu-icon:hover {background: #000000;color: #ffffff;}.sno-hac-hamburger-menu-tablet-1-13 {position: absolute;right: 0;top: 95px;left: 0;background: #444444;font-family: Roboto Slab;font-weight: normal;text-transform: capitalize; }.sno-hac-hamburger-menu-tablet-1-13 .sno-hac-menu-mobile-name a,.sno-hac-hamburger-menu-tablet-1-13 .sno-hac-menu-mobile-close {color: #ffffff;}.sno-hac-hamburger-menu-tablet-1-13 .sno-hac-menu-mobile-close:hover,.sno-hac-hamburger-menu-tablet-1-13 .sno-hac-menu-mobile-name a:hover {background: #393939;color: #ffffff;}.sno-hac-hamburger-menu-tablet-1-13 li,.sno-hac-hamburger-menu-tablet-1-13 ul ul {background: #ffffff;}.sno-hac-hamburger-menu-tablet-1-13 li a:hover {background: #393939;}.sno-hac-hamburger-menu-tablet-1-13 li:hover {background: #b3b3b3;}.sno-hac-hamburger-menu-tablet-1-13 ul li a,.sno-hac-hamburger-menu-tablet-1-13 ul li a:focus {background: #444444;color: #ffffff;line-height: 32px;font-size: 16px;}.sno-hac-hamburger-menu-tablet-1-13 a:hover,.sno-hac-hamburger-menu-tablet-1-13 a:focus:hover {background: #393939;color: #ffffff;}.sno-hac-hamburger-menu-tablet-1-13 .sf-arrows > li > .sf-with-ul:after,.sno-hac-hamburger-menu-tablet-1-13 .sf-arrows > li > .sf-with-ul:after,.sno-hac-hamburger-menu-tablet-1-13 .sf-arrows > .sf-with-ul:after {border-top-color: #ffffff;}.sno-hac-hamburger-menu-tablet-1-13 .sf-arrows > li > .sf-with-ul:focus:after,.sno-hac-hamburger-menu-tablet-1-13 .sf-arrows > li:hover > .sf-with-ul:after,.sno-hac-hamburger-menu-tablet-1-13 sf-arrows > .sfHover > .sf-with-ul:after {border-top-color: #ffffff; }.sno-hac-hamburger-menu-tablet-1-13 li li {line-height: 32px;text-align: left;}.sno-hac-hamburger-menu-tablet-1-13 li li a {line-height: 32px;}.sno-hac-hamburger-menu-tablet-1-13 ul.sf-menu > li {float: none;display: inline-block;}.sno-hac-hamburger-menu-tablet-1-13 ul.sf-menu {float: none;text-align: center;}@media only screen and (max-width: 800px) {.sno-hac-hamburger-menu-tablet-1-13 {padding: 15px;}.sno-hac-hamburger-menu-tablet-1-13 li {border-bottom: none;}.sno-hac-hamburger-menu-tablet-1-13 ul li:hover ul { display: none; }.sno-hac-hamburger-menu-tablet-1-13 ul li li:last-of-type { border-bottom: none; }.sno-hac-hamburger-menu-tablet-1-13 ul > li.menu-item-has-children > a:after { border-top-color: #ffffff;}.sno-hac-hamburger-menu-tablet-1-13 ul > li.menu-item-has-children:hover > a:after { border-top-color: #ffffff;}}.sno-hac-hamburger-menu-tablet-1-13 li a {white-space: nowrap;overflow: hidden;text-overflow: ellipsis;}.sno-hac-hamburger-menu-tablet-1-13 .sno-hac-menu-mobile-graphic img {object-fit: contain;}.sno-hac-hamburger-menu-tablet-1-13 div > ul > li {         margin-bottom: 3px;     }.sno-hac-hamburger-menu-tablet-1-13 li {         transition: .3s all ease-in-out;     }.sno-hac-hamburger-menu-tablet-1-13 li a {         padding-top: 0;         padding-bottom: 0;         padding-left: 10px;         padding-right: 10px;         float: right;         width: calc(100% - 25px);     }.sno-hac-hamburger-menu-tablet-1-13 ul li ul li {         float: right !important;         width: calc(100% - 5px) !important;     }.sno-hac-hamburger-menu-tablet-1-13 .sno-hac-menu-mobile-header a {         text-decoration: none !important;     }.sno-hac-hamburger-menu-tablet-1-13 .sno-hac-menu-mobile-header a:not(.menu-mobile-graphic-link) {         padding: 10px;    }.sno-hac-hamburger-menu-tablet-1-13 .sno-hac-menu-mobile-name {         padding: 15px 0;         font-size: 24px;         line-height: 30px;         cursor: pointer;     }.sno-hac-hamburger-menu-tablet-1-13 .sno-hac-menu-mobile-close {         float: right;         padding: 10px 15px;         font-size: 30px;         line-height: 30px;         cursor:pointer;         transition: .3s all ease-in-out;         border-radius: 30px;    }.sno-hac-hamburger-menu-tablet-1-13 .sno-hac-menu-mobile-header {display: block;}.sno-hac-hamburger-menu-tablet-1-13.sno-hac-hamburger-menu {position: fixed;top: 0;bottom: 0;left: 0;right: 50%;        max-width: 350px;        z-index: 10000;        padding: 15px;}    .sno-hac-hamburger-menu-tablet-1-13 {padding: 15px;}.sno-hac-hamburger-menu-tablet-1-13 li {border-bottom: none;}.sno-hac-hamburger-menu-tablet-1-13 ul li:hover ul { display: none; }.sno-hac-hamburger-menu-tablet-1-13 ul li li:last-of-type { border-bottom: none; }.sno-hac-hamburger-menu-tablet-1-13 ul > li.menu-item-has-children > a:after { border-top-color: #ffffff;}.sno-hac-hamburger-menu-tablet-1-13 ul > li.menu-item-has-children:hover > a:after { border-top-color: #ffffff;}    /* for mobile, need to make it be 100% width */@media only screen and (max-width: 600px) {        .sno-hac-hamburger-menu-tablet-1-13.sno-hac-hamburger-menu {            max-width: 100%;            right: 0;        }    }</style><div class="sno-hac-inner sno-hac-inner-tablet-1">
+	<div class="sno-hac-textwrap sno-menu-center-v">
+		<button class="sno-hac-menu-icon sno-hac-menu-side" data-menu-id="tablet-1-13" aria-haspopup="true" aria-expanded="false" aria-label="Open Navigation Menu">
+			<i class="fas fa-bars"></i>
+			<span class="icon-hidden-text">Open Navigation Menu</span>
+		</button>
+	</div>
+</div>
+<div class="sno-hac-hamburger-menu sno-hac-hamburger-menu-tablet-1-13 sno-hac-menu-side-display" role="dialog" aria-modal="true">
+    <nav aria-label="Secondary navigation">
+		<div class="sno-hac-menu-wrap">
+			<div class="sno-hac-menu-mobile-header">
+				<div class="sno-hac-menu-mobile-close" aria-label="Close Navigation Menu" tabindex="0">
+					<i class="fas fa-times"></i>
+				</div>
+									<div class="sno-hac-menu-mobile-name">
+						<a href="https://thermtide.com/">The Tide</a>
+					</div>
+							</div>
+			<div class="menu-navigation-bar-container"><ul id="menu-navigation-bar-1" class="sf-menu sf-js-enabled sf-arrows" style="touch-action: pan-y;"><li class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-has-children menu-item-1049"><a href="https://thermtide.com/category/news/" class="sf-with-ul">News</a>
+<ul class="sub-menu" style="display: none; float: none; width: auto;">
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-19481" style="white-space: normal; float: right; width: 100%;"><a href="https://thermtide.com/category/science-tech/" style="float: none; width: auto;">Science &amp; Tech</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-2407"><a href="https://thermtide.com/category/opinions/" class="sf-with-ul">Opinions</a>
+<ul class="sub-menu" style="display: none; float: none; width: auto;">
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-19178" style="white-space: normal; float: right; width: 100%;"><a href="https://thermtide.com/category/editorial-board/" style="float: none; width: auto;">Editorial Board</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-19179" style="white-space: normal; float: right; width: 100%;"><a href="https://thermtide.com/category/letters-to-the-editor/" style="float: none; width: auto;">Letters to the Editor</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-1050"><a href="https://thermtide.com/category/features/" class="sf-with-ul">Features</a>
+<ul class="sub-menu" style="display: none; float: none; width: auto;">
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-11814" style="white-space: normal; float: right; width: 100%;"><a href="https://thermtide.com/category/centerspread/" style="float: none; width: auto;">Centerspread</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-19480" style="white-space: normal; float: right; width: 100%;"><a href="https://thermtide.com/category/la-marea/" style="float: none; width: auto;">La Marea</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-1052"><a href="https://thermtide.com/category/arts/" class="sf-with-ul">Arts</a>
+<ul class="sub-menu" style="display: none; float: none; width: auto;">
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-23586" style="white-space: normal; float: right; width: 100%;"><a href="https://thermtide.com/category/multimedia/cartoon-corner/" style="float: none; width: auto;">Cartoon Corner</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1051"><a href="https://thermtide.com/category/sports/">Sports</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-13388"><a href="https://thermtide.com/category/social-justice/">Social Justice</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-11805"><a href="https://thermtide.com/category/multimedia/" class="sf-with-ul">Multimedia</a>
+<ul class="sub-menu" style="display: none; float: none; width: auto;">
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-11807" style="white-space: normal; float: right; width: 100%;"><a href="https://thermtide.com/category/photos/" style="float: none; width: auto;">Photos</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-11813" style="white-space: normal; float: right; width: 100%;"><a href="https://thermtide.com/category/multimedia/video/" style="float: none; width: auto;">Video</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-11806" style="white-space: normal; float: right; width: 100%;"><a href="https://thermtide.com/category/multimedia/tidepod/" style="float: none; width: auto;">TidePod</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-19181" style="white-space: normal; float: right; width: 100%;"><a href="https://thermtide.com/category/multimedia/crosswords/" style="float: none; width: auto;">Crosswords</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-7957"><a href="https://thermtide.com/category/print/" class="sf-with-ul">Print</a>
+<ul class="sub-menu" style="display: none; float: none; width: auto;">
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-19485" style="white-space: normal; float: right; width: 100%;"><a href="https://thermtide.com/category/2023-2024/" style="float: none; width: auto;">2023-2024</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-19321" style="white-space: normal; float: right; width: 100%;"><a href="https://thermtide.com/category/2022-2023/" style="float: none; width: auto;">2022-2023</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-14671" style="white-space: normal; float: right; width: 100%;"><a href="https://thermtide.com/category/2021-2022-print-issues/" class="sf-with-ul" style="float: none; width: auto;">2021-2022</a>
+	<ul class="sub-menu" style="display: none; left: 100%; float: none; width: auto;">
+		<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-14672" style="white-space: normal; float: right; width: 100%;"><a href="https://thermtide.com/category/2021-2022-print-issues/october-2021-issue/" style="float: none; width: auto;">October 2021 Issue</a></li>
+		<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-15088" style="white-space: normal; float: right; width: 100%;"><a href="https://thermtide.com/category/2021-2022-print-issues/november-2021-issue/" style="float: none; width: auto;">November 2021 Issue</a></li>
+		<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-15441" style="white-space: normal; float: right; width: 100%;"><a href="https://thermtide.com/category/2021-2022-print-issues/december-2021-issue/" style="float: none; width: auto;">December 2021 Issue</a></li>
+		<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-16343" style="white-space: normal; float: right; width: 100%;"><a href="https://thermtide.com/category/2021-2022-print-issues/february-2022-issue/" style="float: none; width: auto;">February 2022 Issue</a></li>
+		<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-16342" style="white-space: normal; float: right; width: 100%;"><a href="https://thermtide.com/category/2021-2022-print-issues/april-2022-issue/" style="float: none; width: auto;">April 2022 Issue</a></li>
+	</ul>
+</li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-11715" style="white-space: normal; float: right; width: 100%;"><a href="https://thermtide.com/category/2019-print-issues/" class="sf-with-ul" style="float: none; width: auto;">2019-2020</a>
+	<ul class="sub-menu" style="display: none; left: 100%; float: none; width: auto;">
+		<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-8809" style="white-space: normal; float: right; width: 100%;"><a href="https://thermtide.com/category/2019-print-issues/october-2019-issue/" style="float: none; width: auto;">October 2019 Issue</a></li>
+		<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-9473" style="white-space: normal; float: right; width: 100%;"><a href="https://thermtide.com/category/2019-print-issues/november-2019-issue/" style="float: none; width: auto;">November 2019 Issue</a></li>
+		<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-9968" style="white-space: normal; float: right; width: 100%;"><a href="https://thermtide.com/category/2019-print-issues/january-2020-issue/" style="float: none; width: auto;">January 2020 Issue</a></li>
+		<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-10361" style="white-space: normal; float: right; width: 100%;"><a href="https://thermtide.com/category/2019-print-issues/february-2020-issue/" style="float: none; width: auto;">February 2020 Issue</a></li>
+	</ul>
+</li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-2365"><a href="https://thermtide.com/about-us/" class="sf-with-ul">About</a>
+<ul class="sub-menu" style="display: none; float: none; width: auto;">
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3290" style="white-space: normal; float: right; width: 100%;"><a href="https://docs.google.com/forms/d/e/1FAIpQLSeW5QbT6chYh4AceXr4TR_QcBypaNi2CcVjYyViMeR8Zcc3iw/viewform?usp=sf_link" style="float: none; width: auto;">Apply</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5883" style="white-space: normal; float: right; width: 100%;"><a href="https://thermtide.com/about-us/staff/" style="float: none; width: auto;">Staff</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2363" style="white-space: normal; float: right; width: 100%;"><a href="https://thermtide.com/about-us/contact-us/" style="float: none; width: auto;">Contact Us</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24331" style="white-space: normal; float: right; width: 100%;"><a href="https://thermtide.com/staff-manual/" style="float: none; width: auto;">Staff Manual</a></li>
+</ul>
+</li>
+</ul></div>			<ul class="sno-menu-more sf-arrows" style="display:none">
+				<li class="menu-more-item-top">
+					<a href="/" class="sf-with-ul">More<span class="sf-sub-indicator"></span></a>
+					<ul class="sno-hac-menu-more"></ul>
+				</li>
+			</ul>
+		</div>
+	</nav>
+</div>
+																	</div>
+																																																							<div class="sno-designer-area-container sno-hac-tablet-2" style="width: 74%; height: 95px;">
+																			<style>.sno-hac-inner-tablet-2 {background: #ffffff;color: #000000;}.sno-hac-inner-tablet-2 h1,    .sno-hac-inner-tablet-2 h3,    .sno-hac-inner-tablet-2 .siteheadingh1 {text-align: center;color: #000000;padding: 0 15px;font-size: 24px;font-family: Playfair Display;font-weight: 400;margin-bottom: 0;}.sno-hac-inner-tablet-2 .sno-hac-textwrap {position: absolute;top: 50%;transform: translateY(-50%);left: 0;right: 0;}.sno-hac-inner-tablet-2 h1,    .sno-hac-inner-tablet-2 h3,    .sno-hac-inner-tablet-2 .siteheadingh1 {margin-top: 0;}.sno-hac-inner-tablet-2 .sno-hac-headerimage {object-fit: contain;}</style><a href="https://thermtide.com/">
+	<div class="sno-hac-inner sno-hac-inner-tablet-2">
+				<img src="https://thermtide.com/wp-content/uploads/2024/05/Summer-Masthead.jpeg" class="sno-hac-headerimage" alt="The Student News Site of Richard Montgomery High School">
+		<div class="sno-hidden-title">
+			<h1>The Tide</h1>
+		</div>
+		</div>
+</a>																	</div>
+																																																							<div class="sno-designer-area-container sno-hac-tablet-3" style="width: 13%; height: 95px;">
+																			<style>.sno-hac-inner-tablet-3 {background: #ffffff;color: #000000;}.sno-hac-inner-tablet-3 .sno-hac-search-icon {font-size: 26px;line-height: calc(46px - (2 * 1px));height: calc(46px - (2 * 1px));width: 46px;border: 1px solid #000000;background: #ffffff;color: #000000;        border-radius: 0px;}.sno-hac-inner-tablet-3 .sno-hac-search-icon:hover {background: #000000;color: #ffffff;}.sno-hac-search-icon-bar-tablet-3 {position: absolute;right: 0;top: 95px;left: 0;background: #444444;font-family: Roboto Slab;height: 72px;}.sno-hac-search-icon-bar-tablet-3 .sno-hac-search-inner-wrap {width: calc(502px + (2 * 8px));}.sno-hac-search-icon-bar-tablet-3 .sno-hac-submit-search-button {right: 8px;font-size: 16px;top: 8px;bottom: 8px;width: 32px;}.sno-hac-search-icon-bar-tablet-3 input.hac-search {font-size: 16px;line-height: 32px;height: 32px;padding: 8px;border: 1px solid #000000;max-width: calc(100% - (8px * 2) - (1px * 2));}</style><div class="sno-hac-inner sno-hac-inner-tablet-3">
+	<div class="sno-hac-textwrap sno-search-center-v">
+		<button class="sno-hac-search-icon" data-id="tablet-3">
+			<i class="fas fa-search"></i>
+			<span class="icon-hidden-text">Open Search Bar</span>
+		</button>
+	</div>
+</div>
+<div class="sno-hac-search-icon-bar sno-hac-search-icon-bar-tablet-3">
+	<div class="sno-hac-textwrap sno-hac-center-v">
+		<form method="get" action="https://thermtide.com/">
+			<div class="sno-hac-search-inner-wrap">
+				<label for="s-tablet-3" class="assistive-text">Search this site</label>
+				<input type="text" class="field hac-search" name="s" id="s-tablet-3" placeholder="Enter Search Term">
+				<button type="submit" class="sno-hac-submit-search-button sno-search fa fa-search"><span class="icon-hidden-text">Submit Search</span></button>
+			</div>
+		</form>
+	</div>
+</div>
+																	</div>
+																					</div>
+					</div>
+					<div class="clear"></div>
+							                </div>
+                            <div class="sno-header-wrap sno-header-wrap-mobile">
+                                                                                                                                    																																																																                    																				<div class="sno-designer-area-row sno-designer-area-row-mobile-1" style="background: transparent; ">
+						<div class="sno-hac-row-wrap">
+																																															<div class="sno-designer-area-container sno-hac-mobile-1" style="width: 18%; height: 80px;">
+																			<style>    .sno-hac-inner-mobile-1 {background: #ffffff;color: #000000;}.sno-hac-inner-mobile-1 .sno-hac-menu-icon {font-size: 26px;line-height: calc(46px - (2 * 1px));height: calc(46px - (2 * 1px));width: 46px;border: 1px solid #000000;background: #ffffff;color: #000000;}.sno-hac-inner-mobile-1 .sno-hac-menu-icon:hover {background: #000000;color: #ffffff;}.sno-hac-hamburger-menu-mobile-1-13 {position: absolute;right: 0;top: 80px;left: 0;background: #444444;font-family: Roboto Slab;font-weight: normal;text-transform: capitalize; }.sno-hac-hamburger-menu-mobile-1-13 .sno-hac-menu-mobile-name a,.sno-hac-hamburger-menu-mobile-1-13 .sno-hac-menu-mobile-close {color: #ffffff;}.sno-hac-hamburger-menu-mobile-1-13 .sno-hac-menu-mobile-close:hover,.sno-hac-hamburger-menu-mobile-1-13 .sno-hac-menu-mobile-name a:hover {background: #393939;color: #ffffff;}.sno-hac-hamburger-menu-mobile-1-13 li,.sno-hac-hamburger-menu-mobile-1-13 ul ul {background: #ffffff;}.sno-hac-hamburger-menu-mobile-1-13 li a:hover {background: #393939;}.sno-hac-hamburger-menu-mobile-1-13 li:hover {background: #b3b3b3;}.sno-hac-hamburger-menu-mobile-1-13 ul li a,.sno-hac-hamburger-menu-mobile-1-13 ul li a:focus {background: #444444;color: #ffffff;line-height: 32px;font-size: 16px;}.sno-hac-hamburger-menu-mobile-1-13 a:hover,.sno-hac-hamburger-menu-mobile-1-13 a:focus:hover {background: #393939;color: #ffffff;}.sno-hac-hamburger-menu-mobile-1-13 .sf-arrows > li > .sf-with-ul:after,.sno-hac-hamburger-menu-mobile-1-13 .sf-arrows > li > .sf-with-ul:after,.sno-hac-hamburger-menu-mobile-1-13 .sf-arrows > .sf-with-ul:after {border-top-color: #ffffff;}.sno-hac-hamburger-menu-mobile-1-13 .sf-arrows > li > .sf-with-ul:focus:after,.sno-hac-hamburger-menu-mobile-1-13 .sf-arrows > li:hover > .sf-with-ul:after,.sno-hac-hamburger-menu-mobile-1-13 sf-arrows > .sfHover > .sf-with-ul:after {border-top-color: #ffffff; }.sno-hac-hamburger-menu-mobile-1-13 li li {line-height: 32px;text-align: left;}.sno-hac-hamburger-menu-mobile-1-13 li li a {line-height: 32px;}.sno-hac-hamburger-menu-mobile-1-13 ul.sf-menu > li {float: none;display: inline-block;}.sno-hac-hamburger-menu-mobile-1-13 ul.sf-menu {float: none;text-align: center;}@media only screen and (max-width: 800px) {.sno-hac-hamburger-menu-mobile-1-13 {padding: 15px;}.sno-hac-hamburger-menu-mobile-1-13 li {border-bottom: none;}.sno-hac-hamburger-menu-mobile-1-13 ul li:hover ul { display: none; }.sno-hac-hamburger-menu-mobile-1-13 ul li li:last-of-type { border-bottom: none; }.sno-hac-hamburger-menu-mobile-1-13 ul > li.menu-item-has-children > a:after { border-top-color: #ffffff;}.sno-hac-hamburger-menu-mobile-1-13 ul > li.menu-item-has-children:hover > a:after { border-top-color: #ffffff;}}.sno-hac-hamburger-menu-mobile-1-13 li a {white-space: nowrap;overflow: hidden;text-overflow: ellipsis;}.sno-hac-hamburger-menu-mobile-1-13 .sno-hac-menu-mobile-graphic img {object-fit: contain;}.sno-hac-hamburger-menu-mobile-1-13 div > ul > li {         margin-bottom: 3px;     }.sno-hac-hamburger-menu-mobile-1-13 li {         transition: .3s all ease-in-out;     }.sno-hac-hamburger-menu-mobile-1-13 li a {         padding-top: 0;         padding-bottom: 0;         padding-left: 10px;         padding-right: 10px;         float: right;         width: calc(100% - 25px);     }.sno-hac-hamburger-menu-mobile-1-13 ul li ul li {         float: right !important;         width: calc(100% - 5px) !important;     }.sno-hac-hamburger-menu-mobile-1-13 .sno-hac-menu-mobile-header a {         text-decoration: none !important;     }.sno-hac-hamburger-menu-mobile-1-13 .sno-hac-menu-mobile-header a:not(.menu-mobile-graphic-link) {         padding: 10px;    }.sno-hac-hamburger-menu-mobile-1-13 .sno-hac-menu-mobile-name {         padding: 15px 0;         font-size: 24px;         line-height: 30px;         cursor: pointer;     }.sno-hac-hamburger-menu-mobile-1-13 .sno-hac-menu-mobile-close {         float: right;         padding: 10px 15px;         font-size: 30px;         line-height: 30px;         cursor:pointer;         transition: .3s all ease-in-out;         border-radius: 30px;    }.sno-hac-hamburger-menu-mobile-1-13 .sno-hac-menu-mobile-header {display: block;}.sno-hac-hamburger-menu-mobile-1-13.sno-hac-hamburger-menu {position: fixed;top: 0;bottom: 0;left: 0;right: 50%;        max-width: 350px;        z-index: 10000;        padding: 15px;}    .sno-hac-hamburger-menu-mobile-1-13 {padding: 15px;}.sno-hac-hamburger-menu-mobile-1-13 li {border-bottom: none;}.sno-hac-hamburger-menu-mobile-1-13 ul li:hover ul { display: none; }.sno-hac-hamburger-menu-mobile-1-13 ul li li:last-of-type { border-bottom: none; }.sno-hac-hamburger-menu-mobile-1-13 ul > li.menu-item-has-children > a:after { border-top-color: #ffffff;}.sno-hac-hamburger-menu-mobile-1-13 ul > li.menu-item-has-children:hover > a:after { border-top-color: #ffffff;}    /* for mobile, need to make it be 100% width */@media only screen and (max-width: 600px) {        .sno-hac-hamburger-menu-mobile-1-13.sno-hac-hamburger-menu {            max-width: 100%;            right: 0;        }    }</style><div class="sno-hac-inner sno-hac-inner-mobile-1">
+	<div class="sno-hac-textwrap sno-menu-center-v">
+		<button class="sno-hac-menu-icon sno-hac-menu-side" data-menu-id="mobile-1-13" aria-haspopup="true" aria-expanded="false" aria-label="Open Navigation Menu">
+			<i class="fas fa-bars"></i>
+			<span class="icon-hidden-text">Open Navigation Menu</span>
+		</button>
+	</div>
+</div>
+<div class="sno-hac-hamburger-menu sno-hac-hamburger-menu-mobile-1-13 sno-hac-menu-side-display" role="dialog" aria-modal="true">
+    <nav aria-label="Secondary navigation">
+		<div class="sno-hac-menu-wrap">
+			<div class="sno-hac-menu-mobile-header">
+				<div class="sno-hac-menu-mobile-close" aria-label="Close Navigation Menu" tabindex="0">
+					<i class="fas fa-times"></i>
+				</div>
+									<div class="sno-hac-menu-mobile-name">
+						<a href="https://thermtide.com/">The Tide</a>
+					</div>
+							</div>
+			<div class="menu-navigation-bar-container"><ul id="menu-navigation-bar-2" class="sf-menu sf-js-enabled sf-arrows" style="touch-action: pan-y;"><li class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-has-children menu-item-1049"><a href="https://thermtide.com/category/news/" class="sf-with-ul">News</a>
+<ul class="sub-menu" style="display: none; float: none; width: auto;">
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-19481" style="white-space: normal; float: right; width: 100%;"><a href="https://thermtide.com/category/science-tech/" style="float: none; width: auto;">Science &amp; Tech</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-2407"><a href="https://thermtide.com/category/opinions/" class="sf-with-ul">Opinions</a>
+<ul class="sub-menu" style="display: none; float: none; width: auto;">
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-19178" style="white-space: normal; float: right; width: 100%;"><a href="https://thermtide.com/category/editorial-board/" style="float: none; width: auto;">Editorial Board</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-19179" style="white-space: normal; float: right; width: 100%;"><a href="https://thermtide.com/category/letters-to-the-editor/" style="float: none; width: auto;">Letters to the Editor</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-1050"><a href="https://thermtide.com/category/features/" class="sf-with-ul">Features</a>
+<ul class="sub-menu" style="display: none; float: none; width: auto;">
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-11814" style="white-space: normal; float: right; width: 100%;"><a href="https://thermtide.com/category/centerspread/" style="float: none; width: auto;">Centerspread</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-19480" style="white-space: normal; float: right; width: 100%;"><a href="https://thermtide.com/category/la-marea/" style="float: none; width: auto;">La Marea</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-1052"><a href="https://thermtide.com/category/arts/" class="sf-with-ul">Arts</a>
+<ul class="sub-menu" style="display: none; float: none; width: auto;">
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-23586" style="white-space: normal; float: right; width: 100%;"><a href="https://thermtide.com/category/multimedia/cartoon-corner/" style="float: none; width: auto;">Cartoon Corner</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1051"><a href="https://thermtide.com/category/sports/">Sports</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-13388"><a href="https://thermtide.com/category/social-justice/">Social Justice</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-11805"><a href="https://thermtide.com/category/multimedia/" class="sf-with-ul">Multimedia</a>
+<ul class="sub-menu" style="display: none; float: none; width: auto;">
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-11807" style="white-space: normal; float: right; width: 100%;"><a href="https://thermtide.com/category/photos/" style="float: none; width: auto;">Photos</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-11813" style="white-space: normal; float: right; width: 100%;"><a href="https://thermtide.com/category/multimedia/video/" style="float: none; width: auto;">Video</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-11806" style="white-space: normal; float: right; width: 100%;"><a href="https://thermtide.com/category/multimedia/tidepod/" style="float: none; width: auto;">TidePod</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-19181" style="white-space: normal; float: right; width: 100%;"><a href="https://thermtide.com/category/multimedia/crosswords/" style="float: none; width: auto;">Crosswords</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-7957"><a href="https://thermtide.com/category/print/" class="sf-with-ul">Print</a>
+<ul class="sub-menu" style="display: none; float: none; width: auto;">
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-19485" style="white-space: normal; float: right; width: 100%;"><a href="https://thermtide.com/category/2023-2024/" style="float: none; width: auto;">2023-2024</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-19321" style="white-space: normal; float: right; width: 100%;"><a href="https://thermtide.com/category/2022-2023/" style="float: none; width: auto;">2022-2023</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-14671" style="white-space: normal; float: right; width: 100%;"><a href="https://thermtide.com/category/2021-2022-print-issues/" class="sf-with-ul" style="float: none; width: auto;">2021-2022</a>
+	<ul class="sub-menu" style="display: none; left: 100%; float: none; width: auto;">
+		<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-14672" style="white-space: normal; float: right; width: 100%;"><a href="https://thermtide.com/category/2021-2022-print-issues/october-2021-issue/" style="float: none; width: auto;">October 2021 Issue</a></li>
+		<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-15088" style="white-space: normal; float: right; width: 100%;"><a href="https://thermtide.com/category/2021-2022-print-issues/november-2021-issue/" style="float: none; width: auto;">November 2021 Issue</a></li>
+		<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-15441" style="white-space: normal; float: right; width: 100%;"><a href="https://thermtide.com/category/2021-2022-print-issues/december-2021-issue/" style="float: none; width: auto;">December 2021 Issue</a></li>
+		<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-16343" style="white-space: normal; float: right; width: 100%;"><a href="https://thermtide.com/category/2021-2022-print-issues/february-2022-issue/" style="float: none; width: auto;">February 2022 Issue</a></li>
+		<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-16342" style="white-space: normal; float: right; width: 100%;"><a href="https://thermtide.com/category/2021-2022-print-issues/april-2022-issue/" style="float: none; width: auto;">April 2022 Issue</a></li>
+	</ul>
+</li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-11715" style="white-space: normal; float: right; width: 100%;"><a href="https://thermtide.com/category/2019-print-issues/" class="sf-with-ul" style="float: none; width: auto;">2019-2020</a>
+	<ul class="sub-menu" style="display: none; left: 100%; float: none; width: auto;">
+		<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-8809" style="white-space: normal; float: right; width: 100%;"><a href="https://thermtide.com/category/2019-print-issues/october-2019-issue/" style="float: none; width: auto;">October 2019 Issue</a></li>
+		<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-9473" style="white-space: normal; float: right; width: 100%;"><a href="https://thermtide.com/category/2019-print-issues/november-2019-issue/" style="float: none; width: auto;">November 2019 Issue</a></li>
+		<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-9968" style="white-space: normal; float: right; width: 100%;"><a href="https://thermtide.com/category/2019-print-issues/january-2020-issue/" style="float: none; width: auto;">January 2020 Issue</a></li>
+		<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-10361" style="white-space: normal; float: right; width: 100%;"><a href="https://thermtide.com/category/2019-print-issues/february-2020-issue/" style="float: none; width: auto;">February 2020 Issue</a></li>
+	</ul>
+</li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-2365"><a href="https://thermtide.com/about-us/" class="sf-with-ul">About</a>
+<ul class="sub-menu" style="display: none; float: none; width: auto;">
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3290" style="white-space: normal; float: right; width: 100%;"><a href="https://docs.google.com/forms/d/e/1FAIpQLSeW5QbT6chYh4AceXr4TR_QcBypaNi2CcVjYyViMeR8Zcc3iw/viewform?usp=sf_link" style="float: none; width: auto;">Apply</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5883" style="white-space: normal; float: right; width: 100%;"><a href="https://thermtide.com/about-us/staff/" style="float: none; width: auto;">Staff</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2363" style="white-space: normal; float: right; width: 100%;"><a href="https://thermtide.com/about-us/contact-us/" style="float: none; width: auto;">Contact Us</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24331" style="white-space: normal; float: right; width: 100%;"><a href="https://thermtide.com/staff-manual/" style="float: none; width: auto;">Staff Manual</a></li>
+</ul>
+</li>
+</ul></div>			<ul class="sno-menu-more sf-arrows" style="display:none">
+				<li class="menu-more-item-top">
+					<a href="/" class="sf-with-ul">More<span class="sf-sub-indicator"></span></a>
+					<ul class="sno-hac-menu-more"></ul>
+				</li>
+			</ul>
+		</div>
+	</nav>
+</div>
+																	</div>
+																																																							<div class="sno-designer-area-container sno-hac-mobile-2" style="width: 64%; height: 80px;">
+																			<style>.sno-hac-inner-mobile-2 {background: #ffffff;color: #000000;}.sno-hac-inner-mobile-2 h1,    .sno-hac-inner-mobile-2 h3,    .sno-hac-inner-mobile-2 .siteheadingh1 {text-align: center;color: #000000;padding: 0 15px;font-size: 24px;font-family: Playfair Display;font-weight: 400;margin-bottom: 0;}.sno-hac-inner-mobile-2 .sno-hac-textwrap {position: absolute;top: 50%;transform: translateY(-50%);left: 0;right: 0;}.sno-hac-inner-mobile-2 h1,    .sno-hac-inner-mobile-2 h3,    .sno-hac-inner-mobile-2 .siteheadingh1 {margin-top: 0;}.sno-hac-inner-mobile-2 .sno-hac-headerimage {object-fit: contain;}</style><a href="https://thermtide.com/">
+	<div class="sno-hac-inner sno-hac-inner-mobile-2">
+				<img src="https://thermtide.com/wp-content/uploads/2024/05/Summer-Masthead.jpeg" class="sno-hac-headerimage" alt="The Student News Site of Richard Montgomery High School">
+		<div class="sno-hidden-title">
+			<h1>The Tide</h1>
+		</div>
+		</div>
+</a>																	</div>
+																																																							<div class="sno-designer-area-container sno-hac-mobile-3" style="width: 18%; height: 80px;">
+																			<style>.sno-hac-inner-mobile-3 {background: #ffffff;color: #000000;}.sno-hac-inner-mobile-3 .sno-hac-search-icon {font-size: 26px;line-height: calc(46px - (2 * 1px));height: calc(46px - (2 * 1px));width: 46px;border: 1px solid #000000;background: #ffffff;color: #000000;        border-radius: 0px;}.sno-hac-inner-mobile-3 .sno-hac-search-icon:hover {background: #000000;color: #ffffff;}.sno-hac-search-icon-bar-mobile-3 {position: absolute;right: 0;top: 80px;left: 0;background: #444444;font-family: Roboto Slab;height: 72px;}.sno-hac-search-icon-bar-mobile-3 .sno-hac-search-inner-wrap {width: calc(502px + (2 * 8px));}.sno-hac-search-icon-bar-mobile-3 .sno-hac-submit-search-button {right: 8px;font-size: 16px;top: 8px;bottom: 8px;width: 32px;}.sno-hac-search-icon-bar-mobile-3 input.hac-search {font-size: 16px;line-height: 32px;height: 32px;padding: 8px;border: 1px solid #000000;max-width: calc(100% - (8px * 2) - (1px * 2));}</style><div class="sno-hac-inner sno-hac-inner-mobile-3">
+	<div class="sno-hac-textwrap sno-search-center-v">
+		<button class="sno-hac-search-icon" data-id="mobile-3">
+			<i class="fas fa-search"></i>
+			<span class="icon-hidden-text">Open Search Bar</span>
+		</button>
+	</div>
+</div>
+<div class="sno-hac-search-icon-bar sno-hac-search-icon-bar-mobile-3">
+	<div class="sno-hac-textwrap sno-hac-center-v">
+		<form method="get" action="https://thermtide.com/">
+			<div class="sno-hac-search-inner-wrap">
+				<label for="s-mobile-3" class="assistive-text">Search this site</label>
+				<input type="text" class="field hac-search" name="s" id="s-mobile-3" placeholder="Enter Search Term">
+				<button type="submit" class="sno-hac-submit-search-button sno-search fa fa-search"><span class="icon-hidden-text">Submit Search</span></button>
+			</div>
+		</form>
+	</div>
+</div>
+																	</div>
+																					</div>
+					</div>
+					<div class="clear"></div>
+							                </div>
+                                </header>
+        <main id="sno-sites-main-content">
+            <div id="fullwrap">
+                <div class="innerbackgroundwrap">
+                    <div class="innerbackground"><div id="snopostid-19270" class="snopostid"><div id="storypage" class="full-width sno-story-19270"><div id="content"><div id="contentleft"><div id="sno-main-content" class="postarea"><ul class="snocategories"><li class="blockscategory"><a href="https://thermtide.com/category/news/" rel="category tag">News</a></li></ul><div role="main"><h1 id="storyheadline" class="storyheadline">Moral psychology sheds light on abortion debate</h1><div id="storymeta" class="storymeta"><p> <a href="https://thermtide.com/staff_name/crystal-li/" class="creditline">Crystal Li</a>, Psychology Columnist<span class="storydate"><span class="byline-divider">|</span><span class="time-wrapper">June 9, 2023</span></span></p></div><div class="permalinkphotobox"><div class="storyshadow"><div class="photowrap"><a class="modal-photo photooverlay" data-story-id="19270" data-photo-id="19271" href="#photo" aria-haspopup="dialog" aria-expanded="false" aria-label="View larger version of image."><div class="sno-story-photo-image-area"><img src="https://thermtide.com/wp-content/uploads/2023/06/Untitled20_20230427161754-900x900.png" alt="The issue of abortion has been prevalent in political discussions, especially after the reversal of Roe v. Wade." style="width:100%" class="catboxphoto feature-image"></div></a><div class="modal-photo photo-enlarge" data-story-id="19270" data-photo-id="19271"><i class="fas fa-search-plus"></i></div></div><div class="clear"></div><div class="captionboxmit"><p class="photocredit"><a href="https://thermtide.com/staff_name/graphic-by-evelyn-shue/" class="creditline">Graphic by Evelyn Shue</a></p><p class="photocaption">The issue of abortion has been prevalent in political discussions, especially after the reversal of Roe v. Wade.</p></div></div></div><span class="storycontent"><p><span style="font-weight: 400;">Almost one year after the reversal of </span><i><span style="font-weight: 400;">Roe v. Wade</span></i> <span style="font-weight: 400;">last June, the Supreme Court is again poised to make a major decision on abortion. As anti-abortion plaintiffs prepare to advocate in courts for the ban of Mifepristone, a pill used in over half of abortions in the US, the Supreme Court decided on April 20 to allow the pill to remain widely available until a final ruling is made.</span></p>
+<p><span style="font-weight: 400;">Abortion has shifted to the forefront of 2024 presidential campaigns, entrenching “anti-abortion” and “abortion-rights supporter” as flagship Republican and Democratic policy positions.</span></p>
+<p><span style="font-weight: 400;">The question of how partisans think about issues like abortion and how such issues become politicized is the focus of political psychology, a branch of research that has emerged amid the polarization of recent decades.</span></p>
+<p><span style="font-weight: 400;">When deciding whether to support a policy, many people consider the broader implications of it rather than how it might directly impact themselves. “You think about it more generally—the morality of something and how it’ll affect other people,” senior Saahil Rao said.</span></p>
+<p><span style="font-weight: 400;">This is especially true given that voters don’t necessarily have a personal stake in all of the policies they advocate for or against. “I’m really passionate about climate change and that’s going to affect everyone eventually, but other things I care a lot about, like energy policy and housing, don’t really affect me directly,” senior David Smith said.&nbsp;</span></p>
+<p><span style="font-weight: 400;">Duke University researcher Christopher Johnston and his colleagues </span><a href="https://doi.org/10.1017/9781316341452"><span style="font-weight: 400;">found</span></a><span style="font-weight: 400;"> that, for the most politically-engaged citizens, the question they ask themselves is not primarily “What will this policy do for me?” but rather “What would supporting this policy position say about me?” People often take stances to “virtue-signal”––to express values and morals that they stand for.&nbsp;</span></p>
+<p><span style="font-weight: 400;">This logic applies to abortion: in the decades following Roe v. Wade, conservative evangelicals viewed abortion as a threat to the traditional family structure and therefore opposed it largely for the values it embodied. “Abortion became a proxy issue for concerns about a liberalizing society,” Mary Ziegler, a legal historian at University of California-Davis, said in an </span><a href="https://www.reuters.com/world/us/how-abortion-became-divisive-issue-us-politics-2022-06-24/"><span style="font-weight: 400;">interview with Reuters</span></a><span style="font-weight: 400;">.</span></p>
+<p><span style="font-weight: 400;">In recent years social psychologists have identified distinct sets of morals that conservatives and liberals each rely on when taking political stances, which are encapsulated in New York University psychology professor Jonathan Haidt’s </span><a href="https://dividedwefall.org/the-righteous-mind-moral-foundations-theory/"><span style="font-weight: 400;">Moral Foundations Theory</span></a><span style="font-weight: 400;">. The theory posits that most moral reasoning boils down to five ideals that humans are attuned to at birth: Care (protection from harm), Fairness (justice and equality), Loyalty (deference to one’s ingroup), Authority (respect) and Purity (sanctity, health and cleanliness).&nbsp;</span></p>
+<p><span style="font-weight: 400;">Further, </span><a href="https://www.youtube.com/watch?v=8SOQduoLgRw"><span style="font-weight: 400;">according to Haidt</span></a><span style="font-weight: 400;">, liberals tend to be more concerned with Care and Fairness than conservatives, while conservatives are more concerned with Loyalty, Authority and Purity than liberals. This is evidenced in liberals’ endorsement of policies like universal healthcare and in </span><a href="https://www-sciencedirect-com.silk.library.umass.edu/science/article/pii/S0022103116301056?via%3Dihub"><span style="font-weight: 400;">experiments</span></a><span style="font-weight: 400;"> showing that conservatives support climate change mitigation efforts more if framed in terms of maintaining Earth’s </span><i><span style="font-weight: 400;">purity </span></i><span style="font-weight: 400;">or demonstrating </span><i><span style="font-weight: 400;">patriotism </span></i><span style="font-weight: 400;">to the US.</span></p>
+<p><span style="font-weight: 400;">A </span><a href="https://onlinelibrary.wiley.com/doi/full/10.1002/ijop.12877"><span style="font-weight: 400;">study</span></a><span style="font-weight: 400;"> applying this framework to abortion concluded that the extent to which individuals value Fairness predicts support of abortion rights while the value placed on Sanctity predicts opposition of abortion. In practice, abortion-rights supporters for fairness to women and their freedom to make decisions about their bodies, while anti-abortion rhetoric often mentions “the sanctity of life.”&nbsp;</span></p>
+<p><span style="font-weight: 400;">That moral convictions are so deep-seated may explain why political views always seem impossibly rigid: it takes changing a person’s moral orientations to change their political views. “When you’re in a political debate with someone who knows their stuff and believes what they believe, then you’re not going to change their mind,” Rao said. “Someone can’t make you change your values in one conversation.”</span></p>
+</span></div><div class="clear"></div><ul class="snotags"><li class="blockstag"><a href="https://thermtide.com/tag/abortion/" rel="tag">abortion</a></li><li class="blockstag"><a href="https://thermtide.com/tag/morals/" rel="tag">morals</a></li><li class="blockstag"><a href="https://thermtide.com/tag/psychology/" rel="tag">psychology</a></li><li class="blockstag"><a href="https://thermtide.com/tag/rao/" rel="tag">Rao</a></li><li class="blockstag"><a href="https://thermtide.com/tag/roe-v-wade/" rel="tag">Roe v. Wade</a></li><li class="blockstag"><a href="https://thermtide.com/tag/smith/" rel="tag">Smith</a></li><li class="blockstag"><a href="https://thermtide.com/tag/supreme-court/" rel="tag">Supreme court</a></li></ul><div class="aboutwriter"><div class="aboutwritertitle">About the Contributor</div>
+<!-- profile displayed from cache -->
+<div class="storycreditboxwide"><div class="sc_photo"><img src="https://thermtide.com/wp-content/uploads/2023/01/IMG_6697-475x317.jpg" alt="Photo of Crystal Li"></div><a href="https://thermtide.com/staff_profile/crystal-li/"><div class="sc_title">Crystal Li, Science Writer</div></a><div class="sc_bio"><p>Crystal Li is a senior and The Tide’s Science Writer. She covers topics ranging from public health to technology. Outside of newspaper writing, Crystal...</p><div class="clear"></div></div></div><div class="clear"></div></div></div><div class="clear"></div><div class="relatedstories"><div class="storymeta" style="margin-bottom:0px;"><p style="text-align:center;font-size:16px;line-height:30px;"><a href="https://thermtide.com/category/news/">News</a></p></div><div class="relatedbody"><div class="catrow catstory-position-1"><a href="https://thermtide.com/24771/news/maryland-passes-youth-internet-safety-law/" title="Maryland passes youth internet safety law"><img src="https://thermtide.com/wp-content/uploads/2023/04/IMG_1679-356x475.jpg" class="catstory-photo" alt="County residents ages seven and above who own a Montgomery County Public Library card number are eligible to receive a computer."></a><h5 class="relatedtitle"><a href="https://thermtide.com/24771/news/maryland-passes-youth-internet-safety-law/">Maryland passes youth internet safety law</a></h5></div><div class="relateddividervert catstory-position-2"></div><div class="catrow catstory-position-2"><a href="https://thermtide.com/24683/news/mia-cane-juicery-and-acai-bar-opens-in-rm-neighborhood/" title="Mia Cane Juicery, Açai Bar opens in RM neighborhood"><img src="https://thermtide.com/wp-content/uploads/2024/10/Image-600x449.png" class="catstory-photo" alt="Mia Cane Juciery is located in Ritchie Center which is within walking distance for RM students."></a><h5 class="relatedtitle"><a href="https://thermtide.com/24683/news/mia-cane-juicery-and-acai-bar-opens-in-rm-neighborhood/">Mia Cane Juicery, Açai Bar opens in RM neighborhood</a></h5></div><div class="relateddividervert catstory-position-3"></div><div class="catrow catstory-position-3"><a href="https://thermtide.com/24359/news/low-literacy-rates-among-mcps-students-remains-persistent-despite-minor-improvements-in-test-scores/" title="Low literacy rates among MCPS students remains persistent despite minor improvements in test scores"><img src="https://thermtide.com/wp-content/uploads/2019/05/Caroline-Dinh_Features_TestTaker2-475x447.png" class="catstory-photo" alt="The Maryland Comprehensive Assessment Program (MCAP), is a state test that is required for high school students to take."></a><h5 class="relatedtitle"><a href="https://thermtide.com/24359/news/low-literacy-rates-among-mcps-students-remains-persistent-despite-minor-improvements-in-test-scores/">Low literacy rates among MCPS students remains persistent despite minor improvements in test scores</a></h5></div><div class="relateddividervert catstory-position-4"></div><div class="catrow catstory-position-4"><a href="https://thermtide.com/23980/news/mcps-testifies-at-congress-anti-semitism-hearing/" title="MCPS testifies at Congress anti-semitism hearing"><img src="https://thermtide.com/wp-content/uploads/2024/05/Major_Bella_Silvestre-1-2-600x337.jpg" class="catstory-photo" alt="Board President Karla Silvestre addresses the press at a Board of Education Meeting on Feb. 6."></a><h5 class="relatedtitle"><a href="https://thermtide.com/23980/news/mcps-testifies-at-congress-anti-semitism-hearing/">MCPS testifies at Congress anti-semitism hearing</a></h5></div><div class="relateddividervert catstory-position-5"></div><div class="catrow catstory-position-5"><a href="https://thermtide.com/23952/news/incidents-of-hate-and-harassment-prompt-questions-regarding-code-of-conduct/" title="Incidents of hate and harassment prompt questions regarding Code of Conduct"><img src="https://thermtide.com/wp-content/uploads/2024/05/Screen-Shot-2024-05-27-at-8.23.10-PM-600x480.png" class="catstory-photo" alt="Students and staff members walk through Main Street during the school day."></a><h5 class="relatedtitle"><a href="https://thermtide.com/23952/news/incidents-of-hate-and-harassment-prompt-questions-regarding-code-of-conduct/">Incidents of hate and harassment prompt questions regarding Code of Conduct</a></h5></div><div class="clear"></div></div></div><div class="clear"></div></div></div></div></div>                                    </div>
+				</div>
+			</div>
+                    			<div style="clear:both;"></div>
+            </main>
+            <footer>
+                <div class="footer footer_single">
+                                                                                                        <div class="sno-footer-wrap sno-footer-wrap-desktop">
+                                                                                                                                                                                                                                                                        																																																																                    																				<div class="sno-designer-area-row sno-designer-area-row-desktop-footer-1" style="background: #dddddd; ">
+						<div class="sno-hac-row-wrap">
+																																															<div class="sno-designer-area-container sno-hac-desktop-footer-1" style="width: 58%; height: 115.969px;">
+																			<style>.sno-hac-inner-desktop-footer-1 {background: transparent;color: #000000;overflow: hidden;}.sno-hac-inner-desktop-footer-1 h1,    .sno-hac-inner-desktop-footer-1 h3,    .sno-hac-inner-desktop-footer-1 .siteheadingh1 {text-align: left;color: #000000;padding: 0 15px;font-size: 28px;font-family: Playfair Display;font-weight: normal;margin-top: 10px;margin-bottom: 5px;}a .sno-hac-inner-desktop-footer-1 h1,    a .sno-hac-inner-desktop-footer-1 h3,    a .sno-hac-inner-desktop-footer-1 .siteheading1 {color: #000000 !important;        text-decoration: none !important;    }    .sno-hac-inner-desktop-footer-1 p {text-align: left;padding: 0 15px;font-size: 18px;font-family: Roboto Slab;font-weight: normal;}</style><a href="https://thermtide.com/">
+	<div class="sno-hac-inner sno-hac-inner-desktop-footer-1">
+		<div class="sno-hac-textwrap sno-hac-header-text">
+			<h3 class="">The Tide</h3>
+					<p>The Student News Site of Richard Montgomery High School</p>
+				</div>
+	</div>
+</a>																	</div>
+																																																							<div class="sno-designer-area-container sno-hac-desktop-footer-2" style="width: 42%; height: 115.969px;">
+																																																																																																																			<div class="sno-designer-area-row" style="min-height: 62.9844px;">
+																																																																																																																																																								<div class="sno-designer-area-container sno-hac-desktop-footer-3" style="width: 100%; height: 62.9844px;">
+														<style>.sno-hac-inner-desktop-footer-3 {background: transparent;overflow: hidden;padding-left: 10px;padding-right: 10px;}.sno-hac-inner-desktop-footer-3 .sno-icon {height: 30px;width: 30px;line-height: 30px;font-size: calc(30px * 2 / 3);border-radius: 5px;margin-right: 5px;}.sno-hac-inner-desktop-footer-3 .sno-icon i {        line-height: 30px;    }    .sno-hac-inner-desktop-footer-3 .sno-hac-iconwrap {text-align: right;margin-left: 0px;}.sno-hac-inner-desktop-footer-3 .sno-hac-iconwrap a:nth-of-type(11) .sno-icon {margin-right: 0;}.sno-hac-inner-desktop-footer-3 .sno-hac-iconwrap a:nth-of-type(n + 12) {display: none;}.sno-hac-inner-desktop-footer-3 .sno-icon {margin-top: 16.4922px;margin-bottom: 16.4922px;}.icon-monochromatic-desktop-footer-3 .sno-icon {background: #ffdd0b;color: #fff;} .icon-monochromatic-inverse-hover-desktop-footer-3 .sno-icon:hover {color: #ffdd0b;background: #fff;}.icon-monochromatic-inverse-desktop-footer-3 .sno-icon {color: #ffdd0b;background: #fff;}.icon-monochromatic-hover-desktop-footer-3 .sno-icon:hover {background: #ffdd0b;color: #fff;}.icon-monochromatic-desktop-footer-3 .sno-icon i, .icon-monochromatic-inverse-desktop-footer-3 .sno-icon i {-webkit-text-stroke-width: 0px !important;}</style><div class="sno-hac-inner sno-hac-inner-desktop-footer-3 icon-monochromatic-desktop-footer-3 icon-monochromatic-inverse-hover-desktop-footer-3">
+	<div class="sno-hac-iconwrap">
+		
+
+	<a target="_blank" href="https://www.instagram.com/rm_tide/">
+		<div class="sno-icon social-border sno-instagram">
+    		<i class="fa fa-instagram"></i>
+    		<span class="icon-hidden-text">Instagram</span>
+    	</div>
+	</a>
+
+	<a target="_blank" href="https://twitter.com/RM_Tide">
+		<div class="sno-icon social-border sno-twitter">
+    		<i class="fa-brands fa-x-twitter"></i>
+    		<span class="icon-hidden-text">X</span>
+    	</div>
+	</a>
+
+
+
+
+
+
+
+
+
+
+	<a target="_blank" href="https://www.youtube.com/@tidevideo7264?app=desktop">
+		<div class="sno-icon social-border sno-youtube">
+    		<i class="fa fa-youtube-play"></i>
+    		<span class="icon-hidden-text">YouTube</span>
+    	</div>
+	</a>
+
+
+	
+
+
+									
+	<a target="_blank" href="https://thermtide.com/feed/rss/">
+    	<div class="sno-icon social-border sno-rss">
+        	<i class="fa fa-rss"></i>
+        	<span class="icon-hidden-text">RSS Feed</span>
+        </div>
+	</a>
+	</div>
+</div>
+
+
+													</div>
+																																																	</div>
+																																																																																																		<div class="sno-designer-area-row" style="min-height: 52.9846px;">
+																																																																																																																																																								<div class="sno-designer-area-container sno-hac-desktop-footer-4" style="width: 26%; height: 52.9846px;">
+														<style>.sno-hac-inner-desktop-footer-4 {background: transparent;}</style><div class="sno-hac-inner sno-hac-inner-desktop-footer-4"></div>													</div>
+																																																																																																																																														<div class="sno-designer-area-container sno-hac-desktop-footer-5" style="width: 74%; height: 52.9846px;">
+														<style>.sno-hac-inner-desktop-footer-5 {background: transparent;}</style><div class="sno-hac-inner sno-hac-inner-desktop-footer-5"></div>													</div>
+																																																	</div>
+																																																	</div>
+																					</div>
+					</div>
+					<div class="clear"></div>
+							                                                                                                                </div>
+                                            <div class="sno-footer-wrap sno-footer-wrap-tablet">
+                                                                                                                                                                                                                                                                        			                                                    </div>
+                                            <div class="sno-footer-wrap sno-footer-wrap-mobile">
+                                                                                                                                                                                                                                                                        			                                                    </div>
+                                        <div class="sno-footercredit  sno-fixed-width-footer">
+                                                <style>.sno-footercredit, .sno-footercredit a { background: #dddddd !important; color: #000000 !important; }</style>
+                        <div class="sno-footer-credit-inner">© 2024  • <a target="_blank" href="https://snoads.com/site/1064">Advertise</a> •  <a href="https://snosites.com/why-sno/">FLEX Pro WordPress Theme</a> by <a href="http://snosites.com">SNO</a> • <a href="https://thermtide.com/wp-login.php">Log in</a></div>                    </div>
+                </div>
+            </footer>
+		</div>
+				<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-CQR9JBR51C"></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+
+			function gtag() {
+				dataLayer.push(arguments);
+			}
+			gtag('js', new Date());
+			gtag('config', 'G-CQR9JBR51C');
+		</script>
+		<div class="sno-side-icons icon-standard icon-hover-standard" style="display: block;">
+							<div class="like-side-icon sno-side-icon sno-side-icon-" data-liked="0" data-remember="1" data-post="19270">
+				<div class="sno-color-inverter"></div>
+				<div class="sno-side-icon-ring">
+					<div class="sno-side-icon-bubble like-count-bubble like-count-hide">
+						0					</div>
+					<i class="fas fa-thumbs-up"></i>
+				</div>
+			</div>
+							<a class="modal-share" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fthermtide.com%2F19270%2Fnews%2Fmoral-psychology-sheds-light-on-abortion-debate%2F" title="Share on Facebook" target="_blank">
+				<div class="facebook-side-icon sno-side-icon sharing-mobile-hide sno-side-icon-">
+					<div class="sno-side-icon-ring">
+						<i class="fa fa-facebook-f"></i>
+						<span class="icon-hidden-text">Share on Facebook</span>
+					</div>
+				</div>
+			</a>
+							<a class="modal-share" href="https://twitter.com/intent/tweet?text=Moral psychology sheds light on abortion debate&amp;url=https%3A%2F%2Fthermtide.com%2F%3Fp%3D19270" title="Tweet This Story" target="_blank">
+				<div class="twitter-side-icon sno-side-icon sharing-mobile-hide sno-side-icon-">
+					<div class="sno-side-icon-ring">
+						<i class="fa-brands fa-x-twitter"></i>
+						<span class="icon-hidden-text">Share on X</span>
+					</div>
+				</div>
+			</a>
+											<a href="#" onclick="return false;" class="modal-share share-email sharing-mobile-hide" title="Email this Story">
+				<div class="email-side-icon sno-side-icon sno-side-icon-" data-story-id="19270">
+					<div class="sno-side-icon-ring">
+						<i class="fa fa-envelope"></i>
+						<span class="icon-hidden-text">Share via Email</span>
+					</div>
+				</div>
+			</a>
+													<a rel="nofollow" href="//thermtide.com/19270/news/moral-psychology-sheds-light-on-abortion-debate/?print=true" title="Print this Story">
+				<div class="print-side-icon sno-side-icon sharing-mobile-hide sno-side-icon-">
+					<div class="sno-side-icon-ring">
+						<i class="fa fa-print"></i>
+						<span class="icon-hidden-text">Print</span>
+					</div>
+				</div>
+			</a>
+			</div>
+		<div class="remodal-story-image" role="dialog" aria-modal="true" data-remodal-id="modal-photo" data-remodal-options="hashTracking: false, closeOnConfirm: false">
+		<button data-remodal-action="close" class="remodal-close sno-overlay-close" aria-label="Close Overlay"><span class="icon-hidden-text">Close</span></button>
+		<div class="remodal-inner-container"></div>
+	</div>
+	<div class="remodal-share-story" role="dialog" aria-modal="true" data-remodal-id="modal-share" data-remodal-options="hashTracking: false, closeOnConfirm: false">
+	  	<button data-remodal-action="close" class="remodal-close"><span class="icon-hidden-text">Close Modal Window</span></button>
+		<div class="remodal-share-inner-container"></div>
+	</div>
+	<div class="modal-story-collection" role="dialog" aria-modal="true">
+		<button data-remodal-action="close" class="modal-close sno-overlay-close"><span class="icon-hidden-text">Close</span></button>
+		<div class="remodal-collection-inner-container"></div>
+	</div>
+    <script type="text/javascript" id="wp-polls-js-extra">
+/* <![CDATA[ */
+var pollsL10n = {"ajax_url":"https:\/\/thermtide.com\/wp-admin\/admin-ajax.php","text_wait":"Your last request is still being processed. Please wait a while ...","text_valid":"Please choose a valid poll answer.","text_multiple":"Maximum number of choices allowed: ","show_loading":"1","show_fading":"1"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://thermtide.com/wp-content/plugins/wp-polls/polls-js.js?ver=2.77.2" id="wp-polls-js"></script>
+<script type="text/javascript" id="sno-countdown-plugin-script-js-extra">
+/* <![CDATA[ */
+var ajax_object = {"ajax_url":"https:\/\/thermtide.com\/wp-admin\/admin-ajax.php"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://thermtide.com/wp-content/plugins/sno-countdown/assets/script/sno-countdown-script.js?ver=1.0.1" id="sno-countdown-plugin-script-js"></script>
+<div id="sno-pdf-flipbook-full"></div>	
+</body></html>

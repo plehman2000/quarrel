@@ -1,0 +1,981 @@
+<!DOCTYPE html><html lang="en-US" class=" js csstransforms csstransforms3d csstransitions" style="transform: none;"><head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+	<link rel="profile" href="http://gmpg.org/xfn/11">
+	<link rel="pingback" href="https://wyenot.com/xmlrpc.php">
+	<script src="https://pagead2.googlesyndication.com/pagead/managed/js/adsense/m202410230101/show_ads_impl.js?bust=31088451"></script><script src="https://connect.facebook.net/en_US/sdk.js?hash=290916d507523aeb155c4a69061563d3" async="" crossorigin="anonymous"></script><script id="facebook-jssdk" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&amp;version=v3.2"></script><script>
+(()=>{var e={};e.g=function(){if("object"==typeof globalThis)return globalThis;try{return this||new Function("return this")()}catch(e){if("object"==typeof window)return window}}(),function({ampUrl:n,isCustomizePreview:t,isAmpDevMode:r,noampQueryVarName:o,noampQueryVarValue:s,disabledStorageKey:i,mobileUserAgents:a,regexRegex:c}){if("undefined"==typeof sessionStorage)return;const d=new RegExp(c);if(!a.some((e=>{const n=e.match(d);return!(!n||!new RegExp(n[1],n[2]).test(navigator.userAgent))||navigator.userAgent.includes(e)})))return;e.g.addEventListener("DOMContentLoaded",(()=>{const e=document.getElementById("amp-mobile-version-switcher");if(!e)return;e.hidden=!1;const n=e.querySelector("a[href]");n&&n.addEventListener("click",(()=>{sessionStorage.removeItem(i)}))}));const g=r&&["paired-browsing-non-amp","paired-browsing-amp"].includes(window.name);if(sessionStorage.getItem(i)||t||g)return;const u=new URL(location.href),m=new URL(n);m.hash=u.hash,u.searchParams.has(o)&&s===u.searchParams.get(o)?sessionStorage.setItem(i,"1"):m.href!==u.href&&(window.stop(),location.replace(m.href))}({"ampUrl":"https:\/\/wyenot.com\/why-are-dogs-so-friendly-a-scientific-explanation\/?amp=1","noampQueryVarName":"noamp","noampQueryVarValue":"mobile","disabledStorageKey":"amp_mobile_redirect_disabled","mobileUserAgents":["Mobile","Android","Silk\/","Kindle","BlackBerry","Opera Mini","Opera Mobi"],"regexRegex":"^\\\/((?:.|\\n)+)\\\/([i]*)$","isCustomizePreview":false,"isAmpDevMode":false})})();
+</script>
+<title>Why Are Dogs So Friendly? A Scientific Explanation – Wyenot</title>
+<meta name="robots" content="max-image-preview:large">
+<link rel="dns-prefetch" href="//patterns.hiive.cloud">
+<link rel="dns-prefetch" href="//www.googletagmanager.com">
+<link rel="dns-prefetch" href="//fonts.googleapis.com">
+<link rel="dns-prefetch" href="//pagead2.googlesyndication.com">
+<link rel="alternate" type="application/rss+xml" title="Wyenot » Feed" href="https://wyenot.com/feed/">
+<link rel="alternate" type="application/rss+xml" title="Wyenot » Comments Feed" href="https://wyenot.com/comments/feed/">
+<script>
+window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/wyenot.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.6.2"}};
+/*! This file is auto-generated */
+!function(i,n){var o,s,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),r=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===r[t]})}function u(e,t,n){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\uddfa\ud83c\uddf3","\ud83c\uddfa\u200b\ud83c\uddf3")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!n(e,"\ud83d\udc26\u200d\u2b1b","\ud83d\udc26\u200b\u2b1b")}return!1}function f(e,t,n){var r="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):i.createElement("canvas"),a=r.getContext("2d",{willReadFrequently:!0}),o=(a.textBaseline="top",a.font="600 32px Arial",{});return e.forEach(function(e){o[e]=t(a,e,n)}),o}function t(e){var t=i.createElement("script");t.src=e,t.defer=!0,i.head.appendChild(t)}"undefined"!=typeof Promise&&(o="wpEmojiSettingsSupports",s=["flag","emoji"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){i.addEventListener("DOMContentLoaded",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(s),u.toString(),p.toString()].join(",")+"));",r=new Blob([e],{type:"text/javascript"}),a=new Worker(URL.createObjectURL(r),{name:"wpTestEmojiSupports"});return void(a.onmessage=function(e){c(n=e.data),a.terminate(),t(n)})}catch(e){}c(n=f(s,u,p))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],"flag"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);
+</script>
+<script>
+			var ak_ajax_url = "https://wyenot.com/?ajax-request=ak";
+		</script><style type="text/css" media="all">
+.wpautoterms-footer{background-color:#ffffff;text-align:center;}
+.wpautoterms-footer a{color:#000000;font-family:Arial, sans-serif;font-size:14px;}
+.wpautoterms-footer .separator{color:#cccccc;font-family:Arial, sans-serif;font-size:14px;}</style>
+<style id="wp-emoji-styles-inline-css">
+
+	img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}
+</style>
+<link rel="stylesheet" id="wp-block-library-css" href="https://wyenot.com/wp-includes/css/dist/block-library/style.min.css?ver=6.6.2" media="all">
+<style id="wp-block-library-theme-inline-css">
+.wp-block-audio :where(figcaption){color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-audio :where(figcaption){color:#ffffffa6}.wp-block-audio{margin:0 0 1em}.wp-block-code{border:1px solid #ccc;border-radius:4px;font-family:Menlo,Consolas,monaco,monospace;padding:.8em 1em}.wp-block-embed :where(figcaption){color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-embed :where(figcaption){color:#ffffffa6}.wp-block-embed{margin:0 0 1em}.blocks-gallery-caption{color:#555;font-size:13px;text-align:center}.is-dark-theme .blocks-gallery-caption{color:#ffffffa6}:root :where(.wp-block-image figcaption){color:#555;font-size:13px;text-align:center}.is-dark-theme :root :where(.wp-block-image figcaption){color:#ffffffa6}.wp-block-image{margin:0 0 1em}.wp-block-pullquote{border-bottom:4px solid;border-top:4px solid;color:currentColor;margin-bottom:1.75em}.wp-block-pullquote cite,.wp-block-pullquote footer,.wp-block-pullquote__citation{color:currentColor;font-size:.8125em;font-style:normal;text-transform:uppercase}.wp-block-quote{border-left:.25em solid;margin:0 0 1.75em;padding-left:1em}.wp-block-quote cite,.wp-block-quote footer{color:currentColor;font-size:.8125em;font-style:normal;position:relative}.wp-block-quote.has-text-align-right{border-left:none;border-right:.25em solid;padding-left:0;padding-right:1em}.wp-block-quote.has-text-align-center{border:none;padding-left:0}.wp-block-quote.is-large,.wp-block-quote.is-style-large,.wp-block-quote.is-style-plain{border:none}.wp-block-search .wp-block-search__label{font-weight:700}.wp-block-search__button{border:1px solid #ccc;padding:.375em .625em}:where(.wp-block-group.has-background){padding:1.25em 2.375em}.wp-block-separator.has-css-opacity{opacity:.4}.wp-block-separator{border:none;border-bottom:2px solid;margin-left:auto;margin-right:auto}.wp-block-separator.has-alpha-channel-opacity{opacity:1}.wp-block-separator:not(.is-style-wide):not(.is-style-dots){width:100px}.wp-block-separator.has-background:not(.is-style-dots){border-bottom:none;height:1px}.wp-block-separator.has-background:not(.is-style-wide):not(.is-style-dots){height:2px}.wp-block-table{margin:0 0 1em}.wp-block-table td,.wp-block-table th{word-break:normal}.wp-block-table :where(figcaption){color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-table :where(figcaption){color:#ffffffa6}.wp-block-video :where(figcaption){color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-video :where(figcaption){color:#ffffffa6}.wp-block-video{margin:0 0 1em}:root :where(.wp-block-template-part.has-background){margin-bottom:0;margin-top:0;padding:1.25em 2.375em}
+</style>
+<link rel="stylesheet" id="nfd-wonder-blocks-utilities-css" href="https://patterns.hiive.cloud/assets/css/utilities.css?ver=1729803232" media="all">
+<link rel="stylesheet" id="buzzeditor-block-style-css" href="https://wyenot.com/wp-content/plugins/buzzeditor/css/blocks.style.build.css?ver=2.2.5" media="all">
+<style id="classic-theme-styles-inline-css">
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+</style>
+<style id="global-styles-inline-css">
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
+:root :where(.wp-block-pullquote){font-size: 1.5em;line-height: 1.6;}
+</style>
+<link rel="stylesheet" id="wpautoterms_css-css" href="https://wyenot.com/wp-content/plugins/auto-terms-of-service-and-privacy-policy/css/wpautoterms.css?ver=6.6.2" media="all">
+<link rel="stylesheet" id="gutenbee-animations-css" href="https://wyenot.com/wp-content/plugins/gutenbee/build/gutenbee.animations.css?ver=2.18.0" media="all">
+<link rel="stylesheet" id="ignition-icons-css" href="https://wyenot.com/wp-content/plugins/ignition/inc/assets/vendor/ignition-icons/css/ignition-icons.min.css?ver=2.2.0" media="all">
+<link rel="stylesheet" id="ignition-style-css" href="https://wyenot.com/wp-content/plugins/ignition/inc/assets/css/style.min.css?ver=2.2.0" media="all">
+<link rel="stylesheet" id="SFSImainCss-css" href="https://wyenot.com/wp-content/plugins/ultimate-social-media-icons/css/sfsi-style.css?ver=2.9.4" media="all">
+<link crossorigin="anonymous" rel="stylesheet" id="ak-generated-fonts-css" href="https://fonts.googleapis.com/css?family=Inter:700,400,,500%7CInder:400%7CPoppins:700&amp;display=swap" media="all">
+<link rel="stylesheet" id="buzzeditor-style-css" href="https://wyenot.com/wp-content/plugins/buzzeditor/css/style.css?ver=2.2.5" media="all">
+<link rel="stylesheet" id="ak-anim-css" href="https://wyenot.com/wp-content/plugins/ak-framework/assets/css/ak-anim.css?ver=2.2.0" media="all">
+<link rel="stylesheet" id="fontawesome-css" href="https://wyenot.com/wp-content/plugins/ak-framework/assets/css/fontawesome.min.css" media="all">
+<link rel="stylesheet" id="magnific-popup-css" href="https://wyenot.com/wp-content/themes/newsy/assets/css/magnific-popup.css?ver=2.2.1" media="all">
+<link rel="stylesheet" id="newsy-akfi-css" href="https://wyenot.com/wp-content/themes/newsy/assets/css/akfi.css?ver=2.2.1" media="all">
+<link rel="stylesheet" id="newsy-frontend-css" href="https://wyenot.com/wp-content/themes/newsy/assets/css/style.css?ver=2.2.1" media="all">
+<link rel="stylesheet" id="tiny-slider-css" href="https://wyenot.com/wp-content/plugins/ak-framework/assets/lib/tiny-slider/tiny-slider.min.css" media="all">
+<link rel="stylesheet" id="newsy-elements-css" href="https://wyenot.com/wp-content/plugins/newsy-elements/assets/css/style.css?ver=2.2.0" media="all">
+<link rel="stylesheet" id="newsy-demo-style-css" href="https://wyenot.com/wp-content/themes/newsy/includes/demos/default/style.css?ver=2.2.1" media="all">
+<link rel="stylesheet" id="newsy-nsfw-css" href="https://wyenot.com/wp-content/plugins/newsy-nsfw/css/style.css?ver=1.0.2" media="all">
+<link rel="stylesheet" id="newsy-reaction-css" href="https://wyenot.com/wp-content/plugins/newsy-reaction/css/style.css?ver=2.2.0" media="all">
+<link rel="stylesheet" id="newsy-social-counter-css" href="https://wyenot.com/wp-content/plugins/newsy-social-counter/css/style.css?ver=2.2.0" media="all">
+<link rel="stylesheet" id="ak-generated-css-css" href="https://wyenot.com/wp-content/uploads/ak_framework/gBPsDGpkFyIDs7D.css" media="all">
+<script src="https://wyenot.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js"></script>
+<script src="https://wyenot.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js"></script>
+<script src="https://wyenot.com/wp-includes/js/dist/dom-ready.min.js?ver=f77871ff7694fffea381" id="wp-dom-ready-js"></script>
+<script src="https://wyenot.com/wp-content/plugins/auto-terms-of-service-and-privacy-policy/js/base.js?ver=2.5.1" id="wpautoterms_base-js"></script>
+<script src="https://patterns.hiive.cloud/assets/js/utilities.js?ver=1729803232" id="nfd-wonder-blocks-utilities-js"></script>
+
+<!-- Google tag (gtag.js) snippet added by Site Kit -->
+
+<!-- Google Analytics snippet added by Site Kit -->
+<script src="https://www.googletagmanager.com/gtag/js?id=GT-PLFJ8BC" id="google_gtagjs-js" async=""></script>
+<script id="google_gtagjs-js-after">
+window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}
+gtag("set","linker",{"domains":["wyenot.com"]});
+gtag("js", new Date());
+gtag("set", "developer_id.dZTNiMT", true);
+gtag("config", "GT-PLFJ8BC");
+</script>
+
+<!-- End Google tag (gtag.js) snippet added by Site Kit -->
+<link rel="https://api.w.org/" href="https://wyenot.com/wp-json/"><link rel="alternate" title="JSON" type="application/json" href="https://wyenot.com/wp-json/wp/v2/posts/1277"><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://wyenot.com/xmlrpc.php?rsd">
+<meta name="generator" content="WordPress 6.6.2">
+<link rel="canonical" href="https://wyenot.com/why-are-dogs-so-friendly-a-scientific-explanation/">
+<link rel="shortlink" href="https://wyenot.com/?p=1277">
+<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="https://wyenot.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwyenot.com%2Fwhy-are-dogs-so-friendly-a-scientific-explanation%2F">
+<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="https://wyenot.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwyenot.com%2Fwhy-are-dogs-so-friendly-a-scientific-explanation%2F&amp;format=xml">
+<meta name="generator" content="Site Kit by Google 1.138.0"><meta name="follow.it-verification-code-YnJnUGdZRFQ1bGtIRlI3cEYvamx5bmlQd0YwdDV6V3lJZ3NVUWR2aHFtWE45K2MxUW1EZWIwZS85L0pzOG5YOUFLa3FsZ0xtajF2MlBSN2J4ZldrRGNCdzJZU2lPQklvNWkvNFNmbmpQTzlvejdkbFF2a2FOZTN6NEhHNnJQVXV8VXUvMzkrVzBrcWlpRkFYQk1iNUxWUTVmWlEra0ptZ0xiNjFZZkE4d0YvOD0=" content="PLrBWWYSA9XZ4WfGByhG"><meta property="og:image:secure_url" content="https://wyenot.com/wp-content/uploads/2022/07/italian-greyhound-dog-with-arabian-hijab-2022-03-04-06-00-38-utc-scaled.jpg" data-id="sfsi"><meta property="twitter:card" content="summary_large_image" data-id="sfsi"><meta property="twitter:image" content="https://wyenot.com/wp-content/uploads/2022/07/italian-greyhound-dog-with-arabian-hijab-2022-03-04-06-00-38-utc-scaled.jpg" data-id="sfsi"><meta property="og:image:type" content="" data-id="sfsi"><meta property="og:image:width" content="2560" data-id="sfsi"><meta property="og:image:height" content="1707" data-id="sfsi"><meta property="og:url" content="https://wyenot.com/why-are-dogs-so-friendly-a-scientific-explanation/" data-id="sfsi"><meta property="og:description" content="
+Dogs have long been considered man's best friend. They love to join us on adventures, cuddle on the couch, and faithfully&nbsp;protect our homes from intruders. Because of this, more than 69 million households in the United States are home to at least one dog.
+
+
+
+But why is that? What makes dogs so much friendlier towards humans than wolves and other species?
+
+
+
+Dogs are friendly towards humans because of their genetic makeup. Domesticated dogs have several genes that differ from wolves; these genes produce hypersocial traits in dogs. Interestingly enough, the genes that cause dogs to be so friendly are also found in people diagnosed with Williams-Buren syndrome, which causes hypersocial&nbsp;behavior.
+
+
+
+I​n the rest of this article, we'll talk more about the scientific reason that dogs are so friendly.
+
+
+
+Why Are Dogs So Friendly?
+
+
+
+Over thousands of years, dogs have evolved from wild wolves to the loving house companions we all know and love today. Possibly the most obvious difference between wolves and dogs is how much more friendly dogs are.
+
+
+
+
+
+
+
+While wolves are still incredibly wild—and incredibly dangerous—domesticated dogs love nothing more than to be close to their human partners. Even though dogs and wolves share 98.8% of the same DNA and belong to the same species, their personalities are worlds apart.&nbsp;
+
+
+
+According to this study, there are three genes in domesticated dogs that cause them to be so friendly. These genes are GTF2I, GTF2IRD1, and WBSCR17.
+
+
+
+Interestingly enough, these same genes are affected in people with Williams-Buren syndrome, which causes people to be excessively friendly. Humans who have been diagnosed with Williams-Buren syndrome are missing sequences of genes, including the three listed above.
+
+
+
+Before dogs' friendliness was linked to these genes, researchers assumed that humans selectively bred dogs with endearing qualities. While this is partially true, we now know that wolves may have started the process of domestication on their own through genetic mutation.
+
+
+
+It seems as though these three genes in particular directly impact the friendliness of dogs and humans. So how did domesticated dogs end up with these altered genes?
+
+
+
+T​he Domestication Of Dogs
+
+
+
+
+
+
+
+Wolves don't have the same versions of the genes that cause dogs, and some humans, to be excessively friendly. Some researchers believe the genes changed in wolves as they began to scavenge in people's campsites. While normal wolves wouldn't be able to handle being near humans, wolves with these altered genes were able to spend time in the camps, where they received food.
+
+
+
+A​s these genetically-changed wolves reproduced, they passed on their genes to their offspring, increasing the number of friendlier wolves. Humans helped to further the wolves' domestication by selectively breeding for friendly traits.
+
+
+
+O​f course, the earliest friendly dogs were likely nothing like the pups in our modern world. Dogs have been domesticated for over 30,000 years; with each new generation, the genetic sequence strengthened and the wolves became more and more friendly. After 30,000 years, they have transformed into the loving companions we know today.
+" data-id="sfsi"><meta property="og:title" content="Why Are Dogs So Friendly? A Scientific Explanation" data-id="sfsi"><link rel="alternate" type="text/html" media="only screen and (max-width: 640px)" href="https://wyenot.com/why-are-dogs-so-friendly-a-scientific-explanation/?amp=1">
+<!-- Google AdSense meta tags added by Site Kit -->
+<meta name="google-adsense-platform-account" content="ca-host-pub-2644536267352236">
+<meta name="google-adsense-platform-domain" content="sitekit.withgoogle.com">
+<!-- End Google AdSense meta tags added by Site Kit -->
+<meta name="generator" content="Powered by WPBakery Page Builder - drag and drop page builder for WordPress.">
+<link rel="amphtml" href="https://wyenot.com/why-are-dogs-so-friendly-a-scientific-explanation/?amp=1">
+<!-- Google AdSense snippet added by Site Kit -->
+<script async="" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3329298310484464&amp;host=ca-host-pub-2644536267352236" crossorigin="anonymous" data-checked-head="true"></script>
+
+<!-- End Google AdSense snippet added by Site Kit -->
+<style>#amp-mobile-version-switcher{left:0;position:absolute;width:100%;z-index:100}#amp-mobile-version-switcher>a{background-color:#444;border:0;color:#eaeaea;display:block;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif;font-size:16px;font-weight:600;padding:15px 0;text-align:center;-webkit-text-decoration:none;text-decoration:none}#amp-mobile-version-switcher>a:active,#amp-mobile-version-switcher>a:focus,#amp-mobile-version-switcher>a:hover{-webkit-text-decoration:underline;text-decoration:underline}</style><script type="application/ld+json">{"@context":"http:\/\/schema.org","@type":"Organization","@id":"https:\/\/wyenot.com\/#organization","url":"https:\/\/wyenot.com\/","name":"\"\"","logo":{"@type":"ImageObject","url":""},"sameAs":[]}</script>
+<script type="application/ld+json">{"@context":"http:\/\/schema.org","@type":"WebSite","@id":"https:\/\/wyenot.com\/#website","url":"https:\/\/wyenot.com\/","name":"\"\"","potentialAction":{"@type":"SearchAction","target":"https:\/\/wyenot.com\/?s={search_term_string}","query-input":"required name=search_term_string"}}</script>
+<noscript><style> .wpb_animate_when_almost_visible { opacity: 1; }</style></noscript><meta http-equiv="origin-trial" content="AlK2UR5SkAlj8jjdEc9p3F3xuFYlF6LYjAML3EOqw1g26eCwWPjdmecULvBH5MVPoqKYrOfPhYVL71xAXI1IBQoAAAB8eyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiV2ViVmlld1hSZXF1ZXN0ZWRXaXRoRGVwcmVjYXRpb24iLCJleHBpcnkiOjE3NTgwNjcxOTksImlzU3ViZG9tYWluIjp0cnVlfQ=="><meta http-equiv="origin-trial" content="Amm8/NmvvQfhwCib6I7ZsmUxiSCfOxWxHayJwyU1r3gRIItzr7bNQid6O8ZYaE1GSQTa69WwhPC9flq/oYkRBwsAAACCeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiV2ViVmlld1hSZXF1ZXN0ZWRXaXRoRGVwcmVjYXRpb24iLCJleHBpcnkiOjE3NTgwNjcxOTksImlzU3ViZG9tYWluIjp0cnVlfQ=="><meta http-equiv="origin-trial" content="A9wSqI5i0iwGdf6L1CERNdmsTPgVu44ewj8QxTBYgsv1LCPUVF7YmWOvTappqB1139jAymxUW/RO8zmMqo4zlAAAAACNeyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiRmxlZGdlQmlkZGluZ0FuZEF1Y3Rpb25TZXJ2ZXIiLCJleHBpcnkiOjE3MzY4MTI4MDAsImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9"><meta http-equiv="origin-trial" content="A+d7vJfYtay4OUbdtRPZA3y7bKQLsxaMEPmxgfhBGqKXNrdkCQeJlUwqa6EBbSfjwFtJWTrWIioXeMW+y8bWAgQAAACTeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiRmxlZGdlQmlkZGluZ0FuZEF1Y3Rpb25TZXJ2ZXIiLCJleHBpcnkiOjE3MzY4MTI4MDAsImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9"><meta http-equiv="origin-trial" content="AlK2UR5SkAlj8jjdEc9p3F3xuFYlF6LYjAML3EOqw1g26eCwWPjdmecULvBH5MVPoqKYrOfPhYVL71xAXI1IBQoAAAB8eyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiV2ViVmlld1hSZXF1ZXN0ZWRXaXRoRGVwcmVjYXRpb24iLCJleHBpcnkiOjE3NTgwNjcxOTksImlzU3ViZG9tYWluIjp0cnVlfQ=="><meta http-equiv="origin-trial" content="Amm8/NmvvQfhwCib6I7ZsmUxiSCfOxWxHayJwyU1r3gRIItzr7bNQid6O8ZYaE1GSQTa69WwhPC9flq/oYkRBwsAAACCeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiV2ViVmlld1hSZXF1ZXN0ZWRXaXRoRGVwcmVjYXRpb24iLCJleHBpcnkiOjE3NTgwNjcxOTksImlzU3ViZG9tYWluIjp0cnVlfQ=="><meta http-equiv="origin-trial" content="A9wSqI5i0iwGdf6L1CERNdmsTPgVu44ewj8QxTBYgsv1LCPUVF7YmWOvTappqB1139jAymxUW/RO8zmMqo4zlAAAAACNeyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiRmxlZGdlQmlkZGluZ0FuZEF1Y3Rpb25TZXJ2ZXIiLCJleHBpcnkiOjE3MzY4MTI4MDAsImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9"><meta http-equiv="origin-trial" content="A+d7vJfYtay4OUbdtRPZA3y7bKQLsxaMEPmxgfhBGqKXNrdkCQeJlUwqa6EBbSfjwFtJWTrWIioXeMW+y8bWAgQAAACTeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiRmxlZGdlQmlkZGluZ0FuZEF1Y3Rpb25TZXJ2ZXIiLCJleHBpcnkiOjE3MzY4MTI4MDAsImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9"><style id="theia-sticky-sidebar-stylesheet-TSS">.theiaStickySidebar:after {content: ""; display: table; clear: both;}</style><script src="https://wyenot.com/wp-includes/js/wp-emoji-release.min.js?ver=6.6.2" defer=""></script><style type="text/css" data-fbcssmodules="css:fb.css.base css:fb.css.dialog css:fb.css.iframewidget css:fb.css.customer_chat_plugin_iframe">.fb_hidden{position:absolute;top:-10000px;z-index:10001}.fb_reposition{overflow:hidden;position:relative}.fb_invisible{display:none}.fb_reset{background:none;border:0px;border-spacing:0;color:#000;cursor:auto;direction:ltr;font-family:'lucida grande', tahoma, verdana, arial, sans-serif;font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:normal;line-height:1;margin:0;overflow:visible;padding:0;text-align:left;text-decoration:none;text-indent:0;text-shadow:none;text-transform:none;visibility:visible;white-space:normal;word-spacing:normal}.fb_reset>div{overflow:hidden}@keyframes fb_transform{from{opacity:0;transform:scale(.95)}to{opacity:1;transform:scale(1)}}.fb_animate{animation:fb_transform .3s forwards}
+.fb_hidden{position:absolute;top:-10000px;z-index:10001}.fb_reposition{overflow:hidden;position:relative}.fb_invisible{display:none}.fb_reset{background:none;border:0px;border-spacing:0;color:#000;cursor:auto;direction:ltr;font-family:'lucida grande', tahoma, verdana, arial, sans-serif;font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:normal;line-height:1;margin:0;overflow:visible;padding:0;text-align:left;text-decoration:none;text-indent:0;text-shadow:none;text-transform:none;visibility:visible;white-space:normal;word-spacing:normal}.fb_reset>div{overflow:hidden}@keyframes fb_transform{from{opacity:0;transform:scale(.95)}to{opacity:1;transform:scale(1)}}.fb_animate{animation:fb_transform .3s forwards}
+.fb_dialog{background:rgba(82, 82, 82, .7);position:absolute;top:-10000px;z-index:10001}.fb_dialog_advanced{border-radius:8px;padding:10px}.fb_dialog_content{background:#fff;color:#373737}.fb_dialog_close_icon{background:url(https://connect.facebook.net/rsrc.php/v3/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 0 transparent;cursor:pointer;display:block;height:15px;position:absolute;right:18px;top:17px;width:15px}.fb_dialog_mobile .fb_dialog_close_icon{left:5px;right:auto;top:5px}.fb_dialog_padding{background-color:transparent;position:absolute;width:1px;z-index:-1}.fb_dialog_close_icon:hover{background:url(https://connect.facebook.net/rsrc.php/v3/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 -15px transparent}.fb_dialog_close_icon:active{background:url(https://connect.facebook.net/rsrc.php/v3/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 -30px transparent}.fb_dialog_iframe{line-height:0}.fb_dialog_content .dialog_title{background:#6d84b4;border:1px solid #365899;color:#fff;font-size:14px;font-weight:bold;margin:0}.fb_dialog_content .dialog_title>span{background:url(https://connect.facebook.net/rsrc.php/v3/yd/r/Cou7n-nqK52.gif) no-repeat 5px 50%;float:left;padding:5px 0 7px 26px}body.fb_hidden{height:100%;left:0px;margin:0px;overflow:visible;position:absolute;top:-10000px;transform:none;width:100%}.fb_dialog.fb_dialog_mobile.loading{background:url(https://connect.facebook.net/rsrc.php/v3/ya/r/3rhSv5V8j3o.gif) white no-repeat 50% 50%;min-height:100%;min-width:100%;overflow:hidden;position:absolute;top:0;z-index:10001}.fb_dialog.fb_dialog_mobile.loading.centered{background:none;height:auto;min-height:initial;min-width:initial;width:auto}.fb_dialog.fb_dialog_mobile.loading.centered #fb_dialog_loader_spinner{width:100%}.fb_dialog.fb_dialog_mobile.loading.centered .fb_dialog_content{background:none}.loading.centered #fb_dialog_loader_close{clear:both;color:#fff;display:block;font-size:18px;padding-top:20px}#fb-root #fb_dialog_ipad_overlay{background:rgba(0, 0, 0, .4);bottom:0;left:0;min-height:100%;position:absolute;right:0;top:0;width:100%;z-index:10000}#fb-root #fb_dialog_ipad_overlay.hidden{display:none}.fb_dialog.fb_dialog_mobile.loading iframe{visibility:hidden}.fb_dialog_mobile .fb_dialog_iframe{position:sticky;top:0}.fb_dialog_content .dialog_header{background:linear-gradient(from(#738aba), to(#2c4987));border-bottom:1px solid;border-color:#043b87;box-shadow:white 0px 1px 1px -1px inset;color:#fff;font:bold 14px Helvetica, sans-serif;text-overflow:ellipsis;text-shadow:rgba(0, 30, 84, .296875) 0px -1px 0px;vertical-align:middle;white-space:nowrap}.fb_dialog_content .dialog_header table{height:43px;width:100%}.fb_dialog_content .dialog_header td.header_left{font-size:12px;padding-left:5px;vertical-align:middle;width:60px}.fb_dialog_content .dialog_header td.header_right{font-size:12px;padding-right:5px;vertical-align:middle;width:60px}.fb_dialog_content .touchable_button{background:linear-gradient(from(#4267B2), to(#2a4887));background-clip:padding-box;border:1px solid #29487d;border-radius:3px;display:inline-block;line-height:18px;margin-top:3px;max-width:85px;padding:4px 12px;position:relative}.fb_dialog_content .dialog_header .touchable_button input{background:none;border:none;color:#fff;font:bold 12px Helvetica, sans-serif;margin:2px -12px;padding:2px 6px 3px 6px;text-shadow:rgba(0, 30, 84, .296875) 0px -1px 0px}.fb_dialog_content .dialog_header .header_center{color:#fff;font-size:16px;font-weight:bold;line-height:18px;text-align:center;vertical-align:middle}.fb_dialog_content .dialog_content{background:url(https://connect.facebook.net/rsrc.php/v3/y9/r/jKEcVPZFk-2.gif) no-repeat 50% 50%;border:1px solid #4a4a4a;border-bottom:0;border-top:0;height:150px}.fb_dialog_content .dialog_footer{background:#f5f6f7;border:1px solid #4a4a4a;border-top-color:#ccc;height:40px}#fb_dialog_loader_close{float:left}.fb_dialog.fb_dialog_mobile .fb_dialog_close_icon{visibility:hidden}#fb_dialog_loader_spinner{animation:rotateSpinner 1.2s linear infinite;background-color:transparent;background-image:url(https://connect.facebook.net/rsrc.php/v3/yD/r/t-wz8gw1xG1.png);background-position:50% 50%;background-repeat:no-repeat;height:24px;width:24px}@keyframes rotateSpinner{0%{transform:rotate(0deg)}100%{transform:rotate(360deg)}}
+.fb_iframe_widget{display:inline-block;position:relative}.fb_iframe_widget span{display:inline-block;position:relative;text-align:justify}.fb_iframe_widget iframe{position:absolute}.fb_iframe_widget_fluid_desktop,.fb_iframe_widget_fluid_desktop span,.fb_iframe_widget_fluid_desktop iframe{max-width:100%}.fb_iframe_widget_fluid_desktop iframe{min-width:220px;position:relative}.fb_iframe_widget_lift{z-index:1}.fb_iframe_widget_fluid{display:inline}.fb_iframe_widget_fluid span{width:100%}
+.fb_mpn_mobile_landing_page_slide_out{animation-duration:200ms;animation-name:fb_mpn_landing_page_slide_out;transition-timing-function:ease-in}.fb_mpn_mobile_landing_page_slide_out_from_left{animation-duration:200ms;animation-name:fb_mpn_landing_page_slide_out_from_left;transition-timing-function:ease-in}.fb_mpn_mobile_landing_page_slide_up{animation-duration:500ms;animation-name:fb_mpn_landing_page_slide_up;transition-timing-function:ease-in}.fb_mpn_mobile_bounce_in{animation-duration:300ms;animation-name:fb_mpn_bounce_in;transition-timing-function:ease-in}.fb_mpn_mobile_bounce_out{animation-duration:300ms;animation-name:fb_mpn_bounce_out;transition-timing-function:ease-in}.fb_mpn_mobile_bounce_out_v2{animation-duration:300ms;animation-name:fb_mpn_fade_out;transition-timing-function:ease-in}.fb_customer_chat_bounce_in_v2{animation-duration:300ms;animation-name:fb_bounce_in_v2;transition-timing-function:ease-in}.fb_customer_chat_bounce_in_from_left{animation-duration:300ms;animation-name:fb_bounce_in_from_left;transition-timing-function:ease-in}.fb_customer_chat_bounce_out_v2{animation-duration:300ms;animation-name:fb_bounce_out_v2;transition-timing-function:ease-in}.fb_customer_chat_bounce_out_from_left{animation-duration:300ms;animation-name:fb_bounce_out_from_left;transition-timing-function:ease-in}.fb_invisible_flow{display:inherit;height:0;overflow-x:hidden;width:0}@keyframes fb_mpn_landing_page_slide_out{0%{margin:0 12px;width:100% - 24px}60%{border-radius:18px}100%{border-radius:50%;margin:0 24px;width:60px}}@keyframes fb_mpn_landing_page_slide_out_from_left{0%{left:12px;width:100% - 24px}60%{border-radius:18px}100%{border-radius:50%;left:12px;width:60px}}@keyframes fb_mpn_landing_page_slide_up{0%{bottom:0;opacity:0}100%{bottom:24px;opacity:1}}@keyframes fb_mpn_bounce_in{0%{opacity:.5;top:100%}100%{opacity:1;top:0}}@keyframes fb_mpn_fade_out{0%{bottom:30px;opacity:1}100%{bottom:0px;opacity:0}}@keyframes fb_mpn_bounce_out{0%{opacity:1;top:0}100%{opacity:.5;top:100%}}@keyframes fb_bounce_in_v2{0%{opacity:0;transform:scale(0, 0);transform-origin:bottom right}50%{transform:scale(1.03, 1.03);transform-origin:bottom right}100%{opacity:1;transform:scale(1, 1);transform-origin:bottom right}}@keyframes fb_bounce_in_from_left{0%{opacity:0;transform:scale(0, 0);transform-origin:bottom left}50%{transform:scale(1.03, 1.03);transform-origin:bottom left}100%{opacity:1;transform:scale(1, 1);transform-origin:bottom left}}@keyframes fb_bounce_out_v2{0%{opacity:1;transform:scale(1, 1);transform-origin:bottom right}100%{opacity:0;transform:scale(0, 0);transform-origin:bottom right}}@keyframes fb_bounce_out_from_left{0%{opacity:1;transform:scale(1, 1);transform-origin:bottom left}100%{opacity:0;transform:scale(0, 0);transform-origin:bottom left}}@keyframes slideInFromBottom{0%{opacity:.1;transform:translateY(100%)}100%{opacity:1;transform:translateY(0)}}@keyframes slideInFromBottomDelay{0%{opacity:0;transform:translateY(100%)}97%{opacity:0;transform:translateY(100%)}100%{opacity:1;transform:translateY(0)}}</style><meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate"><meta http-equiv="Pragma" content="no-cache"><meta http-equiv="Expires" content="0"></head>
+<body class="post-template-default single single-post postid-1277 single-format-standard wp-embed-responsive ignition-header-type-normal ignition-page-title-bg-off ignition-page-title-normal-on ignition-page-title-subtitle-on ignition-page-breadcrumb-on ignition-site-layout-content_sidebar ignition-top-bar-visible-on ignition-header-menu-layout-full_right ignition-header-fullwidth-off ignition-header-sticky-on ignition-header-sticky-type-shy ignition-mobile-nav-slide-right-off ignition-page-title-horz-align-left ignition-blog-layout-content_sidebar ignition-blog-single-layout-content_sidebar ignition-blog-posts-layout-1col-horz ignition-footer-visible-on ignition-site-title-on ignition-site-description-on ignition-no-main-padding-off sfsi_actvite_theme_default sticky-sidebars-active wpb-js-composer js-comp-ver-6.9.0 vc_responsive full-width ak-post-autoload sf-js-enabled sf-arrows sfsi_2.77" style="touch-action: pan-y; transform: none;">
+<div><a class="skip-link sr-only sr-only-focusable" href="#site-content">Skip to the content</a></div>	<div class="ak-main-bg-wrap"></div>
+	
+	<!-- The Main Wrapper
+	============================================= -->
+	<div class="ak-main-wrap" style="transform: none; height: auto !important;">
+
+		
+		<div class="ak-header-wrap ak-header-bottom-shadow">
+	<div class="ak-container">
+			<div class="ak-bar ak-header-bar ak-mid-bar  full-width clearfix">
+			<div class="container">
+				<div class="ak-bar-inner">
+				<div class="ak-row ak-row-items-middle">
+										<div class="ak-column ak-column-left ak-column-normal">
+						<div class="ak-inner-row ak-row-items-middle ak-justify-content-left">
+							<div class="ak-bar-item ak-header-logo">
+        <div class="site-title ak-logo-wrap ak-logo-main ak-logo-text">
+            <a href="https://wyenot.com/">
+                Wyenot
+            </a>
+        </div>
+    </div>						</div>
+					</div>
+											<div class="ak-column ak-column-center ak-column-grow">
+						<div class="ak-inner-row ak-row-items-middle ak-justify-content-left">
+							<div class="ak-bar-item ak-header-main-menu ak-menu-more-enabled loaded">
+	<ul id="menu-main" class="ak-menu ak-main-menu ak-menu-wide ak-menu-style-1 ak-main-menu ignition-menu-main">
+
+
+
+
+
+
+
+<li id="menu-item-905" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-905"><a href="https://wyenot.com/"><span>Home</span></a></li><li id="menu-item-238" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-term-23 menu-item-238"><a href="https://wyenot.com/category/animals/"><span>Animals</span></a></li><li id="menu-item-240" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-term-11 menu-item-240"><a href="https://wyenot.com/category/lifestyle/"><span>Lifestyle</span></a></li><li id="menu-item-241" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-term-24 menu-item-241"><a href="https://wyenot.com/category/sports/"><span>Sports</span></a></li><li id="menu-item-342" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-term-1 menu-item-342"><a href="https://wyenot.com/category/fun-facts/"><span>Fun Facts</span></a></li><li id="menu-item-364" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-term-54 menu-item-364"><a href="https://wyenot.com/category/food/"><span>Food</span></a></li><li id="menu-item-365" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-term-55 menu-item-365"><a href="https://wyenot.com/category/travel/"><span>Travel</span></a></li><li id="menu-item-2217" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2217 menu-last-of-type"><a href="https://wyenot.com/advertise/"><span>Advertise</span></a></li><li class="menu-item menu-item-toggle hidden"><a href="javascript:void(0)"><i class="ak-icon fa fa-ellipsis-h" aria-hidden="true"></i></a><ul class="sub-menu ak-anim ak-anim-slide-in-down"></ul></li></ul></div>
+						</div>
+					</div>
+											<div class="ak-column ak-column-right ak-column-normal">
+						<div class="ak-inner-row ak-row-items-middle ak-justify-content-right">
+							<div class="ak-bar-item ak-header-search ak-dropdown-container">
+	<a href="#" class="ak-header-icon-btn ak-dropdown-button ak-search-btn">
+	<i class="ak-icon  ak-fi akfi-search"></i>	</a>
+	<div class="ak-dropdown ak-search-box  clearfix" data-event="click">
+		<form role="search" method="get" class="ak_search_form clearfix" action="https://wyenot.com" target="_top">
+	<input type="text" class="search-field" placeholder="Search..." value="" name="s" autocomplete="off">
+	<button type="submit" class="btn search-submit"><i class="fa fa-search"></i></button>
+</form><!-- .search-form -->
+	</div>
+</div>
+<div class="ak-bar-item ak-header-social-icons">
+	<ul class="ak-social-counter social-counter-style-4 social-counter-light clearfix"><li class="social-item"><a href="https://www.facebook.com/wyenotnow " class=" facebook" target="_blank" rel="external noopener nofollow"><i class="item-icon fa fa-facebook"></i></a></li><li class="social-item"><a href="https://wyenot.com/feed/rss/ " class=" rss" target="_blank" rel="external noopener nofollow"><i class="item-icon fa fa-rss"></i></a></li></ul></div>
+						</div>
+					</div>
+									</div>
+			</div>
+			</div>
+		</div>
+				</div>
+</div>
+
+<div class="ak-header-mobile-wrap">
+	<div class="ak-container">
+			<div class="ak-bar ak-header-mobile-bar ak-mobile-bar  full-width clearfix">
+			<div class="container">
+				<div class="ak-bar-inner">
+				<div class="ak-row ak-row-items-middle">
+										<div class="ak-column ak-column-left ak-column-grow">
+						<div class="ak-inner-row ak-row-items-middle ak-justify-content-left">
+							<div class="ak-bar-item ak-header-menu-handler ">
+	<a href="#" class="ak-menu-handler">
+		<span></span>
+		<span></span>
+		<span></span>
+	</a>
+</div>
+						</div>
+					</div>
+											<div class="ak-column ak-column-center ak-column-normal">
+						<div class="ak-inner-row ak-row-items-middle ak-justify-content-center">
+							<div class="ak-bar-item ak-header-logo">
+        <div class="site-title ak-logo-wrap ak-logo-main ak-logo-text">
+            <a href="https://wyenot.com/">
+                Wyenot
+            </a>
+        </div>
+    </div>						</div>
+					</div>
+										</div>
+			</div>
+			</div>
+		</div>
+				</div>
+</div>
+
+<div class="ak-post-sticky-wrap sticky-simple"><div class="ak-container">		<div class="ak-bar ak-post-sticky-bar ak-sticky-bar  full-width clearfix">
+			<div class="container">
+				<div class="ak-bar-inner">
+				<div class="ak-row ak-row-items-middle">
+										<div class="ak-column ak-column-left ak-column-grow">
+						<div class="ak-inner-row ak-row-items-middle ak-justify-content-left">
+							<div class="ak-bar-item ak-post-sticky-title">Why Are Dogs So Friendly? A Scientific Explanation</div>
+						</div>
+					</div>
+											<div class="ak-column ak-column-right ak-column-normal">
+						<div class="ak-inner-row ak-row-items-middle ak-justify-content-right">
+							<div class="ak-bar-item ak-post-sticky-share">
+<div class="ak-share-container ak-share-style-1"><a href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fwyenot.com%2Fwhy-are-dogs-so-friendly-a-scientific-explanation%2F" target="_blank" rel="nofollow" class="ak-share-button facebook"><i class="fa fa-facebook"></i><span class="share-name">Facebook</span></a><a href="https://twitter.com/share?text=Why+Are+Dogs+So+Friendly%3F+A+Scientific+Explanation&amp;url=https%3A%2F%2Fwyenot.com%2Fwhy-are-dogs-so-friendly-a-scientific-explanation%2F" target="_blank" rel="nofollow" class="ak-share-button twitter"><i class="fa fa-twitter"></i><span class="share-name">Twitter</span></a><a href="https://pinterest.com/pin/create/button/?url=https%3A%2F%2Fwyenot.com%2Fwhy-are-dogs-so-friendly-a-scientific-explanation%2F&amp;media=https://wyenot.com/wp-content/uploads/2022/07/italian-greyhound-dog-with-arabian-hijab-2022-03-04-06-00-38-utc-scaled.jpg&amp;description=Why+Are+Dogs+So+Friendly%3F+A+Scientific+Explanation" target="_blank" rel="nofollow" class="ak-share-button pinterest"><i class="fa fa-pinterest"></i><span class="share-name">Pinterest</span></a><a href="mailto:?subject=Why+Are+Dogs+So+Friendly%3F+A+Scientific+Explanation&amp;body=https%3A%2F%2Fwyenot.com%2Fwhy-are-dogs-so-friendly-a-scientific-explanation%2F" target="_blank" rel="nofollow" class="ak-share-button email"><i class="fa fa-envelope"></i><span class="share-name">Email</span></a></div>
+</div>
+						</div>
+					</div>
+									</div>
+			</div>
+			</div>
+		<div class="ak-post-progress-bar"><span class="progress-bar"></span></div></div>
+			</div></div>
+		<div class="ak-post-wrapper" style="transform: none; height: auto !important;">
+	<div class="ak-content-wrap ak-post-wrap ak-layout-style-1 clearfix ak-post-style-2 clearfix" style="transform: none; height: auto !important;">
+		<div class="ak-container" style="transform: none; height: auto !important;">
+			
+			<div class="ak-content" style="transform: none; height: auto !important;">
+	<div class="container" style="transform: none; height: auto !important;">
+
+		
+		<div class="row" style="transform: none; height: auto !important;">
+
+			<div class="ak_column_2 col-md-8 content-column" style="transform: none;">
+
+				<article id="post-1277" class="post-1277 post type-post status-publish format-standard has-post-thumbnail hentry category-animals category-featured tag-dogs tag-featured tag-friendly-dogs tag-why-are-dogs-friendly ak-article clearfix autoload-initted" data-type="post" data-id="1277" data-url="https://wyenot.com/why-are-dogs-so-friendly-a-scientific-explanation/" data-title="Why Are Dogs So Friendly? A Scientific Explanation" data-autoload="1275" data-template="style-2" style="transform: none;">
+	<div class="ak-article-inner" style="transform: none;">
+		<header class="entry-header ak-post-header">
+			<div role="navigation" aria-label="Breadcrumbs" class="ak-breadcrumb breadcrumbs" itemprop="breadcrumb"><ul class="ak-breadcrumb-items" itemscope="" itemtype="http://schema.org/BreadcrumbList"><meta name="numberOfItems" content="3"><meta name="itemListOrder" content="Ascending"><li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem" class="ak-breadcrumb-item ak-breadcrumb-begin"><a href="https://wyenot.com/" rel="home" itemprop="item"><span itemprop="name">Home</span></a><meta itemprop="position" content="1"></li><li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem" class="ak-breadcrumb-item"><a href="https://wyenot.com/category/featured/" itemprop="item"><span itemprop="name">Featured</span></a><meta itemprop="position" content="2"></li><li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem" class="ak-breadcrumb-item ak-breadcrumb-end"><span itemprop="name">Why Are Dogs So Friendly? A Scientific Explanation</span><meta itemprop="position" content="3"></li></ul></div>
+			<div class="ak-post-badges"></div><div class="ak-post-terms-wrapper"><div class="ak-post-terms"><a class="term-23" href="https://wyenot.com/category/animals/">Animals</a><a class="term-2" href="https://wyenot.com/category/featured/">Featured</a></div></div><h1 class="ak-post-title">Why Are Dogs So Friendly? A Scientific Explanation</h1><div class="ak-post-meta meta-style-1">
+	<div class="ak-post-meta-left">
+
+		<div class="ak-post-meta-author-avatar"><img alt="" src="https://secure.gravatar.com/avatar/4bb261dec9944cbb09a64ded02f0dddc?s=42&amp;d=mm&amp;r=g" srcset="https://secure.gravatar.com/avatar/4bb261dec9944cbb09a64ded02f0dddc?s=84&amp;d=mm&amp;r=g 2x" class="avatar avatar-42 photo" height="42" width="42" decoding="async"></div>
+		<div class="ak-post-meta-content">
+			<div class="ak-post-meta-author"><a href="https://wyenot.com/author/johnseamus89/">Thomas</a></div>
+			<div class="ak-post-meta-details">
+				<div class="ak-post-meta-date">
+                    <a href="https://wyenot.com/why-are-dogs-so-friendly-a-scientific-explanation/">
+                    August 10, 2022
+                    </a>
+				</div>			</div>
+		</div>
+	</div>
+
+	<div class="ak-post-meta-right">
+		<div class="ak-post-voting   clearfix">
+				
+				<a class="ak-voting-button up-btn" href="#" data-post-id="1277" data-type="up" data-nonce="fbbfd8bf36">
+                   <i class="ak-icon  fa fa-thumbs-o-up"></i> <span class="number">0</span>
+                </a>
+                <a class="ak-voting-button down-btn" href="#" data-post-id="1277" data-type="down" data-nonce="fbbfd8bf36">
+                    <i class="ak-icon  fa fa-thumbs-o-down"></i> <span class="number">0</span>
+                </a>
+            </div>		<div class="ak-post-meta-comment">
+                    <a href="https://wyenot.com/why-are-dogs-so-friendly-a-scientific-explanation/?noamp=mobile#respond">
+                        <i class="ak-icon fa fa-comment-o"></i>
+                        <span class="count">0</span>
+                    </a>
+				</div>		<div class="ak-post-meta-views">
+                    <i class="ak-icon  ak-fi akfi-trending_up"></i><span class="count">353</span>
+				</div>			</div>
+</div>
+<div class="ak-post-featured"><div class="ak-featured-cover"><a href="https://wyenot.com/wp-content/uploads/2022/07/italian-greyhound-dog-with-arabian-hijab-2022-03-04-06-00-38-utc-scaled.jpg"><div class="ak-featured-thumb lazy-thumb size-auto" style="padding-bottom:66.726%"><img width="562" height="375" src="https://wyenot.com/wp-content/uploads/2022/07/italian-greyhound-dog-with-arabian-hijab-2022-03-04-06-00-38-utc-scaled.jpg" class="attachment-newsy_750x375 size-newsy_750x375 wp-post-image lazyautosizes lazyloaded" alt="Why Are Dogs So Friendly? A Scientific Explanation" decoding="async" fetchpriority="high" data-src="https://wyenot.com/wp-content/uploads/2022/07/italian-greyhound-dog-with-arabian-hijab-2022-03-04-06-00-38-utc-scaled.jpg" data-sizes="auto" data-srcset="https://wyenot.com/wp-content/uploads/2022/07/italian-greyhound-dog-with-arabian-hijab-2022-03-04-06-00-38-utc-scaled.jpg 2560w, https://wyenot.com/wp-content/uploads/2022/07/italian-greyhound-dog-with-arabian-hijab-2022-03-04-06-00-38-utc-300x200.jpg 300w, https://wyenot.com/wp-content/uploads/2022/07/italian-greyhound-dog-with-arabian-hijab-2022-03-04-06-00-38-utc-1024x683.jpg 1024w, https://wyenot.com/wp-content/uploads/2022/07/italian-greyhound-dog-with-arabian-hijab-2022-03-04-06-00-38-utc-768x512.jpg 768w, https://wyenot.com/wp-content/uploads/2022/07/italian-greyhound-dog-with-arabian-hijab-2022-03-04-06-00-38-utc-1536x1024.jpg 1536w" data-expand="700" sizes="790px" srcset="https://wyenot.com/wp-content/uploads/2022/07/italian-greyhound-dog-with-arabian-hijab-2022-03-04-06-00-38-utc-scaled.jpg 2560w, https://wyenot.com/wp-content/uploads/2022/07/italian-greyhound-dog-with-arabian-hijab-2022-03-04-06-00-38-utc-300x200.jpg 300w, https://wyenot.com/wp-content/uploads/2022/07/italian-greyhound-dog-with-arabian-hijab-2022-03-04-06-00-38-utc-1024x683.jpg 1024w, https://wyenot.com/wp-content/uploads/2022/07/italian-greyhound-dog-with-arabian-hijab-2022-03-04-06-00-38-utc-768x512.jpg 768w, https://wyenot.com/wp-content/uploads/2022/07/italian-greyhound-dog-with-arabian-hijab-2022-03-04-06-00-38-utc-1536x1024.jpg 1536w"></div></a></div></div>		</header>
+		<div class="ak-post-share-side-container" style="transform: none;">
+			<div class="ak-post-share-side sticky-column" style="position: relative; overflow: visible; box-sizing: border-box; min-height: 1px;">
+							<div class="theiaStickySidebar" style="padding-top: 0px; padding-bottom: 1px; position: relative; transform: none;"><div class="ak-post-share ak-post-share-top clearfix">
+					<div class="ak-row">
+						<div class="ak-column ak-column-grow"><div class="ak-share-container ak-share-style-1"><div class="ak-share-total"><div class="ak-share-count"><div class="counts">0</div><div class="shares-text">Shares</div></div></div><div class="ak-share-list"><a href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fwyenot.com%2Fwhy-are-dogs-so-friendly-a-scientific-explanation%2F" target="_blank" rel="nofollow" class="ak-share-button facebook"><i class="fa fa-facebook"></i><span class="share-name">Facebook</span></a><a href="https://twitter.com/share?text=Why+Are+Dogs+So+Friendly%3F+A+Scientific+Explanation&amp;url=https%3A%2F%2Fwyenot.com%2Fwhy-are-dogs-so-friendly-a-scientific-explanation%2F" target="_blank" rel="nofollow" class="ak-share-button twitter"><i class="fa fa-twitter"></i><span class="share-name">Twitter</span></a><a href="https://pinterest.com/pin/create/button/?url=https%3A%2F%2Fwyenot.com%2Fwhy-are-dogs-so-friendly-a-scientific-explanation%2F&amp;media=https://wyenot.com/wp-content/uploads/2022/07/italian-greyhound-dog-with-arabian-hijab-2022-03-04-06-00-38-utc-scaled.jpg&amp;description=Why+Are+Dogs+So+Friendly%3F+A+Scientific+Explanation" target="_blank" rel="nofollow" class="ak-share-button pinterest"><i class="fa fa-pinterest"></i><span class="share-name">Pinterest</span></a><a href="mailto:?subject=Why+Are+Dogs+So+Friendly%3F+A+Scientific+Explanation&amp;body=https%3A%2F%2Fwyenot.com%2Fwhy-are-dogs-so-friendly-a-scientific-explanation%2F" target="_blank" rel="nofollow" class="ak-share-button email"><i class="fa fa-envelope"></i><span class="share-name">Email</span></a><div class="ak-share-more-group"><a href="https://reddit.com/submit?url=https%3A%2F%2Fwyenot.com%2Fwhy-are-dogs-so-friendly-a-scientific-explanation%2F&amp;title=Why+Are+Dogs+So+Friendly%3F+A+Scientific+Explanation" target="_blank" rel="nofollow" class="ak-share-button reddit"><i class="fa fa-reddit-alien"></i><span class="share-name">Reddit</span></a><a href="https://www.tumblr.com/share/link?url=https%3A%2F%2Fwyenot.com%2Fwhy-are-dogs-so-friendly-a-scientific-explanation%2F&amp;name=Why+Are+Dogs+So+Friendly%3F+A+Scientific+Explanation" target="_blank" rel="nofollow" class="ak-share-button tumblr"><i class="fa fa-tumblr"></i><span class="share-name">Tumblr</span></a><a href="whatsapp://send?text=https%3A%2F%2Fwyenot.com%2Fwhy-are-dogs-so-friendly-a-scientific-explanation%2F" target="_blank" rel="nofollow" class="ak-share-button whatsapp"><i class="fa fa-whatsapp"></i><span class="share-name">WhatsApp</span></a><a href="viber://forward?text=Why+Are+Dogs+So+Friendly%3F+A+Scientific+Explanation https%3A%2F%2Fwyenot.com%2Fwhy-are-dogs-so-friendly-a-scientific-explanation%2F" target="_blank" rel="nofollow" class="ak-share-button viber"><i class="fa fa-vimeo"></i><span class="share-name">Viber</span></a></div><a href="javascript:void(0)" rel="nofollow" class="ak-share-button ak-share-toggle-button"><i class="ak-icon fa fa-ellipsis-h"></i></a></div></div></div>
+						<div class="ak-column ak-column-normal"><div class="ak-share-right"><div class="ak-post-bookmark">
+					<a href="#" data-post-id="1277" title="Add Bookmark" class="ak-bookmark-button">
+						<i class="ak-icon fa fa-bookmark-o"></i>
+					</a>
+				</div></div></div>
+					</div>
+				</div><div class="resize-sensor" style="position: absolute; inset: 0px; overflow: hidden; z-index: -1; visibility: hidden;"><div class="resize-sensor-expand" style="position: absolute; left: 0; top: 0; right: 0; bottom: 0; overflow: hidden; z-index: -1; visibility: hidden;"><div style="position: absolute; left: 0px; top: 0px; transition: all; width: 58px; height: 461px;"></div></div><div class="resize-sensor-shrink" style="position: absolute; left: 0; top: 0; right: 0; bottom: 0; overflow: hidden; z-index: -1; visibility: hidden;"><div style="position: absolute; left: 0; top: 0; transition: 0s; width: 200%; height: 200%"></div></div></div></div></div>
+
+			<div class="ak-post-inner">
+
+				
+								<div class="entry-content ak-post-content">
+					
+<p>Dogs have long been considered man’s best friend. They love to join us on adventures, cuddle on the couch, and faithfully&nbsp;protect our homes from intruders. Because of this, more than 69 million households in the United States are home to at least one dog.</p>
+
+
+
+<p>But why is that? What makes dogs so much friendlier towards humans than wolves and other species?</p>
+
+
+
+<p><strong>Dogs are friendly towards humans because of their genetic makeup. Domesticated dogs have several genes that differ from wolves; these genes produce hypersocial traits in dogs. Interestingly enough, the genes that cause dogs to be so friendly are also found in people diagnosed with Williams-Buren syndrome, which causes hypersocial&nbsp;behavior.</strong></p>
+
+
+
+<p>I​n the rest of this article, we’ll talk more about the scientific reason that dogs are so friendly.</p>
+
+
+
+<h2 class="wp-block-heading">Why Are Dogs So Friendly?</h2>
+
+
+
+<p>Over thousands of years, dogs have evolved from wild wolves to the loving house companions we all know and love today. Possibly the most obvious difference between wolves and dogs is how much more friendly dogs are.</p>
+
+
+<div class="wp-block-image">
+<figure class="alignright size-large is-resized"><img decoding="async" src="https://wyenot.com/wp-content/uploads/2022/07/nice-laughing-girl-hugging-adorable-white-dog-with-2021-12-09-06-00-28-utc-1024x683.jpg" alt="" class="wp-image-1279" width="350" height="232" srcset="https://wyenot.com/wp-content/uploads/2022/07/nice-laughing-girl-hugging-adorable-white-dog-with-2021-12-09-06-00-28-utc-1024x683.jpg 1024w, https://wyenot.com/wp-content/uploads/2022/07/nice-laughing-girl-hugging-adorable-white-dog-with-2021-12-09-06-00-28-utc-300x200.jpg 300w, https://wyenot.com/wp-content/uploads/2022/07/nice-laughing-girl-hugging-adorable-white-dog-with-2021-12-09-06-00-28-utc-768x512.jpg 768w, https://wyenot.com/wp-content/uploads/2022/07/nice-laughing-girl-hugging-adorable-white-dog-with-2021-12-09-06-00-28-utc-1536x1024.jpg 1536w" sizes="(max-width: 350px) 100vw, 350px"></figure></div>
+
+
+<p>While wolves are still incredibly wild—and incredibly dangerous—domesticated dogs love nothing more than to be close to their human partners. Even though dogs and wolves share 98.8% of the same DNA and belong to the same species, their personalities are worlds apart.&nbsp;</p>
+
+
+
+<p>According to this study, there are three genes in domesticated dogs that cause them to be so friendly. These genes are GTF2I, GTF2IRD1, and WBSCR17.</p>
+
+
+
+<p>Interestingly enough, these same genes are affected in people with Williams-Buren syndrome, which causes people to be excessively friendly. Humans who have been diagnosed with Williams-Buren syndrome are missing sequences of genes, including the three listed above.</p>
+
+
+
+<p>Before dogs’ friendliness was linked to these genes, researchers assumed that humans selectively bred dogs with endearing qualities. While this is partially true, we now know that wolves may have started the process of domestication on their own through genetic mutation.</p>
+
+
+
+<p>It seems as though these three genes in particular directly impact the friendliness of dogs and humans. So how did domesticated dogs end up with these altered genes?</p>
+
+
+
+<h2 class="wp-block-heading">T​he Domestication Of Dogs</h2>
+
+
+<div class="wp-block-image">
+<figure class="alignright size-full is-resized"><img loading="lazy" decoding="async" src="https://wyenot.com/wp-content/uploads/2022/07/puppy-of-mixed-breed-dog-playing-in-snowy-forest-i-2022-02-01-23-41-55-utc.jpg" alt="" class="wp-image-1280" width="375" height="249"></figure></div>
+
+
+<p>Wolves don’t have the same versions of the genes that cause dogs, and some humans, to be excessively friendly. Some researchers believe the genes changed in wolves as they began to scavenge in people’s campsites. While normal wolves wouldn’t be able to handle being near humans, wolves with these altered genes were able to spend time in the camps, where they received food.</p>
+
+
+
+<p>A​s these genetically-changed wolves reproduced, they passed on their genes to their offspring, increasing the number of friendlier wolves. Humans helped to further the wolves’ domestication by selectively breeding for friendly traits.</p>
+
+
+
+<p>O​f course, the earliest “friendly” dogs were likely nothing like the pups in our modern world. Dogs have been domesticated for over 30,000 years; with each new generation, the genetic sequence strengthened and the wolves became more and more friendly. After 30,000 years, they have transformed into the loving companions we know today.</p>
+<div class="sfsiaftrpstwpr"><div class="sfsi_responsive_icons" style="display:block;margin-top:10px; margin-bottom: 10px; width:100%" data-icon-width-type="Fully responsive" data-icon-width-size="240" data-edge-type="Round" data-edge-radius="5"><div class="sfsi_icons_container sfsi_responsive_without_counter_icons sfsi_medium_button_container sfsi_icons_container_box_fully_container " style="width:100%;display:flex; text-align:center;"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwyenot.com%2Fwhy-are-dogs-so-friendly-a-scientific-explanation%2F" style="display:block;text-align:center;margin-left:10px;  flex-basis:100%;" class="sfsi_responsive_fluid"><div class="sfsi_responsive_icon_item_container sfsi_responsive_icon_facebook_container sfsi_medium_button sfsi_responsive_icon_gradient sfsi_centered_icon" style=" border-radius:5px; width:auto; "><img style="max-height: 25px;display:unset;margin:0" class="sfsi_wicon" alt="facebook" src="https://wyenot.com/wp-content/plugins/ultimate-social-media-icons/images/responsive-icon/facebook.svg"><span style="color:#fff">Share on Facebook</span></div></a><a target="_blank" href="https://twitter.com/intent/tweet?text=Hey%2C+check+out+this+cool+site+I+found%3A+www.yourname.com+%23Topic+via%40my_twitter_name&amp;url=https%3A%2F%2Fwyenot.com%2Fwhy-are-dogs-so-friendly-a-scientific-explanation%2F" style="display:block;text-align:center;margin-left:10px;  flex-basis:100%;" class="sfsi_responsive_fluid"><div class="sfsi_responsive_icon_item_container sfsi_responsive_icon_twitter_container sfsi_medium_button sfsi_responsive_icon_gradient sfsi_centered_icon" style=" border-radius:5px; width:auto; "><img style="max-height: 25px;display:unset;margin:0" class="sfsi_wicon" alt="Twitter" src="https://wyenot.com/wp-content/plugins/ultimate-social-media-icons/images/responsive-icon/Twitter.svg"><span style="color:#fff">Tweet</span></div></a><a target="_blank" href="https://api.follow.it/widgets/icon/YnJnUGdZRFQ1bGtIRlI3cEYvamx5bmlQd0YwdDV6V3lJZ3NVUWR2aHFtWE45K2MxUW1EZWIwZS85L0pzOG5YOUFLa3FsZ0xtajF2MlBSN2J4ZldrRGNCdzJZU2lPQklvNWkvNFNmbmpQTzlvejdkbFF2a2FOZTN6NEhHNnJQVXV8VXUvMzkrVzBrcWlpRkFYQk1iNUxWUTVmWlEra0ptZ0xiNjFZZkE4d0YvOD0=/OA==/" style="display:block;text-align:center;margin-left:10px;  flex-basis:100%;" class="sfsi_responsive_fluid"><div class="sfsi_responsive_icon_item_container sfsi_responsive_icon_follow_container sfsi_medium_button sfsi_responsive_icon_gradient sfsi_centered_icon" style=" border-radius:5px; width:auto; "><img style="max-height: 25px;display:unset;margin:0" class="sfsi_wicon" alt="Follow" src="https://wyenot.com/wp-content/plugins/ultimate-social-media-icons/images/responsive-icon/Follow.png"><span style="color:#fff">Follow us</span></div></a><a target="_blank" href="https://www.pinterest.com/pin/create/link/?url=https%3A%2F%2Fwyenot.com%2Fwhy-are-dogs-so-friendly-a-scientific-explanation%2F" style="display:block;text-align:center;margin-left:10px;  flex-basis:100%;" class="sfsi_responsive_fluid"><div class="sfsi_responsive_icon_item_container sfsi_responsive_icon_pinterest_container sfsi_medium_button sfsi_responsive_icon_gradient sfsi_centered_icon" style=" border-radius:5px; width:auto; "><img style="max-height: 25px;display:unset;margin:0" class="sfsi_wicon" alt="Pinterest" src="https://wyenot.com/wp-content/plugins/ultimate-social-media-icons/images/responsive-icon/Pinterest.svg"><span style="color:#fff">Save</span></div></a></div></div></div><!--end responsive_icons-->									</div>
+
+				
+			</div>
+		</div>
+
+		<footer class="ak-post-footer">
+			
+			<div class="ak-post-tags clearfix"><span>Tags:</span><a href="https://wyenot.com/tag/dogs/">dogs</a><a href="https://wyenot.com/tag/featured/">featured</a><a href="https://wyenot.com/tag/friendly-dogs/">Friendly Dogs</a><a href="https://wyenot.com/tag/why-are-dogs-friendly/">Why Are Dogs Friendly</a></div>
+			
+			<div class="ak-post-next-prev clearfix">
+			<a href="https://wyenot.com/what-is-dry-camping/" class="post prev-post">
+			<i class="fa fa-chevron-left"></i>
+			<span class="caption">Previous Article</span>
+			<h3 class="post-title">What Is Dry Camping?</h3>
+		</a>
+	
+			<a href="https://wyenot.com/what-everyone-does-wrong-with-their-refrigerator/" class="post next-post">
+			<i class="fa fa-chevron-right"></i>
+			<span class="caption">Next Article</span>
+			<h3 class="post-title">What Everyone Does Wrong With Their Refrigerator</h3>
+		</a>
+	</div>
+
+		</footer>
+	</div>
+
+	<div class="ak-author-name vcard author hidden"><span class="fn"><a href="https://wyenot.com/author/johnseamus89/">Thomas</a></span></div><div class="ak-block ak-block-list-2 ak-block-column ak-post-related-posts ak-block-width-3 ak-pagination-container next_prev clearfix ak-pagination-loaded" id="block_671b14a9bf60e_1"><div class="ak-block-header ak-block-header-style-1 no-tabs"><h4 class="ak-block-title"><span class="title-text"><span>Related Posts</span></span></h4></div><div class="ak-block-inner clearfix"><div class="ak-block-posts clearfix">		<article class="ak-module ak-module-2 ak-column-module ak-module-meta-hide ak-module-excerpt-hide clearfix post-1250 post type-post status-publish format-standard has-post-thumbnail  category-featured category-fun-facts tag-difference-between-real-and-fake-pearls tag-featured tag-pearls tag-real-and-fake-pearls">
+			<div class="ak-module-inner clearfix">
+				<div class="ak-module-featured">
+					<div class="ak-module-badges"></div><div class="ak-featured-cover"><a href="https://wyenot.com/how-to-tell-if-pearls-are-real/" class="ak-featured-link" rel="bookmark" title="How To Tell If Pearls Are Real?"><div class="ak-featured-thumb lazy-thumb size-715"><img width="350" height="233" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" class="attachment-newsy_350x250 size-newsy_350x250 lazyload wp-post-image" alt="How To Tell If Pearls Are Real?" decoding="async" loading="lazy" data-src="https://wyenot.com/wp-content/uploads/2022/07/multiple-pearls-in-sea-shell-2021-08-26-15-33-16-utc-scaled.jpg" data-sizes="auto" data-srcset="https://wyenot.com/wp-content/uploads/2022/07/multiple-pearls-in-sea-shell-2021-08-26-15-33-16-utc-scaled.jpg 2560w, https://wyenot.com/wp-content/uploads/2022/07/multiple-pearls-in-sea-shell-2021-08-26-15-33-16-utc-300x200.jpg 300w, https://wyenot.com/wp-content/uploads/2022/07/multiple-pearls-in-sea-shell-2021-08-26-15-33-16-utc-1024x683.jpg 1024w, https://wyenot.com/wp-content/uploads/2022/07/multiple-pearls-in-sea-shell-2021-08-26-15-33-16-utc-768x512.jpg 768w, https://wyenot.com/wp-content/uploads/2022/07/multiple-pearls-in-sea-shell-2021-08-26-15-33-16-utc-1536x1024.jpg 1536w" data-expand="700"></div></a></div><div class="ak-module-terms badge"><a class="term-2" href="https://wyenot.com/category/featured/">Featured</a></div>				</div>
+				<div class="ak-module-details">
+					<h3 class="ak-module-title"><a href="https://wyenot.com/how-to-tell-if-pearls-are-real/" rel="bookmark" title="How To Tell If Pearls Are Real?">How To Tell If Pearls Are Real?</a></h3>				</div>
+			</div>
+		</article>
+				<article class="ak-module ak-module-2 ak-column-module ak-module-meta-hide ak-module-excerpt-hide clearfix post-2138 post type-post status-publish format-standard has-post-thumbnail  category-animals category-featured category-fun-facts tag-animal-eggs tag-eggs tag-featured">
+			<div class="ak-module-inner clearfix">
+				<div class="ak-module-featured">
+					<div class="ak-module-badges"></div><div class="ak-featured-cover"><a href="https://wyenot.com/what-animal-lays-eggs-and-is-not-a-bird/" class="ak-featured-link" rel="bookmark" title="What Animal Lays Eggs And Is Not A Bird?"><div class="ak-featured-thumb lazy-thumb size-715"><img width="350" height="233" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" class="attachment-newsy_350x250 size-newsy_350x250 lazyload wp-post-image" alt="What Animal Lays Eggs And Is Not A Bird?" decoding="async" loading="lazy" data-src="https://wyenot.com/wp-content/uploads/2022/10/quail-eggs-closeup-2021-08-26-17-53-11-utc-scaled.jpg" data-sizes="auto" data-srcset="https://wyenot.com/wp-content/uploads/2022/10/quail-eggs-closeup-2021-08-26-17-53-11-utc-scaled.jpg 2560w, https://wyenot.com/wp-content/uploads/2022/10/quail-eggs-closeup-2021-08-26-17-53-11-utc-300x200.jpg 300w, https://wyenot.com/wp-content/uploads/2022/10/quail-eggs-closeup-2021-08-26-17-53-11-utc-1024x683.jpg 1024w, https://wyenot.com/wp-content/uploads/2022/10/quail-eggs-closeup-2021-08-26-17-53-11-utc-768x512.jpg 768w, https://wyenot.com/wp-content/uploads/2022/10/quail-eggs-closeup-2021-08-26-17-53-11-utc-1536x1024.jpg 1536w" data-expand="700"></div></a></div><div class="ak-module-terms badge"><a class="term-23" href="https://wyenot.com/category/animals/">Animals</a></div>				</div>
+				<div class="ak-module-details">
+					<h3 class="ak-module-title"><a href="https://wyenot.com/what-animal-lays-eggs-and-is-not-a-bird/" rel="bookmark" title="What Animal Lays Eggs And Is Not A Bird?">What Animal Lays Eggs And Is Not A Bird?</a></h3>				</div>
+			</div>
+		</article>
+				<article class="ak-module ak-module-2 ak-column-module ak-module-meta-hide ak-module-excerpt-hide clearfix post-2140 post type-post status-publish format-standard has-post-thumbnail  category-animals category-featured category-fun-facts tag-catnip tag-catnip-smell tag-featured">
+			<div class="ak-module-inner clearfix">
+				<div class="ak-module-featured">
+					<div class="ak-module-badges"></div><div class="ak-featured-cover"><a href="https://wyenot.com/what-does-catnip-smell-like/" class="ak-featured-link" rel="bookmark" title="What Does Catnip Smell Like?"><div class="ak-featured-thumb lazy-thumb size-715"><img width="350" height="233" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" class="attachment-newsy_350x250 size-newsy_350x250 lazyload wp-post-image" alt="What Does Catnip Smell Like?" decoding="async" loading="lazy" data-src="https://wyenot.com/wp-content/uploads/2022/10/cat-eating-plant-black-cat-eating-monstera-plant-2021-08-31-14-01-10-utc-scaled.jpg" data-sizes="auto" data-srcset="https://wyenot.com/wp-content/uploads/2022/10/cat-eating-plant-black-cat-eating-monstera-plant-2021-08-31-14-01-10-utc-scaled.jpg 2560w, https://wyenot.com/wp-content/uploads/2022/10/cat-eating-plant-black-cat-eating-monstera-plant-2021-08-31-14-01-10-utc-300x200.jpg 300w, https://wyenot.com/wp-content/uploads/2022/10/cat-eating-plant-black-cat-eating-monstera-plant-2021-08-31-14-01-10-utc-1024x683.jpg 1024w, https://wyenot.com/wp-content/uploads/2022/10/cat-eating-plant-black-cat-eating-monstera-plant-2021-08-31-14-01-10-utc-768x512.jpg 768w, https://wyenot.com/wp-content/uploads/2022/10/cat-eating-plant-black-cat-eating-monstera-plant-2021-08-31-14-01-10-utc-1536x1024.jpg 1536w" data-expand="700"></div></a></div><div class="ak-module-terms badge"><a class="term-23" href="https://wyenot.com/category/animals/">Animals</a></div>				</div>
+				<div class="ak-module-details">
+					<h3 class="ak-module-title"><a href="https://wyenot.com/what-does-catnip-smell-like/" rel="bookmark" title="What Does Catnip Smell Like?">What Does Catnip Smell Like?</a></h3>				</div>
+			</div>
+		</article>
+		</div><div class="ak-pagination next_prev clearfix"><script>var ak_pagination_data_block_671b14a9bf60e_1 = {"atts":{"title":"Related Posts","title_size":"","title_line_height":"","subtitle":"","subtitle_size":"","subtitle_line_height":"","title_url":"","title_url_text":"","icon":"","block_accent_color":"","header_style":"style-1","header_bg_color":"","header_line_color":"","header_title_color":"","header_subtitle_color":"","header_title_bg_color":"","header_icon_color":"","pagination":"next_prev","show_pagination_label":"","infinity_break_count":"3","tabs":"","tabs_all_text":"All","tabs_cat_filter":"","tabs_tax_filter":"","tabs_order_by_filter":"","tabs_more_menu":"","count":"3","offset":"","post_type":"","post_status":"publish","time_filter":"","order_by":"popular_week","post_format":"","meta_query":[],"author":"","category":"","post":"-1277","taxonomy":"category:23,category:2","taxonomy_relation":"OR","block_width":"3","block_id":"block_671b14a9bf60e_1","block_extra_classes":" ak-post-related-posts","custom_enabled":"yes","custom_parts":{"show_excerpt":"hide","show_meta":"hide","show_author_icon":"hide","show_author":"hide","date_format":"ago"},"wp_query":false,"numeric_items_style":"","item_margin":"","show_no_result":true,"view":"newsy_list_2"},"id":"block_671b14a9bf60e_1","token":"ef87244924a"};</script><a href="#" class="ak-pagination-btn prev disabled" data-action="prev" data-block-id="block_671b14a9bf60e_1" title="Previous" rel="nofollow"><i class="fa fa-caret-left" aria-hidden="true"></i>Previous</a><a href="#" class="ak-pagination-btn next" data-action="next" data-block-id="block_671b14a9bf60e_1" title="Next" rel="nofollow">Next<i class="fa fa-caret-right" aria-hidden="true"></i></a><span class="ak-pagination-label"><span class="current">1</span> of <span class="total">78</span></span></div></div></div></article>
+	
+			</div><!-- .content-column -->
+
+					<div class="ak_column_1 col-md-4 sidebar-column sidebar-column-primary sticky-sidebar" style="position: relative; overflow: visible; box-sizing: border-box; min-height: 0px !important; height: auto !important;">
+			<!-- .post-sidebar-section -->
+		<div class="theiaStickySidebar" style="padding-top: 0px; padding-bottom: 1px; position: static; transform: none; height: auto !important;"><div class="sidebar post-sidebar" style="height: auto !important;">
+				<div id="newsy_facebook_likebox-3" class="widget widget_newsy_facebook_likebox"><div class="ak-block ak-block-facebook-likebox clearfix"><div class="fb-page fb_iframe_widget" data-href="https://www.facebook.com/wyenotnow/" data-small-header="false" data-adapt-container-width="true" data-show-facepile="false" data-locale="en_US" data-show-posts="false" fb-xfbml-state="rendered" fb-iframe-plugin-query="adapt_container_width=true&amp;app_id=&amp;container_width=355&amp;href=https%3A%2F%2Fwww.facebook.com%2Fwyenotnow%2F&amp;locale=en_US&amp;sdk=joey&amp;show_facepile=false&amp;show_posts=false&amp;small_header=false"><span style="vertical-align: bottom; width: 340px; height: 130px;"><iframe name="f9d495db70c448b18" width="1000px" height="1000px" data-testid="fb:page Facebook Social Plugin" title="fb:page Facebook Social Plugin" frameborder="0" allowtransparency="true" allowfullscreen="true" scrolling="no" allow="encrypted-media" src="https://www.facebook.com/v3.2/plugins/page.php?adapt_container_width=true&amp;app_id=&amp;channel=https%3A%2F%2Fstaticxx.facebook.com%2Fx%2Fconnect%2Fxd_arbiter%2F%3Fversion%3D46%23cb%3Dfcc58e98a4a39e51d%26domain%3Dwyenot.com%26is_canvas%3Dfalse%26origin%3Dhttps%253A%252F%252Fwyenot.com%252Fff0efce65707b7a11%26relation%3Dparent.parent&amp;container_width=355&amp;href=https%3A%2F%2Fwww.facebook.com%2Fwyenotnow%2F&amp;locale=en_US&amp;sdk=joey&amp;show_facepile=false&amp;show_posts=false&amp;small_header=false" style="border: none; visibility: visible; width: 340px; height: 130px;" class=""></iframe></span></div><!-- .fb-page --></div></div><div id="custom_html-3" class="widget_text widget widget_custom_html"><div class="textwidget custom-html-widget">
+<!-- wyenot - sidebar square -->
+<ins class="adsbygoogle" style="display: block; height: 280px;" data-ad-client="ca-pub-3329298310484464" data-ad-slot="9306046086" data-ad-format="auto" data-full-width-responsive="true" data-adsbygoogle-status="done"><div id="aswift_1_host" style="border: none; height: 280px; width: 355px; margin: 0px; padding: 0px; position: relative; visibility: visible; background-color: transparent; display: inline-block; overflow: visible;"><iframe id="aswift_1" name="aswift_1" browsingtopics="true" style="left:0;position:absolute;top:0;border:0;width:355px;height:280px;" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" width="355" height="280" frameborder="0" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" allow="attribution-reporting; run-ad-auction" src="https://googleads.g.doubleclick.net/pagead/ads?client=ca-pub-3329298310484464&amp;output=html&amp;h=280&amp;slotname=9306046086&amp;adk=89119626&amp;adf=2786413497&amp;pi=t.ma~as.9306046086&amp;w=355&amp;abgtt=6&amp;fwrn=4&amp;fwrnh=100&amp;lmt=1729828575&amp;rafmt=1&amp;format=355x280&amp;url=https%3A%2F%2Fwyenot.com%2Fwhy-are-dogs-so-friendly-a-scientific-explanation%2F&amp;host=ca-host-pub-2644536267352236&amp;fwr=0&amp;fwrattr=true&amp;rpe=1&amp;resp_fmts=3&amp;wgl=1&amp;uach=WyJXaW5kb3dzIiwiMTAuMC4wIiwieDg2IiwiIiwiMTMwLjAuNjcyMy4zMSIsbnVsbCwwLG51bGwsIjY0IixbWyJDaHJvbWl1bSIsIjEzMC4wLjY3MjMuMzEiXSxbIkhlYWRsZXNzQ2hyb21lIiwiMTMwLjAuNjcyMy4zMSJdLFsiTm90P0FfQnJhbmQiLCI5OS4wLjAuMCJdXSwwXQ..&amp;dt=1729828574832&amp;bpp=15&amp;bdt=911&amp;idt=419&amp;shv=r20241023&amp;mjsv=m202410230101&amp;ptt=9&amp;saldr=aa&amp;abxe=1&amp;cookie_enabled=1&amp;eoidce=1&amp;prev_fmts=0x0&amp;nras=1&amp;correlator=8760597577377&amp;frm=20&amp;pv=1&amp;u_tz=-240&amp;u_his=2&amp;u_h=720&amp;u_w=1280&amp;u_ah=720&amp;u_aw=1280&amp;u_cd=24&amp;u_sd=1&amp;dmc=8&amp;adx=885&amp;ady=155&amp;biw=1280&amp;bih=720&amp;scr_x=0&amp;scr_y=0&amp;eid=44759876%2C44759927%2C31088194%2C95332928%2C95344188%2C95345270%2C31088451%2C95344978&amp;oid=2&amp;pvsid=434052132927899&amp;tmod=1176928119&amp;uas=0&amp;nvt=1&amp;fc=1920&amp;brdim=0%2C0%2C0%2C0%2C1280%2C0%2C1280%2C720%2C1280%2C720&amp;vis=1&amp;rsz=%7C%7CopEe%7C&amp;abl=CS&amp;pfx=0&amp;fu=128&amp;bc=31&amp;bz=1&amp;td=1&amp;tdf=2&amp;psd=W251bGwsbnVsbCxudWxsLDNd&amp;nt=1&amp;ifi=2&amp;uci=a!2&amp;fsb=1&amp;dtd=427" data-google-container-id="a!2" tabindex="0" title="Advertisement" aria-label="Advertisement" data-load-complete="true"></iframe></div></ins>
+</div></div><div id="newsy_list_2_wide-5" class="widget widget_newsy_list_2_wide"><div class="ak-block ak-block-list-2-wide ak-block-column ak-block-module-seperator-line ak-block-numeric-style-1 ak-block-width-1 clearfix" id="block_671b14a9bf60e_2"><style scoped="">#block_671b14a9bf60e_2 .ak-block-header {--ak-block-header-line-color:#ee3322;--ak-block-title-text-color:#ee3322;}#block_671b14a9bf60e_2:not(.ak-block-width-1) .ak-block-posts { margin-right: -20px; }#block_671b14a9bf60e_2 .ak-block-posts .ak-module{ padding-right: 20px; margin-bottom: 20px; }#block_671b14a9bf60e_2.ak-block-module-seperator-line .ak-module-inner{ padding-bottom: 20px; }</style><div class="ak-block-header ak-block-header-style-1 no-tabs"><h4 class="ak-block-title"><span class="title-text"><span>Today's Top Posts</span></span></h4></div><div class="ak-block-inner clearfix"><div class="ak-block-posts clearfix">		<article class="ak-module ak-module-2-wide ak-column-module ak-module-excerpt-hide clearfix post-1250 post type-post status-publish format-standard has-post-thumbnail  category-featured category-fun-facts tag-difference-between-real-and-fake-pearls tag-featured tag-pearls tag-real-and-fake-pearls">
+			<div class="ak-module-inner clearfix">
+				<div class="ak-module-featured">
+					<div class="ak-module-badges"></div><div class="ak-featured-cover"><a href="https://wyenot.com/how-to-tell-if-pearls-are-real/" class="ak-featured-link" rel="bookmark" title="How To Tell If Pearls Are Real?"><div class="ak-featured-thumb lazy-thumb size-500"><img width="270" height="180" src="https://wyenot.com/wp-content/uploads/2022/07/multiple-pearls-in-sea-shell-2021-08-26-15-33-16-utc-scaled.jpg" class="attachment-newsy_360x180 size-newsy_360x180 wp-post-image lazyautosizes lazyloaded" alt="How To Tell If Pearls Are Real?" decoding="async" loading="lazy" data-src="https://wyenot.com/wp-content/uploads/2022/07/multiple-pearls-in-sea-shell-2021-08-26-15-33-16-utc-scaled.jpg" data-sizes="auto" data-srcset="https://wyenot.com/wp-content/uploads/2022/07/multiple-pearls-in-sea-shell-2021-08-26-15-33-16-utc-scaled.jpg 2560w, https://wyenot.com/wp-content/uploads/2022/07/multiple-pearls-in-sea-shell-2021-08-26-15-33-16-utc-300x200.jpg 300w, https://wyenot.com/wp-content/uploads/2022/07/multiple-pearls-in-sea-shell-2021-08-26-15-33-16-utc-1024x683.jpg 1024w, https://wyenot.com/wp-content/uploads/2022/07/multiple-pearls-in-sea-shell-2021-08-26-15-33-16-utc-768x512.jpg 768w, https://wyenot.com/wp-content/uploads/2022/07/multiple-pearls-in-sea-shell-2021-08-26-15-33-16-utc-1536x1024.jpg 1536w" data-expand="700" sizes="355px" srcset="https://wyenot.com/wp-content/uploads/2022/07/multiple-pearls-in-sea-shell-2021-08-26-15-33-16-utc-scaled.jpg 2560w, https://wyenot.com/wp-content/uploads/2022/07/multiple-pearls-in-sea-shell-2021-08-26-15-33-16-utc-300x200.jpg 300w, https://wyenot.com/wp-content/uploads/2022/07/multiple-pearls-in-sea-shell-2021-08-26-15-33-16-utc-1024x683.jpg 1024w, https://wyenot.com/wp-content/uploads/2022/07/multiple-pearls-in-sea-shell-2021-08-26-15-33-16-utc-768x512.jpg 768w, https://wyenot.com/wp-content/uploads/2022/07/multiple-pearls-in-sea-shell-2021-08-26-15-33-16-utc-1536x1024.jpg 1536w"></div></a></div><div class="ak-module-featured-meta"> <div class="ak-module-view-count"><span style="color:#edaa02"><i class="ak-icon  ak-fi akfi-fire"></i><span class="count">845</span></span></div></div>				</div>
+				<div class="ak-module-details">
+					<h3 class="ak-module-title"><a href="https://wyenot.com/how-to-tell-if-pearls-are-real/" rel="bookmark" title="How To Tell If Pearls Are Real?">How To Tell If Pearls Are Real?</a></h3><div class="ak-module-meta"></div>				</div>
+			</div>
+		</article>
+				<article class="ak-module ak-module-2-wide ak-column-module ak-module-excerpt-hide clearfix post-2138 post type-post status-publish format-standard has-post-thumbnail  category-animals category-featured category-fun-facts tag-animal-eggs tag-eggs tag-featured">
+			<div class="ak-module-inner clearfix">
+				<div class="ak-module-featured">
+					<div class="ak-module-badges"></div><div class="ak-featured-cover"><a href="https://wyenot.com/what-animal-lays-eggs-and-is-not-a-bird/" class="ak-featured-link" rel="bookmark" title="What Animal Lays Eggs And Is Not A Bird?"><div class="ak-featured-thumb lazy-thumb size-500"><img width="270" height="180" src="https://wyenot.com/wp-content/uploads/2022/10/quail-eggs-closeup-2021-08-26-17-53-11-utc-scaled.jpg" class="attachment-newsy_360x180 size-newsy_360x180 wp-post-image lazyautosizes lazyloaded" alt="What Animal Lays Eggs And Is Not A Bird?" decoding="async" loading="lazy" data-src="https://wyenot.com/wp-content/uploads/2022/10/quail-eggs-closeup-2021-08-26-17-53-11-utc-scaled.jpg" data-sizes="auto" data-srcset="https://wyenot.com/wp-content/uploads/2022/10/quail-eggs-closeup-2021-08-26-17-53-11-utc-scaled.jpg 2560w, https://wyenot.com/wp-content/uploads/2022/10/quail-eggs-closeup-2021-08-26-17-53-11-utc-300x200.jpg 300w, https://wyenot.com/wp-content/uploads/2022/10/quail-eggs-closeup-2021-08-26-17-53-11-utc-1024x683.jpg 1024w, https://wyenot.com/wp-content/uploads/2022/10/quail-eggs-closeup-2021-08-26-17-53-11-utc-768x512.jpg 768w, https://wyenot.com/wp-content/uploads/2022/10/quail-eggs-closeup-2021-08-26-17-53-11-utc-1536x1024.jpg 1536w" data-expand="700" sizes="355px" srcset="https://wyenot.com/wp-content/uploads/2022/10/quail-eggs-closeup-2021-08-26-17-53-11-utc-scaled.jpg 2560w, https://wyenot.com/wp-content/uploads/2022/10/quail-eggs-closeup-2021-08-26-17-53-11-utc-300x200.jpg 300w, https://wyenot.com/wp-content/uploads/2022/10/quail-eggs-closeup-2021-08-26-17-53-11-utc-1024x683.jpg 1024w, https://wyenot.com/wp-content/uploads/2022/10/quail-eggs-closeup-2021-08-26-17-53-11-utc-768x512.jpg 768w, https://wyenot.com/wp-content/uploads/2022/10/quail-eggs-closeup-2021-08-26-17-53-11-utc-1536x1024.jpg 1536w"></div></a></div><div class="ak-module-featured-meta"> <div class="ak-module-view-count"><span style="color:#edaa02"><i class="ak-icon  ak-fi akfi-fire"></i><span class="count">583</span></span></div></div>				</div>
+				<div class="ak-module-details">
+					<h3 class="ak-module-title"><a href="https://wyenot.com/what-animal-lays-eggs-and-is-not-a-bird/" rel="bookmark" title="What Animal Lays Eggs And Is Not A Bird?">What Animal Lays Eggs And Is Not A Bird?</a></h3><div class="ak-module-meta"></div>				</div>
+			</div>
+		</article>
+				<article class="ak-module ak-module-2-wide ak-column-module ak-module-excerpt-hide clearfix post-2140 post type-post status-publish format-standard has-post-thumbnail  category-animals category-featured category-fun-facts tag-catnip tag-catnip-smell tag-featured">
+			<div class="ak-module-inner clearfix">
+				<div class="ak-module-featured">
+					<div class="ak-module-badges"></div><div class="ak-featured-cover"><a href="https://wyenot.com/what-does-catnip-smell-like/" class="ak-featured-link" rel="bookmark" title="What Does Catnip Smell Like?"><div class="ak-featured-thumb lazy-thumb size-500"><img width="270" height="180" src="https://wyenot.com/wp-content/uploads/2022/10/cat-eating-plant-black-cat-eating-monstera-plant-2021-08-31-14-01-10-utc-scaled.jpg" class="attachment-newsy_360x180 size-newsy_360x180 wp-post-image lazyautosizes lazyloaded" alt="What Does Catnip Smell Like?" decoding="async" loading="lazy" data-src="https://wyenot.com/wp-content/uploads/2022/10/cat-eating-plant-black-cat-eating-monstera-plant-2021-08-31-14-01-10-utc-scaled.jpg" data-sizes="auto" data-srcset="https://wyenot.com/wp-content/uploads/2022/10/cat-eating-plant-black-cat-eating-monstera-plant-2021-08-31-14-01-10-utc-scaled.jpg 2560w, https://wyenot.com/wp-content/uploads/2022/10/cat-eating-plant-black-cat-eating-monstera-plant-2021-08-31-14-01-10-utc-300x200.jpg 300w, https://wyenot.com/wp-content/uploads/2022/10/cat-eating-plant-black-cat-eating-monstera-plant-2021-08-31-14-01-10-utc-1024x683.jpg 1024w, https://wyenot.com/wp-content/uploads/2022/10/cat-eating-plant-black-cat-eating-monstera-plant-2021-08-31-14-01-10-utc-768x512.jpg 768w, https://wyenot.com/wp-content/uploads/2022/10/cat-eating-plant-black-cat-eating-monstera-plant-2021-08-31-14-01-10-utc-1536x1024.jpg 1536w" data-expand="700" sizes="355px" srcset="https://wyenot.com/wp-content/uploads/2022/10/cat-eating-plant-black-cat-eating-monstera-plant-2021-08-31-14-01-10-utc-scaled.jpg 2560w, https://wyenot.com/wp-content/uploads/2022/10/cat-eating-plant-black-cat-eating-monstera-plant-2021-08-31-14-01-10-utc-300x200.jpg 300w, https://wyenot.com/wp-content/uploads/2022/10/cat-eating-plant-black-cat-eating-monstera-plant-2021-08-31-14-01-10-utc-1024x683.jpg 1024w, https://wyenot.com/wp-content/uploads/2022/10/cat-eating-plant-black-cat-eating-monstera-plant-2021-08-31-14-01-10-utc-768x512.jpg 768w, https://wyenot.com/wp-content/uploads/2022/10/cat-eating-plant-black-cat-eating-monstera-plant-2021-08-31-14-01-10-utc-1536x1024.jpg 1536w"></div></a></div><div class="ak-module-featured-meta"> <div class="ak-module-view-count"><span style="color:#edaa02"><i class="ak-icon  ak-fi akfi-fire"></i><span class="count">644</span></span></div></div>				</div>
+				<div class="ak-module-details">
+					<h3 class="ak-module-title"><a href="https://wyenot.com/what-does-catnip-smell-like/" rel="bookmark" title="What Does Catnip Smell Like?">What Does Catnip Smell Like?</a></h3><div class="ak-module-meta"></div>				</div>
+			</div>
+		</article>
+				<article class="ak-module ak-module-2-wide ak-column-module ak-module-excerpt-hide clearfix post-1986 post type-post status-publish format-standard has-post-thumbnail  category-featured category-fun-facts category-travel tag-featured tag-hot-air-balloon tag-hot-air-balloons-in-the-sky">
+			<div class="ak-module-inner clearfix">
+				<div class="ak-module-featured">
+					<div class="ak-module-badges"></div><div class="ak-featured-cover"><a href="https://wyenot.com/how-far-do-hot-air-balloons-go-up-in-the-sky/" class="ak-featured-link" rel="bookmark" title="How Far Do Hot Air Balloons Go Up In The Sky?"><div class="ak-featured-thumb lazy-thumb size-500"><img width="360" height="180" src="https://wyenot.com/wp-content/uploads/2022/10/hot-air-balloons-at-start-2021-09-29-20-31-30-utc-360x180.jpg" class="attachment-newsy_360x180 size-newsy_360x180 wp-post-image lazyautosizes lazyloaded" alt="How Far Do Hot Air Balloons Go Up In The Sky?" decoding="async" loading="lazy" data-src="https://wyenot.com/wp-content/uploads/2022/10/hot-air-balloons-at-start-2021-09-29-20-31-30-utc-360x180.jpg" data-sizes="auto" data-srcset="https://wyenot.com/wp-content/uploads/2022/10/hot-air-balloons-at-start-2021-09-29-20-31-30-utc-360x180.jpg 360w, https://wyenot.com/wp-content/uploads/2022/10/hot-air-balloons-at-start-2021-09-29-20-31-30-utc-750x375.jpg 750w, https://wyenot.com/wp-content/uploads/2022/10/hot-air-balloons-at-start-2021-09-29-20-31-30-utc-1140x570.jpg 1140w" data-expand="700" sizes="355px" srcset="https://wyenot.com/wp-content/uploads/2022/10/hot-air-balloons-at-start-2021-09-29-20-31-30-utc-360x180.jpg 360w, https://wyenot.com/wp-content/uploads/2022/10/hot-air-balloons-at-start-2021-09-29-20-31-30-utc-750x375.jpg 750w, https://wyenot.com/wp-content/uploads/2022/10/hot-air-balloons-at-start-2021-09-29-20-31-30-utc-1140x570.jpg 1140w"></div></a></div><div class="ak-module-featured-meta"> <div class="ak-module-view-count"><span style="color:#edaa02"><i class="ak-icon  ak-fi akfi-fire"></i><span class="count">699</span></span></div></div>				</div>
+				<div class="ak-module-details">
+					<h3 class="ak-module-title"><a href="https://wyenot.com/how-far-do-hot-air-balloons-go-up-in-the-sky/" rel="bookmark" title="How Far Do Hot Air Balloons Go Up In The Sky?">How Far Do Hot Air Balloons Go Up In The Sky?</a></h3><div class="ak-module-meta"></div>				</div>
+			</div>
+		</article>
+				<article class="ak-module ak-module-2-wide ak-column-module ak-module-excerpt-hide clearfix post-1851 post type-post status-publish format-standard has-post-thumbnail  category-featured category-lifestyle category-sports tag-featured tag-miniature-golf tag-miniature-golf-course">
+			<div class="ak-module-inner clearfix">
+				<div class="ak-module-featured">
+					<div class="ak-module-badges"></div><div class="ak-featured-cover"><a href="https://wyenot.com/how-long-would-it-take-to-play-a-round-on-a-miniature-golf-course/" class="ak-featured-link" rel="bookmark" title="How Long Would It Take To Play A Round On A Miniature Golf Course?"><div class="ak-featured-thumb lazy-thumb size-500"><img width="270" height="180" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" class="attachment-newsy_360x180 size-newsy_360x180 lazyload wp-post-image" alt="How Long Would It Take To Play A Round On A Miniature Golf Course?" decoding="async" loading="lazy" data-src="https://wyenot.com/wp-content/uploads/2022/10/family-fun-vacation-playing-miniature-golf-2021-09-02-16-21-26-utc-scaled.jpg" data-sizes="auto" data-srcset="https://wyenot.com/wp-content/uploads/2022/10/family-fun-vacation-playing-miniature-golf-2021-09-02-16-21-26-utc-scaled.jpg 2560w, https://wyenot.com/wp-content/uploads/2022/10/family-fun-vacation-playing-miniature-golf-2021-09-02-16-21-26-utc-300x200.jpg 300w, https://wyenot.com/wp-content/uploads/2022/10/family-fun-vacation-playing-miniature-golf-2021-09-02-16-21-26-utc-1024x683.jpg 1024w, https://wyenot.com/wp-content/uploads/2022/10/family-fun-vacation-playing-miniature-golf-2021-09-02-16-21-26-utc-768x512.jpg 768w, https://wyenot.com/wp-content/uploads/2022/10/family-fun-vacation-playing-miniature-golf-2021-09-02-16-21-26-utc-1536x1024.jpg 1536w" data-expand="700"></div></a></div><div class="ak-module-featured-meta"> <div class="ak-module-view-count"><i class="ak-icon  ak-fi akfi-trending_up"></i><span class="count">385</span></div></div>				</div>
+				<div class="ak-module-details">
+					<h3 class="ak-module-title"><a href="https://wyenot.com/how-long-would-it-take-to-play-a-round-on-a-miniature-golf-course/" rel="bookmark" title="How Long Would It Take To Play A Round On A Miniature Golf Course?">How Long Would It Take To Play A Round On A Miniature Golf Course?</a></h3><div class="ak-module-meta"></div>				</div>
+			</div>
+		</article>
+				<article class="ak-module ak-module-2-wide ak-column-module ak-module-excerpt-hide clearfix post-1983 post type-post status-publish format-standard has-post-thumbnail  category-featured category-lifestyle tag-average-life-span-of-bonsai-tree tag-bonsai-tree tag-featured">
+			<div class="ak-module-inner clearfix">
+				<div class="ak-module-featured">
+					<div class="ak-module-badges"></div><div class="ak-featured-cover"><a href="https://wyenot.com/the-average-bonsai-tree-life-span-and-how-to-take-care-of-yours/" class="ak-featured-link" rel="bookmark" title="The Average Bonsai Tree Life Span And How To Take Care Of Yours"><div class="ak-featured-thumb lazy-thumb size-500"><img width="1" height="1" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" class="attachment-newsy_360x180 size-newsy_360x180 lazyload wp-post-image" alt="The Average Bonsai Tree Life Span And How To Take Care Of Yours" decoding="async" loading="lazy" data-src="https://wyenot.com/wp-content/uploads/2022/10/bonsai-juniper-2021-08-29-05-54-54-utc.jpg" data-sizes="auto" data-srcset="" data-expand="700"></div></a></div><div class="ak-module-featured-meta"> <div class="ak-module-view-count"><span style="color:#edaa02"><i class="ak-icon  ak-fi akfi-fire"></i><span class="count">686</span></span></div></div>				</div>
+				<div class="ak-module-details">
+					<h3 class="ak-module-title"><a href="https://wyenot.com/the-average-bonsai-tree-life-span-and-how-to-take-care-of-yours/" rel="bookmark" title="The Average Bonsai Tree Life Span And How To Take Care Of Yours">The Average Bonsai Tree Life Span And How To Take Care Of Yours</a></h3><div class="ak-module-meta"></div>				</div>
+			</div>
+		</article>
+				<article class="ak-module ak-module-2-wide ak-column-module ak-module-excerpt-hide clearfix post-1409 post type-post status-publish format-standard has-post-thumbnail  category-featured category-fun-facts category-lifestyle tag-featured tag-in-bed-with-soap tag-sleep-with-soap">
+			<div class="ak-module-inner clearfix">
+				<div class="ak-module-featured">
+					<div class="ak-module-badges"></div><div class="ak-featured-cover"><a href="https://wyenot.com/why-sleep-with-soap-in-your-bed/" class="ak-featured-link" rel="bookmark" title="Why Sleep With Soap In Your Bed?"><div class="ak-featured-thumb lazy-thumb size-500"><img width="272" height="180" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" class="attachment-newsy_360x180 size-newsy_360x180 lazyload wp-post-image" alt="Why Sleep With Soap In Your Bed?" decoding="async" loading="lazy" data-src="https://wyenot.com/wp-content/uploads/2022/09/bath-soaps-2021-08-26-17-24-39-utc-scaled.jpg" data-sizes="auto" data-srcset="https://wyenot.com/wp-content/uploads/2022/09/bath-soaps-2021-08-26-17-24-39-utc-scaled.jpg 2560w, https://wyenot.com/wp-content/uploads/2022/09/bath-soaps-2021-08-26-17-24-39-utc-300x199.jpg 300w, https://wyenot.com/wp-content/uploads/2022/09/bath-soaps-2021-08-26-17-24-39-utc-1024x678.jpg 1024w, https://wyenot.com/wp-content/uploads/2022/09/bath-soaps-2021-08-26-17-24-39-utc-768x509.jpg 768w, https://wyenot.com/wp-content/uploads/2022/09/bath-soaps-2021-08-26-17-24-39-utc-1536x1017.jpg 1536w" data-expand="700"></div></a></div><div class="ak-module-featured-meta"> <div class="ak-module-view-count"><span style="color:#edaa02"><i class="ak-icon  ak-fi akfi-fire"></i><span class="count">971</span></span></div></div>				</div>
+				<div class="ak-module-details">
+					<h3 class="ak-module-title"><a href="https://wyenot.com/why-sleep-with-soap-in-your-bed/" rel="bookmark" title="Why Sleep With Soap In Your Bed?">Why Sleep With Soap In Your Bed?</a></h3><div class="ak-module-meta"></div>				</div>
+			</div>
+		</article>
+		</div></div></div></div><div id="newsy_social_counter-3" class="widget widget_newsy_social_counter"><div class="ak-block  ak-block-width-1 clearfix" id="block_671b14a9bf60e_3"><div class="ak-block-header ak-block-header-style-1 no-tabs"><h4 class="ak-block-title"><span class="title-text"><span>Connect With Community</span></span></h4></div><div class="ak-block-inner clearfix"><ul class="ak-social-counter social-counter-style-1 social-counter-light-box clearfix"><li class="social-item"><a href="https://www.facebook.com/wyenotnow " class=" facebook" target="_blank" rel="external noopener nofollow"><i class="item-icon fa fa-facebook"></i><span class="item-count">0</span><span class="item-name">Facebook</span><span class="item-title">Likes</span><span class="item-join">Join us on Facebook</span><span class="item-button">Like our page</span></a></li><li class="social-item"><a href="https://wyenot.com/feed/rss/ " class=" rss" target="_blank" rel="external noopener nofollow"><i class="item-icon fa fa-rss"></i><span class="item-count">RSS</span><span class="item-name">RSS</span><span class="item-title">Subscribe</span><span class="item-join">Subscribe our RSS</span><span class="item-button">Subscribe</span></a></li></ul></div></div></div>			</div><div class="resize-sensor" style="position: absolute; inset: 0px; overflow: hidden; z-index: -1; visibility: hidden;"><div class="resize-sensor-expand" style="position: absolute; left: 0; top: 0; right: 0; bottom: 0; overflow: hidden; z-index: -1; visibility: hidden;"><div style="position: absolute; left: 0px; top: 0px; transition: all; width: 420px; height: 3503px;"></div></div><div class="resize-sensor-shrink" style="position: absolute; left: 0; top: 0; right: 0; bottom: 0; overflow: hidden; z-index: -1; visibility: hidden;"><div style="position: absolute; left: 0; top: 0; transition: 0s; width: 200%; height: 200%"></div></div></div></div></div><!-- .primary-section -->
+		
+		</div>
+
+		
+	</div>
+</div>
+
+					</div>
+	</div><!-- .ak-content-wrap -->
+</div><!-- .ak-post-wrapper -->
+<div class="ak-footer-wrap">
+	<div class="ak-container">
+			<div class="ak-bar ak-footer-bar ak-mid-bar  full-width clearfix">
+			<div class="container">
+				<div class="ak-bar-inner">
+				<div class="ak-row ak-row-items-middle ak-row-responsive">
+										<div class="ak-column ak-column-left ak-column-grow">
+						<div class="ak-inner-row ak-row-items-middle ak-justify-content-left">
+							<div class="ak-bar-item ak-footer-logo">
+	<div class="ak-logo-wrap ak-logo-text">
+		<a href="https://wyenot.com/">
+			Wyenot		</a>
+	</div>
+</div>
+						</div>
+					</div>
+											<div class="ak-column ak-column-right ak-column-grow">
+						<div class="ak-inner-row ak-row-items-middle ak-justify-content-right">
+							<div class="ak-bar-item ak-footer-social-icons">
+	<ul class="ak-social-counter social-counter-style-4 social-counter-light-circle clearfix"><li class="social-item"><a href="https://www.facebook.com/wyenotnow " class=" facebook" target="_blank" rel="external noopener nofollow"><i class="item-icon fa fa-facebook"></i></a></li></ul></div>
+						</div>
+					</div>
+									</div>
+			</div>
+			</div>
+		</div>
+					<div class="ak-bar ak-footer-bar ak-bottom-bar  full-width clearfix">
+			<div class="container">
+				<div class="ak-bar-inner">
+				<div class="ak-row ak-row-items-middle ak-row-responsive">
+										<div class="ak-column ak-column-left ak-column-grow">
+						<div class="ak-inner-row ak-row-items-middle ak-justify-content-left">
+							<div class="ak-bar-item ak-footer-copyright">
+	© 2024 <a href="https://wyenot.com" title="Interesting Articles">Wyenot</a> - Interesting Articles </div>
+						</div>
+					</div>
+											<div class="ak-column ak-column-right ak-column-grow">
+						<div class="ak-inner-row ak-row-items-middle ak-justify-content-right">
+							<div class="ak-bar-item ak-footer-menu-container ">
+	</div>
+						</div>
+					</div>
+									</div>
+			</div>
+			</div>
+		</div>
+				</div>
+</div><!-- .ak-footer-wrap -->
+		</div><!-- .ak-main-wrap -->
+
+	<span class="ak-back-top"><i class="fa fa-arrow-up"></i></span>
+
+	<div id="ak_off_canvas" class="ak-off-canvas-wrap  ">
+	<div class="ak-off-canvas-overlay"></div>
+	<a href="#" class="ak-off-canvas-close"><i class="fa fa-times"></i></a>
+	<div class="ak-off-canvas-nav">
+		<div class="ak-off-nav-wrap">
+			<div class="ak-off-nav-top-row">
+				<div class="ak-bar-item ak-header-logo">
+        <div class="site-title ak-logo-wrap ak-logo-main ak-logo-text">
+            <a href="https://wyenot.com/">
+                Wyenot
+            </a>
+        </div>
+    </div><div class="ak-bar-item ak-mobile-menu-container">
+	<ul id="menu-mobile-menu" class="ak-menu  ak-mobile-menu ignition-menu-mobile-menu"><li id="menu-item-1000" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1000"><a href="https://wyenot.com/home-2/"><span>Home</span></a></li>
+<li id="menu-item-997" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-997"><a href="https://wyenot.com/hot/"><span>Hot</span></a></li>
+<li id="menu-item-996" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-996"><a href="https://wyenot.com/trending/"><span>Trending</span></a></li>
+<li id="menu-item-998" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-998"><a href="https://wyenot.com/popular/"><span>Popular</span></a></li>
+<li id="menu-item-999" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-999"><a href="https://wyenot.com/contact-us/"><span>Contact Us</span></a></li>
+<li id="menu-item-2214" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2214"><a href="https://wyenot.com/advertise/"><span>Advertise</span></a></li>
+</ul></div>
+<div class="ak-bar-item ak-header-top-menu">
+	</div>
+			</div>
+			<div class="ak-off-nav-mid-row">
+							</div>
+			<div class="ak-off-nav-bottom-row">
+				<div class="ak-bar-item ak-footer-copyright">
+	© 2024 <a href="https://wyenot.com" title="Interesting Articles">Wyenot</a> - Interesting Articles </div>
+	<div class="ak-bar-item ak-header-badge-menu">
+			</div>
+	<div class="ak-bar-item ak-header-button ak-header-button1">
+	<a href="/editor" class="btn rounded ak_require_login_button" target="_self">Create</a></div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- Login Popup Content -->
+<div class="modal ak-auth-modal mfp-with-anim mfp-hide" id="userModal">
+
+	<input type="hidden" name="redirect_to" id="redirect_to" value="">
+
+	<div class="modal-step-container login-wrap">
+		<div class="ak-loading-box"></div>
+		<div class="modal-message"></div>
+
+		<div class="modal-step-page modal-login-page modal-current-step">
+
+			<div class="login-header">
+				<h3>Login</h3>
+				<p>Welcome, Login to your account.</p>
+			</div>
+
+			
+			<form action="#" data-type="login" method="post" accept-charset="utf-8">
+				
+				<div class="login-field login-username">
+					<input type="text" name="username" value="" placeholder="Username or Email..." required="">
+				</div>
+
+				<div class="login-field login-password">
+					<input type="password" name="password" value="" placeholder="Password..." required="">
+				</div>
+
+				<div class="login-field login-reset">
+					<span class="login-remember">
+						<input class="remember-checkbox" name="remember" type="checkbox" value="1" checked="checked">
+						<label class="remember-label">Remember me</label>
+					</span>
+					<a href="#" class="go-modal-step reset-link" data-modal-step="modal-reset-page">Forget password?</a>
+				</div>
+				<div class="g-recaptcha" data-sitekey=""></div>
+				<div class="login-field login-submit">
+					<input type="hidden" name="action" value="ajax_login">
+					<input type="submit" name="wp-submit" class="btn btn-primary login-btn login-button" value="Log In">
+				</div>
+			</form>
+			
+		</div>
+
+		<div class="modal-step-page modal-register-page">
+
+			<div class="login-header">
+				<h3>Register</h3>
+				<p>Welcome, Create your new account</p>
+			</div>
+
+			
+			<form action="#" data-type="register" method="post" accept-charset="utf-8">
+				
+				
+				<div class="login-field login-username">
+					<input type="text" name="username" placeholder="Username" required="">
+				</div>
+
+				<div class="login-field login-username">
+					<input type="text" name="email" placeholder="Email" required="">
+				</div>
+
+				<div class="login-field login-password">
+					<input type="password" name="password" placeholder="Password" required="">
+				</div>
+				
+				<div class="g-recaptcha" data-sitekey=""></div>
+				<div class="login-field login-submit">
+					<input type="hidden" name="action" value="ajax_register">
+					<input type="submit" name="wp-submit" class="btn btn-primary login-btn register-button" value="Sign Up">
+				</div>
+			</form>
+
+			
+			<div class="login-field login-buttom-text login-signin">
+				<span>
+					You have an account?					<a href="#" class="go-modal-step" data-modal-step="modal-login-page">Go to Sign In</a>
+				</span>
+			</div>
+		</div>
+
+		<div class="modal-step-page modal-reset-page">
+
+			<div class="login-header">
+				<span class="login-icon fa fa-lock"></span>
+				<h3>Recover your password.</h3>
+				<p>A password will be e-mailed to you.</p>
+			</div>
+
+			
+			<form action="#" data-type="password_reset" method="post" accept-charset="utf-8">
+				<div class="login-field reset-username">
+					<input type="text" name="user_login" value="" placeholder="Username or Email" required="">
+				</div>
+				<div class="g-recaptcha" data-sitekey=""></div>
+				<div class="login-field reset-submit">
+					<input type="hidden" name="action" value="ajax_recover_password">
+					<input type="submit" class="login-btn" value="Send My Password">
+				</div>
+			</form>
+
+			<div class="login-field reset-submit">
+				<a href="#" class="go-modal-step go-modal-login-page" data-modal-step="modal-login-page">
+					<i class="fa fa-angle-left"></i>
+					Sign In				</a>
+			</div>
+		</div>
+	</div>
+
+</div>
+
+                <!--facebook like and share js -->
+                <div id="fb-root" class=" fb_reset"><div style="position: absolute; top: -10000px; width: 0px; height: 0px;"><div></div></div></div>
+                <script>
+                    (function(d, s, id) {
+                        var js, fjs = d.getElementsByTagName(s)[0];
+                        if (d.getElementById(id)) return;
+                        js = d.createElement(s);
+                        js.id = id;
+                        js.src = "https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.2";
+                        fjs.parentNode.insertBefore(js, fjs);
+                    }(document, 'script', 'facebook-jssdk'));
+                </script>
+                <script>
+window.addEventListener('sfsi_functions_loaded', function() {
+    if (typeof sfsi_responsive_toggle == 'function') {
+        sfsi_responsive_toggle(0);
+        // console.log('sfsi_responsive_toggle');
+
+    }
+})
+</script>
+<script>
+window.addEventListener('sfsi_functions_loaded', function() {
+    if (typeof sfsi_plugin_version == 'function') {
+        sfsi_plugin_version(2.77);
+    }
+});
+
+function sfsi_processfurther(ref) {
+    var feed_id = 'YnJnUGdZRFQ1bGtIRlI3cEYvamx5bmlQd0YwdDV6V3lJZ3NVUWR2aHFtWE45K2MxUW1EZWIwZS85L0pzOG5YOUFLa3FsZ0xtajF2MlBSN2J4ZldrRGNCdzJZU2lPQklvNWkvNFNmbmpQTzlvejdkbFF2a2FOZTN6NEhHNnJQVXV8VXUvMzkrVzBrcWlpRkFYQk1iNUxWUTVmWlEra0ptZ0xiNjFZZkE4d0YvOD0=';
+    var feedtype = 8;
+    var email = jQuery(ref).find('input[name="email"]').val();
+    var filter = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+    if ((email != "Enter your email") && (filter.test(email))) {
+        if (feedtype == "8") {
+            var url = "https://api.follow.it/subscription-form/" + feed_id + "/" + feedtype;
+            window.open(url, "popupwindow", "scrollbars=yes,width=1080,height=760");
+            return true;
+        }
+    } else {
+        alert("Please enter email address");
+        jQuery(ref).find('input[name="email"]').focus();
+        return false;
+    }
+}
+</script>
+<style type="text/css" aria-selected="true">
+.sfsi_subscribe_Popinner {
+    width: 100% !important;
+
+    height: auto !important;
+
+    
+    padding: 18px 0px !important;
+
+    background-color: #ffffff !important;
+}
+
+.sfsi_subscribe_Popinner form {
+    margin: 0 20px !important;
+}
+
+.sfsi_subscribe_Popinner h5 {
+    font-family: Helvetica,Arial,sans-serif !important;
+
+    font-weight: bold !important;
+                color: #000000 !important;    
+        font-size: 16px !important;    
+        text-align: center !important;        margin: 0 0 10px !important;
+    padding: 0 !important;
+}
+
+.sfsi_subscription_form_field {
+    margin: 5px 0 !important;
+    width: 100% !important;
+    display: inline-flex;
+    display: -webkit-inline-flex;
+}
+
+.sfsi_subscription_form_field input {
+    width: 100% !important;
+    padding: 10px 0px !important;
+}
+
+.sfsi_subscribe_Popinner input[type=email] {
+        font-family: Helvetica,Arial,sans-serif !important;    
+    font-style: normal !important;
+            color: #000000 !important;    
+        font-size: 14px !important;    
+        text-align: center !important;    }
+
+.sfsi_subscribe_Popinner input[type=email]::-webkit-input-placeholder {
+
+        font-family: Helvetica,Arial,sans-serif !important;    
+    font-style: normal !important;
+               color: #000000 !important;    
+        font-size: 14px !important;    
+        text-align: center !important;    }
+
+.sfsi_subscribe_Popinner input[type=email]:-moz-placeholder {
+    /* Firefox 18- */
+        font-family: Helvetica,Arial,sans-serif !important;    
+    font-style: normal !important;
+            color: #000000 !important;    
+        font-size: 14px !important;    
+        text-align: center !important;    
+}
+
+.sfsi_subscribe_Popinner input[type=email]::-moz-placeholder {
+    /* Firefox 19+ */
+        font-family: Helvetica,Arial,sans-serif !important;    
+        font-style: normal !important;
+                color: #000000 !important;    
+            font-size: 14px !important;                text-align: center !important;    }
+
+.sfsi_subscribe_Popinner input[type=email]:-ms-input-placeholder {
+
+    font-family: Helvetica,Arial,sans-serif !important;
+    font-style: normal !important;
+        color: #000000 !important;
+            font-size: 14px !important ;
+            text-align: center !important;    }
+
+.sfsi_subscribe_Popinner input[type=submit] {
+
+        font-family: Helvetica,Arial,sans-serif !important;    
+    font-weight: bold !important;
+            color: #000000 !important;    
+        font-size: 16px !important;    
+        text-align: center !important;    
+        background-color: #dedede !important;    }
+
+.sfsi_shortcode_container {
+        float: left;
+    }
+
+    .sfsi_shortcode_container .norm_row .sfsi_wDiv {
+        position: relative !important;
+    }
+
+    .sfsi_shortcode_container .sfsi_holders {
+        display: none;
+    }
+
+    </style>
+
+		<div id="amp-mobile-version-switcher" hidden="">
+			<a rel="" href="https://wyenot.com/why-are-dogs-so-friendly-a-scientific-explanation/?amp=1">
+				Go to mobile version			</a>
+		</div>
+
+						<div id="fb-root"></div>
+		<script>
+			(function(d, s, id) {
+				var js, fjs = d.getElementsByTagName(s)[0];
+				if (d.getElementById(id)) return;
+				js = d.createElement(s);
+				js.id = id;
+				js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.11&appId=227007851136416';
+				fjs.parentNode.insertBefore(js, fjs);
+			}(document, 'script', 'facebook-jssdk'));
+		</script>
+		<script id="buzzeditor-front-block-js-js-extra">
+var buzzeditor_front_loc = {"replay_quiz":"Replay Quiz","share_your_result":"Share Your Quiz","share_your_vote":"Share Your Vote:","i_got":"I got: \"%1$s\" | %2$s","i_vote_for":"I vote for: \"%1$s\" | %2$s","show_my_results":"Show me my results!","trivia_you_got":"You got %1$s out of %2$s right!","trivia_i_got":"I got %1$s out of %2$s right!","click_to_flip":"Click to Flip","correct":"Correct!","wrong":"Wrong!","login_to_vote":"You must login to vote!","login_to_take_quiz":"You must login to take this quiz!"};
+</script>
+<script src="https://wyenot.com/wp-content/plugins/buzzeditor/js/plugin.js?ver=2.2.5" id="buzzeditor-front-block-js-js"></script>
+<script src="https://wyenot.com/wp-content/plugins/gutenbee/build/gutenbee.animations.js?ver=2.18.0" id="gutenbee-animations-js"></script>
+<script src="https://wyenot.com/wp-content/plugins/ignition/inc/assets/vendor/shyheader/jquery.shyheader.min.js?ver=2.2.0" id="jquery-shyheader-js"></script>
+<script src="https://wyenot.com/wp-content/plugins/ignition/inc/assets/js/sticky-header-init.min.js?ver=2.2.0" id="ignition-sticky-header-init-js"></script>
+<script id="ignition-front-scripts-js-extra">
+var ignition_front_vars = {"expand_submenu":"Expand submenu"};
+</script>
+<script src="https://wyenot.com/wp-content/plugins/ignition/inc/assets/js/scripts.min.js?ver=2.2.0" id="ignition-front-scripts-js"></script>
+<script src="https://wyenot.com/wp-includes/js/jquery/ui/core.min.js?ver=1.13.3" id="jquery-ui-core-js"></script>
+<script src="https://wyenot.com/wp-content/plugins/ultimate-social-media-icons/js/shuffle/modernizr.custom.min.js?ver=6.6.2" id="SFSIjqueryModernizr-js"></script>
+<script src="https://wyenot.com/wp-content/plugins/ultimate-social-media-icons/js/shuffle/jquery.shuffle.min.js?ver=6.6.2" id="SFSIjqueryShuffle-js"></script>
+<script src="https://wyenot.com/wp-content/plugins/ultimate-social-media-icons/js/shuffle/random-shuffle-min.js?ver=6.6.2" id="SFSIjqueryrandom-shuffle-js"></script>
+<script id="SFSICustomJs-js-extra">
+var sfsi_icon_ajax_object = {"nonce":"0e095e6c68","ajax_url":"https:\/\/wyenot.com\/wp-admin\/admin-ajax.php","plugin_url":"https:\/\/wyenot.com\/wp-content\/plugins\/ultimate-social-media-icons\/"};
+</script>
+<script src="https://wyenot.com/wp-content/plugins/ultimate-social-media-icons/js/custom.js?ver=2.9.4" id="SFSICustomJs-js"></script>
+<script src="https://wyenot.com/wp-content/plugins/newsy-elements/assets/js/ResizeSensor.js?ver=2.2.0" id="ResizeSensor-js"></script>
+<script src="https://wyenot.com/wp-content/plugins/newsy-elements/assets/js/jquery.mousewheel.js?ver=2.2.0" id="mousewheel-js"></script>
+<script src="https://wyenot.com/wp-content/plugins/newsy-elements/assets/js/jquery.jscrollpane.js?ver=2.2.0" id="jscrollpane-js"></script>
+<script src="https://wyenot.com/wp-content/plugins/newsy-elements/assets/js/ls.bgset.js?ver=2.2.0" id="bgset-js"></script>
+<script src="https://wyenot.com/wp-content/plugins/newsy-elements/assets/js/lazysizes.js?ver=2.2.0" id="lazysizes-js"></script><ins class="adsbygoogle adsbygoogle-noablate" data-adsbygoogle-status="done" style="display: none !important;"><div id="aswift_0_host" style="border: none; height: 0px; width: 0px; margin: 0px; padding: 0px; position: relative; visibility: visible; background-color: transparent; display: inline-block;"><iframe id="aswift_0" name="aswift_0" browsingtopics="true" style="left:0;position:absolute;top:0;border:0;width:undefinedpx;height:undefinedpx;" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" frameborder="0" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" allow="attribution-reporting; run-ad-auction" src="https://googleads.g.doubleclick.net/pagead/ads?client=ca-pub-3329298310484464&amp;output=html&amp;adk=1812271804&amp;adf=3025194257&amp;abgtt=6&amp;lmt=1729828575&amp;plat=3%3A16%2C4%3A16%2C9%3A32776%2C16%3A8388608%2C17%3A32%2C24%3A32%2C25%3A32%2C30%3A1081344%2C32%3A32%2C41%3A32%2C42%3A32&amp;format=0x0&amp;url=https%3A%2F%2Fwyenot.com%2Fwhy-are-dogs-so-friendly-a-scientific-explanation%2F&amp;host=ca-host-pub-2644536267352236&amp;pra=5&amp;wgl=1&amp;aihb=0&amp;asro=0&amp;ailel=1~2~4~6~7~8~9~10~11~12~13~14~15~16~17~18~19~20~21~24~29~30~34&amp;aiael=1~2~4~6~7~8~9~10~11~12~13~14~15~16~17~18~19~20~21~24~29~30~34&amp;aicel=33&amp;aifxl=29_18~30_19&amp;aiixl=29_5~30_6&amp;aslmct=0.7&amp;asamct=0.7&amp;aiict=1&amp;aiombap=1&amp;aief=1&amp;uach=WyJXaW5kb3dzIiwiMTAuMC4wIiwieDg2IiwiIiwiMTMwLjAuNjcyMy4zMSIsbnVsbCwwLG51bGwsIjY0IixbWyJDaHJvbWl1bSIsIjEzMC4wLjY3MjMuMzEiXSxbIkhlYWRsZXNzQ2hyb21lIiwiMTMwLjAuNjcyMy4zMSJdLFsiTm90P0FfQnJhbmQiLCI5OS4wLjAuMCJdXSwwXQ..&amp;dt=1729828574812&amp;bpp=20&amp;bdt=892&amp;idt=379&amp;shv=r20241023&amp;mjsv=m202410230101&amp;ptt=9&amp;saldr=aa&amp;abxe=1&amp;cookie_enabled=1&amp;eoidce=1&amp;nras=1&amp;correlator=8760597577377&amp;frm=20&amp;pv=2&amp;u_tz=-240&amp;u_his=2&amp;u_h=720&amp;u_w=1280&amp;u_ah=720&amp;u_aw=1280&amp;u_cd=24&amp;u_sd=1&amp;dmc=8&amp;adx=-12245933&amp;ady=-12245933&amp;biw=1280&amp;bih=720&amp;scr_x=0&amp;scr_y=0&amp;eid=44759876%2C44759927%2C31088194%2C95332928%2C95344188%2C95345270%2C31088451%2C95344978&amp;oid=2&amp;pvsid=434052132927899&amp;tmod=1176928119&amp;uas=0&amp;nvt=1&amp;fsapi=1&amp;fc=1920&amp;brdim=0%2C0%2C0%2C0%2C1280%2C0%2C1280%2C720%2C1280%2C720&amp;vis=1&amp;rsz=%7C%7Cs%7C&amp;abl=NS&amp;fu=32768&amp;bc=31&amp;bz=1&amp;td=1&amp;tdf=2&amp;psd=W251bGwsbnVsbCxudWxsLDNd&amp;nt=1&amp;ifi=1&amp;uci=a!1&amp;fsb=1&amp;dtd=424" data-google-container-id="a!1" tabindex="0" title="Advertisement" aria-label="Advertisement" data-load-complete="true"></iframe></div></ins>
+<script src="https://wyenot.com/wp-includes/js/imagesloaded.min.js?ver=5.0.0" id="imagesloaded-js"></script>
+<script src="https://wyenot.com/wp-content/plugins/newsy-elements/assets/js/masonry.pkgd.js?ver=2.2.0" id="masonary-layout-js"></script>
+<script src="https://wyenot.com/wp-content/plugins/ak-framework/assets/lib/jquery.waypoints.js?ver=2.2.0" id="waypoint-js"></script>
+<script src="https://wyenot.com/wp-content/plugins/ak-framework/assets/js/ak-pagination.js?ver=2.2.0" id="ak-pagination-js"></script>
+<script src="https://wyenot.com/wp-content/plugins/ak-framework/assets/lib/tiny-slider/tiny-slider.min.js?ver=2.2.0" id="tiny-slider-js"></script>
+<script src="https://wyenot.com/wp-content/plugins/ak-framework/assets/js/ak-slider.js?ver=2.2.0" id="ak-slider-js"></script>
+<script id="newsy-elements-js-extra">
+var newsy_block_loc = {"rtl":"0","loader_html":"<div class=\"ak-loading-wrap clearfix\"><div class=\"ak-loading-dot\"><span><\/span><span><\/span><span><\/span><\/div><\/div>"};
+</script>
+<script src="https://wyenot.com/wp-content/plugins/newsy-elements/assets/js/plugin.js?ver=2.2.0" id="newsy-elements-js"></script>
+<script src="https://wyenot.com/wp-content/themes/newsy/assets/js/jquery.magnific-popup.js?ver=2.2.1" id="magnific-popup-js"></script>
+<script src="https://wyenot.com/wp-content/themes/newsy/assets/js/theia-sticky-sidebar.js?ver=2.2.1" id="theia-sticky-sidebar-js"></script>
+<script src="https://wyenot.com/wp-content/themes/newsy/assets/js/superfish.js?ver=2.2.1" id="superfish-js"></script>
+<script id="newsy-frontend-js-extra">
+var newsy_loc = {"ajax_url":"https:\/\/wyenot.com\/wp-admin\/admin-ajax.php","nonce":"5ff6521dd8","is_rtl":"0","is_login":"0","is_ssl":"1","lang":"en_US","loader_html":"<div class=\"ak-loading-wrap clearfix\"><div class=\"ak-loading-dot\"><span><\/span><span><\/span><span><\/span><\/div><\/div>","image_popup":"yes","video_sticky":"","gallery_popup":"yes","back_to_top":"1","enable_recaptcha":"","site_domain":"wyenot.com","site_slug":"\/"};
+</script>
+<script src="https://wyenot.com/wp-content/themes/newsy/assets/js/theme.min.js?ver=2.2.1" id="newsy-frontend-js"></script>
+<!--[if lt IE 9]>
+<script src="https://wyenot.com/wp-content/themes/newsy/assets/js/html5shiv.min.js?ver=2.2.1" id="html5shiv-js"></script>
+<![endif]-->
+<script src="https://wyenot.com/wp-content/plugins/newsy-bookmark/js/plugin.js?ver=2.2.0" id="newsy-bookmark-js"></script>
+<script src="https://wyenot.com/wp-content/plugins/newsy-nsfw/js/plugin.js?ver=1.0.2" id="newsy-nsfw-js"></script>
+<script src="https://wyenot.com/wp-content/plugins/newsy-reaction/js/plugin.js?ver=2.2.0" id="newsy-reaction-js"></script>
+<script src="https://wyenot.com/wp-content/plugins/newsy-social-share/js/plugin.js?ver=2.2.0" id="newsy-social-share-js"></script>
+<script src="https://wyenot.com/wp-content/plugins/newsy-voting/js/plugin.js?ver=2.2.0" id="newsy-voting-js"></script>
+<script type="application/ld+json">{"@context":"http:\/\/schema.org","@type":"article","mainEntityOfPage":{"@type":"WebPage","@id":"https:\/\/wyenot.com\/why-are-dogs-so-friendly-a-scientific-explanation\/"},"dateCreated":"2022-08-10 17:09:00","datePublished":"2022-08-10 17:09:00","dateModified":"2022-08-11 12:03:48","url":"https:\/\/wyenot.com\/why-are-dogs-so-friendly-a-scientific-explanation\/","headline":"\"Why Are Dogs So Friendly? A Scientific Explanation\"","name":"\"Why Are Dogs So Friendly? A Scientific Explanation\"","articleBody":"\"<!-- wp:paragraph -->\\n<p>Dogs have long been considered man's best friend. They love to join us on adventures, cuddle on the couch, and faithfully&nbsp;protect our homes from intruders. Because of this, more than 69 million households in the United States are home to at least one dog.<\\\/p>\\n<!-- \\\/wp:paragraph -->\\n\\n<!-- wp:paragraph -->\\n<p>But why is that? What makes dogs so much friendlier towards humans than wolves and other species?<\\\/p>\\n<!-- \\\/wp:paragraph -->\\n\\n<!-- wp:paragraph -->\\n<p><strong>Dogs are friendly towards humans because of their genetic makeup. Domesticated dogs have several genes that differ from wolves; these genes produce hypersocial traits in dogs. Interestingly enough, the genes that cause dogs to be so friendly are also found in people diagnosed with Williams-Buren syndrome, which causes hypersocial&nbsp;behavior.<\\\/strong><\\\/p>\\n<!-- \\\/wp:paragraph -->\\n\\n<!-- wp:paragraph -->\\n<p>I\\u200bn the rest of this article, we'll talk more about the scientific reason that dogs are so friendly.<\\\/p>\\n<!-- \\\/wp:paragraph -->\\n\\n<!-- wp:heading -->\\n<h2>Why Are Dogs So Friendly?<\\\/h2>\\n<!-- \\\/wp:heading -->\\n\\n<!-- wp:paragraph -->\\n<p>Over thousands of years, dogs have evolved from wild wolves to the loving house companions we all know and love today. Possibly the most obvious difference between wolves and dogs is how much more friendly dogs are.<\\\/p>\\n<!-- \\\/wp:paragraph -->\\n\\n<!-- wp:image {\\\"align\\\":\\\"right\\\",\\\"id\\\":1279,\\\"width\\\":350,\\\"height\\\":232,\\\"sizeSlug\\\":\\\"large\\\",\\\"linkDestination\\\":\\\"none\\\"} -->\\n<figure class=\\\"wp-block-image alignright size-large is-resized\\\"><img src=\\\"https:\\\/\\\/wyenot.com\\\/wp-content\\\/uploads\\\/2022\\\/07\\\/nice-laughing-girl-hugging-adorable-white-dog-with-2021-12-09-06-00-28-utc-1024x683.jpg\\\" alt=\\\"\\\" class=\\\"wp-image-1279\\\" width=\\\"350\\\" height=\\\"232\\\"\\\/><\\\/figure>\\n<!-- \\\/wp:image -->\\n\\n<!-- wp:paragraph -->\\n<p>While wolves are still incredibly wild\\u2014and incredibly dangerous\\u2014domesticated dogs love nothing more than to be close to their human partners. Even though dogs and wolves share 98.8% of the same DNA and belong to the same species, their personalities are worlds apart.&nbsp;<\\\/p>\\n<!-- \\\/wp:paragraph -->\\n\\n<!-- wp:paragraph -->\\n<p>According to this study, there are three genes in domesticated dogs that cause them to be so friendly. These genes are GTF2I, GTF2IRD1, and WBSCR17.<\\\/p>\\n<!-- \\\/wp:paragraph -->\\n\\n<!-- wp:paragraph -->\\n<p>Interestingly enough, these same genes are affected in people with Williams-Buren syndrome, which causes people to be excessively friendly. Humans who have been diagnosed with Williams-Buren syndrome are missing sequences of genes, including the three listed above.<\\\/p>\\n<!-- \\\/wp:paragraph -->\\n\\n<!-- wp:paragraph -->\\n<p>Before dogs' friendliness was linked to these genes, researchers assumed that humans selectively bred dogs with endearing qualities. While this is partially true, we now know that wolves may have started the process of domestication on their own through genetic mutation.<\\\/p>\\n<!-- \\\/wp:paragraph -->\\n\\n<!-- wp:paragraph -->\\n<p>It seems as though these three genes in particular directly impact the friendliness of dogs and humans. So how did domesticated dogs end up with these altered genes?<\\\/p>\\n<!-- \\\/wp:paragraph -->\\n\\n<!-- wp:heading -->\\n<h2>T\\u200bhe Domestication Of Dogs<\\\/h2>\\n<!-- \\\/wp:heading -->\\n\\n<!-- wp:image {\\\"align\\\":\\\"right\\\",\\\"id\\\":1280,\\\"width\\\":375,\\\"height\\\":249,\\\"sizeSlug\\\":\\\"full\\\",\\\"linkDestination\\\":\\\"none\\\"} -->\\n<figure class=\\\"wp-block-image alignright size-full is-resized\\\"><img src=\\\"https:\\\/\\\/wyenot.com\\\/wp-content\\\/uploads\\\/2022\\\/07\\\/puppy-of-mixed-breed-dog-playing-in-snowy-forest-i-2022-02-01-23-41-55-utc.jpg\\\" alt=\\\"\\\" class=\\\"wp-image-1280\\\" width=\\\"375\\\" height=\\\"249\\\"\\\/><\\\/figure>\\n<!-- \\\/wp:image -->\\n\\n<!-- wp:paragraph -->\\n<p>Wolves don't have the same versions of the genes that cause dogs, and some humans, to be excessively friendly. Some researchers believe the genes changed in wolves as they began to scavenge in people's campsites. While normal wolves wouldn't be able to handle being near humans, wolves with these altered genes were able to spend time in the camps, where they received food.<\\\/p>\\n<!-- \\\/wp:paragraph -->\\n\\n<!-- wp:paragraph -->\\n<p>A\\u200bs these genetically-changed wolves reproduced, they passed on their genes to their offspring, increasing the number of friendlier wolves. Humans helped to further the wolves' domestication by selectively breeding for friendly traits.<\\\/p>\\n<!-- \\\/wp:paragraph -->\\n\\n<!-- wp:paragraph -->\\n<p>O\\u200bf course, the earliest \\\"friendly\\\" dogs were likely nothing like the pups in our modern world. Dogs have been domesticated for over 30,000 years; with each new generation, the genetic sequence strengthened and the wolves became more and more friendly. After 30,000 years, they have transformed into the loving companions we know today.<\\\/p>\\n<!-- \\\/wp:paragraph -->\"","author":{"@type":"Person","name":"\"Thomas\"","url":"https:\/\/wyenot.com\/author\/johnseamus89\/"},"articleSection":["\"Animals\"","\"Featured\""],"image":{"@type":"ImageObject","url":"https:\/\/wyenot.com\/wp-content\/uploads\/2022\/07\/italian-greyhound-dog-with-arabian-hijab-2022-03-04-06-00-38-utc-scaled.jpg","width":2560,"height":1707},"publisher":{"@type":"Organization","name":"\"\"","url":"https:\/\/wyenot.com","logo":{"@type":"ImageObject","url":""},"sameAs":[]}}</script>
+<script type="application/ld+json">{"@context":"http:\/\/schema.org","@type":"hentry","entry-title":"\"Why Are Dogs So Friendly? A Scientific Explanation\"","published":"2022-08-10 17:09:00","updated":"2022-08-11 12:03:48"}</script>
+<div class="wpautoterms-footer"><p>
+		<a href="https://wyenot.com/wpautoterms/privacy-policy/">Privacy Policy</a></p>
+</div>
+
+
+
+
+
+<script type="text/javascript" src="https://ep2.adtrafficquality.google/sodar/sodar2.js"></script></body><iframe id="google_esf" name="google_esf" src="https://googleads.g.doubleclick.net/pagead/html/r20241023/r20190131/zrt_lookup.html" style="display: none;"></iframe></html>
