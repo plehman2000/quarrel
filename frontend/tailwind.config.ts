@@ -17,7 +17,7 @@ export default {
 			themes: {
 				preset: [
 					{
-						name: 'wintry',
+						name: 'rocket',
 						enhancements: true,
 					},
 				],
