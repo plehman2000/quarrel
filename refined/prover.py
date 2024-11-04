@@ -41,12 +41,25 @@ dotenv.load_dotenv(dotenv.find_dotenv(usecwd=True))
 api_key = os.getenv("PYMOJEEK_API_KEY")
 mojk_client = Search(api_key=api_key)
 
+from duckduckgo_search import DDGS
 
-def get_claim_sources(query):
-    results = mojk_client.search(query, count=10)
+
+def get_claim_sources(query, use_mojk=False):
+    results_final = []
+    if use_mojk:
+        results = mojk_client.search(query, count=10)
+        for x in results:
+            results_final.append({'url':x.url})
+    else:
+        #use DDG
+        results = DDGS().text(query, max_results=50)
+        for x in results:
+            results_final.append({'url':x['href']})
+
+
     if DEBUG:
-        print(f"Found {len(results)} results for query '{results.query}'")
-    return results
+        print(f"Found {len(results_final)} results for query '{query}'")
+    return results_final
 
 def save_source_pages(results):
     claimid = str(uuid.uuid4())
@@ -62,10 +75,10 @@ def save_source_pages(results):
 
     urls = []
     filenames = []
-    for x in tqdm(results, desc="Downloading webpages..."):
+    for x in results:
         site_id = str(uuid.uuid4())
-        site_id_dict[site_id] = str(x.url)
-        urls.append(x.url) 
+        site_id_dict[site_id] = str(x['url'])
+        urls.append(x['url']) 
         filenames.append(site_id)
     try:
         asyncio.run(download_webpage_html(urls, filenames, save_folder=filedir))
@@ -96,12 +109,16 @@ def get_webdata_chunks(query):
     return chunks
 
 
-def embed_chunks(sourced_chunks):
+def embed_chunks(sourced_chunks, is_query=False):
     all_chunk_vector_pairs = []
     for sourced_chunk in tqdm(sourced_chunks, desc="Embedding chunks..."):
         if len(sourced_chunk) > 15:
             # print(sourced_chunk)
-            embedding = ollama.embeddings(model="nomic-embed-text", prompt=sourced_chunk)["embedding"]
+            if is_query:
+                sourced_chunk = "search_query: " + sourced_chunk
+            else:
+                sourced_chunk = "search_document: " + sourced_chunk
+            embedding = ollama.embeddings(model="nomic-embed-text", prompt=  sourced_chunk)["embedding"]
             all_chunk_vector_pairs.append([sourced_chunk, embedding])
     return all_chunk_vector_pairs
 

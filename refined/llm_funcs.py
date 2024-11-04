@@ -42,11 +42,6 @@ def determine_informative(chunk, claim):
 def reword_query(claim):
     query = get_llm_response(
         f""" 
-        EXAMPLE:
-        *Input*: "Most dogs are friendly."
-        *Output*: "Why are most dogs friendly?"
-
-        PROMPT:
         Assume the inputted claim is true, and rephrase into a question about why it is true. Be careful to use the same tense (past/present/future) as the original claim.:
         Return only the query as a single, brief question.
         Claim: {claim}    
@@ -110,7 +105,22 @@ def restate_claim(claim, chunk):
                              )
     return query
 
-
+def get_factoids(claim):
+    query = get_llm_response(prompt = 
+    f"""For the given claim, generate 5-7 key conceptual phrases that 
+    would help verify its accuracy. Focus on broad, categorical details that could be 
+    used for semantic matching. Each phrase should be 3-8 words long and capture distinct aspects of the claim. Avoid overly specific details.
+    Example:
+    Claim: 'Kamala Harris is strict on immigration'
+    Output:
+    1. Kamala Harris immigration policy voting record
+    2. Harris statements on border security
+    3. Vice President border enforcement initiatives
+    4. Immigration legislation supported by Harris
+    5. Harris position on illegal immigration penalties
+    Claim:{claim}
+    """)
+    return query
 
 def restate_evidence(claim, evidence):
     prompt = f"""Claim: {claim}

@@ -76,7 +76,7 @@ from playwright.async_api import async_playwright
 from tqdm import tqdm
 # Apply nest_asyncio to allow nested event loops
 nest_asyncio.apply()
-async def download_webpage_html(urls, filenames, save_folder="./documents/", timeout=1):
+async def download_webpage_html(urls, filenames, save_folder="./documents/", timeout=0.1):
     try:
         # Ensure the save_folder exists
         os.makedirs(save_folder, exist_ok=True)
@@ -90,7 +90,7 @@ async def download_webpage_html(urls, filenames, save_folder="./documents/", tim
                 try:
                     save_path = os.path.join(save_folder, filename)
                     page = await browser.new_page()
-                    await page.goto(url, wait_until="domcontentloaded")
+                    await page.goto(url)#, wait_until="domcontentloaded")
                     await asyncio.sleep(timeout)  # Wait for the specified timeout
                     html_content = await page.content()
                     # Save the HTML content to a file
