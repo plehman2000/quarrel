@@ -6,27 +6,6 @@ app = marimo.App(width="medium")
 
 @app.cell
 def __():
-    # from prover import Prover
-    # prover = Prover()
-    # claim = "The minecraft youtuber Dream is a pedophile"
-    # oppclaim = "The minecraft youtuber Dream is not a pedophile"
-    # out = None
-    # import time
-    # start_time = time.time()
-    # for x in prover.run(proposition_claim=claim,opposition_claim = oppclaim, use_small_model=False):
-    #     out = x
-    #     print(out['status'])
-    #     print(time.time() - start_time )
-    #     start_time = time.time()
-    # arg1_w_claims = out['arg1_w_claims']
-    # arg2_w_claims = out['arg2_w_claims']
-    # print(arg1_w_claims, arg2_w_claims)
-    # print(f"Winning Claim: {out['victor']}")
-    return
-
-
-@app.cell
-def __():
     return
 
 
@@ -42,6 +21,7 @@ def __():
     from tqdm import tqdm
     import os
     import ollama
+    import pandas as pd
     from sklearn.cluster import k_means
     import numpy as np
     from collections import Counter
@@ -50,6 +30,7 @@ def __():
     from web_funcs import extract_text_from_html_file
     import asyncio
     import json
+    import prover
     return (
         Counter,
         Search,
@@ -69,6 +50,8 @@ def __():
         np,
         ollama,
         os,
+        pd,
+        prover,
         restate_claim,
         restate_evidence,
         reverse_claim,
@@ -81,8 +64,34 @@ def __():
 
 @app.cell
 def __():
-    import prover
-    return (prover,)
+    from prover import Prover
+    prover = Prover()
+    claim = "The minecraft youtuber Dream is a pedophile"
+    oppclaim = "The minecraft youtuber Dream is not a pedophile"
+    out = None
+    import time
+    start_time = time.time()
+    for x in prover.run(proposition_claim=claim,opposition_claim = oppclaim, use_small_model=False):
+        out = x
+        print(out['status'])
+        print(time.time() - start_time )
+        start_time = time.time()
+    arg1_w_claims = out['arg1_w_claims']
+    arg2_w_claims = out['arg2_w_claims']
+    print(arg1_w_claims, arg2_w_claims)
+    print(f"Winning Claim: {out['victor']}")
+    return (
+        Prover,
+        arg1_w_claims,
+        arg2_w_claims,
+        claim,
+        oppclaim,
+        out,
+        prover,
+        start_time,
+        time,
+        x,
+    )
 
 
 @app.cell
@@ -125,14 +134,12 @@ def __(master_dict, opposition_claim, proposition_claim, reword_query):
         "status": "Generated search queries",
         "progress": 20
     })
-
     return opposition_query, proposition_query
 
 
 @app.cell
 def __(master_dict):
     print(master_dict)
-
     return
 
 
@@ -156,7 +163,6 @@ def __(master_dict, opposition_query, proposition_query, prover):
         "status": "Retrieved opposition web data",
         "progress": 40
     })
-
     return opp_chunks, opp_chunks_pairs, prop_chunks, prop_chunks_pairs
 
 
@@ -174,7 +180,6 @@ def __(prop_chunks):
 
 @app.cell
 def __(master_dict, opp_chunks, prop_chunks, prover):
-
     # Embed chunks
     prop_all_chunk_vector_pairs = prover.embed_chunks(prop_chunks)
     master_dict.update({
@@ -187,7 +192,6 @@ def __(master_dict, opp_chunks, prop_chunks, prover):
         "status": "Embedded opposition chunks",
         "progress": 60
     })
-
     return opp_all_chunk_vector_pairs, prop_all_chunk_vector_pairs
 
 
@@ -197,50 +201,54 @@ def __():
 
 
 @app.cell
-def __(np, opposition_query, prover):
+def __():
     # Get embedding of filter chunks
 
     # q = get_factoids(proposition_claim)
     # print(q)
 
     # filter_embeddings = prover.embed_chunks([q])
-    filter_embeddings = prover.embed_chunks([opposition_query], is_query=True)
-    filter_embedding = np.array(filter_embeddings[0][1])
 
-    return filter_embedding, filter_embeddings
+    return
 
 
 @app.cell
-def __(filter_embedding):
+def __(np, opp_all_chunk_vector_pairs, opposition_query, prover, tqdm):
     import simsimd
 
-    similarity = 1-simsimd.cosine(filter_embedding, filter_embedding)
-    print(similarity)
-    return similarity, simsimd
+    def filter_chunks_using_vsim(query, all_chunk_vector_pairs):
+        filter_embeddings = prover.embed_chunks([query], is_query=True)
+        filter_embedding = np.array(filter_embeddings[0][1])
+        # get vector similarities for elimination
+        similarities = [] 
+        for i, chunky in tqdm(enumerate(all_chunk_vector_pairs), total=len(all_chunk_vector_pairs)):
+            vector = np.array(chunky[1])
+            sim = 1- simsimd.cosine(vector, filter_embedding)
+            similarities.append(sim)
+        
+        similarities = np.array(similarities)
+        
+        indeces = np.where(similarities > 0.65)[0] 
+        print(len(indeces))
+        # for idx in indeces:
+        #     x =     all_chunk_vector_pairs[idx][0]
+        #     print(x)
+        
+        return [all_chunk_vector_pairs[idx] for idx in indeces]
+
+    opp_reduced_chunk_vector_pairs = filter_chunks_using_vsim(opposition_query, opp_all_chunk_vector_pairs)
+    return filter_chunks_using_vsim, opp_reduced_chunk_vector_pairs, simsimd
 
 
 @app.cell
-def __(filter_embedding, np, opp_all_chunk_vector_pairs, simsimd, tqdm):
-    # get vector similarities for elimination
-    similarities = [] 
-    for i, chunky in tqdm(enumerate(opp_all_chunk_vector_pairs), total=len(opp_all_chunk_vector_pairs)):
-        vector = np.array(chunky[1])
-        sim = 1- simsimd.cosine(vector, filter_embedding)
-        similarities.append(sim)
-
-    similarities = np.array(similarities)
-    return chunky, i, sim, similarities, vector
+def __(opp_reduced_chunk_vector_pairs):
+    opp_reduced_chunk_vector_pairs
+    return
 
 
 @app.cell
-def __(np, opp_all_chunk_vector_pairs, similarities):
-    indeces = np.where(similarities > 0.6)[0]  # Returns 3
-    print(len(indeces))
-    for idx in indeces:
-        x =     opp_all_chunk_vector_pairs[idx][0]
-        print(x)
-        # break
-    return idx, indeces, x
+def __():
+    return
 
 
 @app.cell

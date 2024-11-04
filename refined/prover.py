@@ -52,7 +52,7 @@ def get_claim_sources(query, use_mojk=False):
             results_final.append({'url':x.url})
     else:
         #use DDG
-        results = DDGS().text(query, max_results=50)
+        results = DDGS().text(query, max_results=15)
         for x in results:
             results_final.append({'url':x['href']})
 
@@ -210,6 +210,21 @@ def get_final_args(claim,cluster_to_chunk_dict,max_sampled_chunks_per_cluster, i
 
 
 
+import simsimd
+
+def filter_chunks_using_vsim(query, all_chunk_vector_pairs, thresh=0.65):
+    filter_embeddings = embed_chunks([query], is_query=True)
+    filter_embedding = np.array(filter_embeddings[0][1])
+    # get vector similarities for elimination
+    similarities = [] 
+    for i, chunky in tqdm(enumerate(all_chunk_vector_pairs), total=len(all_chunk_vector_pairs)):
+        vector = np.array(chunky[1])
+        sim = 1- simsimd.cosine(vector, filter_embedding)
+        similarities.append(sim)
+    similarities = np.array(similarities)
+    indeces = np.where(similarities > 0.65)[0] 
+    
+    return [all_chunk_vector_pairs[idx] for idx in indeces]
 
 
 
@@ -298,16 +313,20 @@ class Prover():
         })
         yield master_dict
 
-        prop_sampled_clusters, prop_cluster_ids = get_clusters(prop_all_chunk_vector_pairs, n_argument_clusters)
-        prop_cluster_dict = generate_cluster_dict(prop_sampled_clusters, prop_all_chunk_vector_pairs, prop_cluster_ids)
+
+
+        prop_reduced_chunk_vector_pairs = filter_chunks_using_vsim(opposition_query, prop_all_chunk_vector_pairs,0.65)
+        opp_reduced_chunk_vector_pairs = filter_chunks_using_vsim(opposition_query, opp_all_chunk_vector_pairs, 0.65)
+        prop_sampled_clusters, prop_cluster_ids = get_clusters(prop_reduced_chunk_vector_pairs, n_argument_clusters)
+        prop_cluster_dict = generate_cluster_dict(prop_sampled_clusters, prop_reduced_chunk_vector_pairs, prop_cluster_ids)
         master_dict.update({
             "status": "Generated proposition clusters",
             "progress": 70
         })
         yield master_dict
 
-        opp_sampled_clusters, opp_cluster_ids = get_clusters(opp_all_chunk_vector_pairs, n_argument_clusters)
-        opp_cluster_dict = generate_cluster_dict(opp_sampled_clusters, opp_all_chunk_vector_pairs, opp_cluster_ids)
+        opp_sampled_clusters, opp_cluster_ids = get_clusters(opp_reduced_chunk_vector_pairs, n_argument_clusters)
+        opp_cluster_dict = generate_cluster_dict(opp_sampled_clusters, opp_reduced_chunk_vector_pairs, opp_cluster_ids)
         master_dict.update({
             "status": "Generated opposition clusters",
             "progress": 80

@@ -73,36 +73,70 @@ import os
 import asyncio
 import nest_asyncio
 from playwright.async_api import async_playwright
-from tqdm import tqdm
+# from tqdm import tqdm
 # Apply nest_asyncio to allow nested event loops
+from tqdm.asyncio import tqdm_asyncio
+
 nest_asyncio.apply()
-async def download_webpage_html(urls, filenames, save_folder="./documents/", timeout=0.1):
+
+async def process_single_url(browser, url, filename, save_folder, timeout):
+    """Process a single URL and save its HTML content"""
+    save_path = os.path.join(save_folder, filename)
+    try:
+        page = await browser.new_page()
+        await page.goto(url)
+        await asyncio.sleep(timeout)
+        html_content = await page.content()
+        
+        with open(save_path, "w", encoding="utf-8") as file:
+            file.write(html_content)
+            
+        await page.close()
+        
+        if DEBUG:
+            print(f"HTML content saved successfully to: {save_path[-15:]}...")
+        return True
+    except Exception as e:
+        print(f"Error processing {url}: {str(e)}")
+        return False
+
+async def download_webpage_html(urls, filenames, save_folder="./documents/", timeout=0.1, max_concurrent=5):
+    """
+    Download multiple webpages concurrently and save their HTML content
+    
+    Args:
+        urls (list): List of URLs to download
+        filenames (list): List of filenames to save the content to
+        save_folder (str): Directory to save the files
+        timeout (float): Time to wait after page load
+        max_concurrent (int): Maximum number of concurrent downloads
+    """
     try:
         # Ensure the save_folder exists
         os.makedirs(save_folder, exist_ok=True)
         
-        # Construct the full path to the save file
-        
-        # Use Playwright to get the HTML content
         async with async_playwright() as p:
             browser = await p.chromium.launch(headless=True)
-            for url, filename in tqdm(zip(urls, filenames), total=len(urls)):
-                try:
-                    save_path = os.path.join(save_folder, filename)
-                    page = await browser.new_page()
-                    await page.goto(url)#, wait_until="domcontentloaded")
-                    await asyncio.sleep(timeout)  # Wait for the specified timeout
-                    html_content = await page.content()
-                    # Save the HTML content to a file
-                    with open(save_path, "w", encoding="utf-8") as file:
-                        file.write(html_content)
-                except Exception:
-                    print("potential playwright error/loading a page error, check web_funcs")
+            
+            # Process URLs in batches to control concurrency
+            for i in range(0, len(urls), max_concurrent):
+                batch_urls = urls[i:i + max_concurrent]
+                batch_filenames = filenames[i:i + max_concurrent]
+                
+                # Create tasks for the current batch
+                tasks = [
+                    process_single_url(browser, url, filename, save_folder, timeout)
+                    for url, filename in zip(batch_urls, batch_filenames)
+                ]
+                
+                # Process batch concurrently with progress bar
+                await tqdm_asyncio.gather(
+                    *tasks,
+                    desc=f"Batch {i//max_concurrent + 1}/{(len(urls) + max_concurrent - 1)//max_concurrent}"
+                )
+            
             await browser.close()
-        
-
-        if DEBUG:
-            print(f"HTML content saved successfully to: {save_path[-15:]}...")
+            
     except Exception as e:
         print(f"An error occurred: {e}")
         return None
