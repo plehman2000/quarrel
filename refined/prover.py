@@ -100,7 +100,7 @@ def embed_chunks(sourced_chunks):
     all_chunk_vector_pairs = []
     for sourced_chunk in tqdm(sourced_chunks, desc="Embedding chunks..."):
         if len(sourced_chunk) > 15:
-            print(sourced_chunk)
+            # print(sourced_chunk)
             embedding = ollama.embeddings(model="nomic-embed-text", prompt=sourced_chunk)["embedding"]
             all_chunk_vector_pairs.append([sourced_chunk, embedding])
     return all_chunk_vector_pairs
@@ -132,7 +132,7 @@ def generate_cluster_dict(sampled_clusters, chunk_vector_pairs, cluster_ids):
 
 def get_n_informative_chunks(claim,cluster_to_chunk_dict,max_sampled_chunks_per_cluster, n_chunks_needed_per_cluster):
     informative_chunks = {}
-    for clust_i in tqdm(cluster_to_chunk_dict.keys()):
+    for clust_i in tqdm(cluster_to_chunk_dict.keys(), desc="Getting N informative chunks"):
         if max_sampled_chunks_per_cluster < len(cluster_to_chunk_dict[clust_i]):
             sampled_chunks = sample(list(cluster_to_chunk_dict[clust_i]), max_sampled_chunks_per_cluster)
         else:

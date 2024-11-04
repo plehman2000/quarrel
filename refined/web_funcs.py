@@ -87,14 +87,17 @@ async def download_webpage_html(urls, filenames, save_folder="./documents/", tim
         async with async_playwright() as p:
             browser = await p.chromium.launch(headless=True)
             for url, filename in tqdm(zip(urls, filenames), total=len(urls)):
-                save_path = os.path.join(save_folder, filename)
-                page = await browser.new_page()
-                await page.goto(url, wait_until="domcontentloaded")
-                await asyncio.sleep(timeout)  # Wait for the specified timeout
-                html_content = await page.content()
-                # Save the HTML content to a file
-                with open(save_path, "w", encoding="utf-8") as file:
-                    file.write(html_content)
+                try:
+                    save_path = os.path.join(save_folder, filename)
+                    page = await browser.new_page()
+                    await page.goto(url, wait_until="domcontentloaded")
+                    await asyncio.sleep(timeout)  # Wait for the specified timeout
+                    html_content = await page.content()
+                    # Save the HTML content to a file
+                    with open(save_path, "w", encoding="utf-8") as file:
+                        file.write(html_content)
+                except Exception:
+                    print("potential playwright error/loading a page error, check web_funcs")
             await browser.close()
         
 
