@@ -32,7 +32,7 @@ def convert_html_markdown(prompt):
 
 ################################
 def determine_informative(chunk, claim):
-    json_res = get_llm_json_response(f'Determine if the following statement is useful in supporting the claim "{claim}". Return (as a JSON, {{"response":"true"}}) "true" or "false". Statement: {chunk}')
+    json_res = get_llm_json_response(f'Determine if the following statement is useful in supporting the claim "{claim}". Return (as a JSON, {true}) "true" or "false". Statement: {chunk}')
     try:
         return dict(json.loads(json_res))
     except Exception:
