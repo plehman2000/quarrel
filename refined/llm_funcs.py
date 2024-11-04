@@ -8,8 +8,8 @@ MODEL = 'dolphin-llama3'
 
 
 
-def get_llm_response(prompt):
-    response = ollama.generate(model=MODEL, prompt=prompt)
+def get_llm_response(prompt, model='dolphin-llama3'):
+    response = ollama.generate(model=model, prompt=prompt)
     output = response['response']
     return output
 
@@ -76,7 +76,7 @@ def reverse_claim(claim_to_reverse):
 
        Claim to reverse: {claim_to_reverse}
        
-       Reversed claim: """)
+       Reversed claim: """,    model = "dolphin-llama3:70b")
    return query.strip()
 def combine_claims(claim, chunk1, chunk2):
     query = get_llm_response(

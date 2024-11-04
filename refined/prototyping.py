@@ -6,7 +6,7 @@ app = marimo.App(width="medium")
 
 @app.cell
 def __():
-    from prover import Prover
+    from prover import Prover 
     prover = Prover()
     return Prover, prover
 
@@ -23,6 +23,12 @@ def __(prover):
     print(arg1_w_claims, arg2_w_claims)
     print(f"Winning Claim: {out['victor']}")
     return arg1_w_claims, arg2_w_claims, claim, out, x
+
+
+@app.cell
+def __(i):
+    i
+    return
 
 
 @app.cell

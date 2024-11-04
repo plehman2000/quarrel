@@ -1,4 +1,3 @@
-from premiser import get_conclusion_premise, get_inversion
 from llm_funcs import reword_query, reverse_claim, restate_evidence,restate_claim
 from text_utils import chunk_text, is_non_informative
 from web_funcs import download_webpage_html
@@ -85,9 +84,9 @@ def ingest_source_pages(filedir):
         text = extract_text_from_html_file(filedir + file)
         num_files = num_files +1
         chunks = chunk_text(text)
-        for c in chunks:
+        for i,c in enumerate(chunks):
             # if not is_non_informative(c):
-            all_chunks.append({"chunk":c, "source":filedir})
+            all_chunks.append({"chunk":c, "source":filedir, "chunk_index": i})
     return all_chunks
 
 def get_webdata_chunks(query):
@@ -198,7 +197,7 @@ def get_final_args(claim,cluster_to_chunk_dict,max_sampled_chunks_per_cluster, i
 
 
 
-
+import pickle
 class Prover():
     def __init__(self):
         self.proposition_claim = None
@@ -206,6 +205,7 @@ class Prover():
         self.n_argument_clusters = None
         self.n_chunks_needed_per_cluster = None
         self.use_small_model=None
+        self.url_dict = pickle.load(open("./documents/url_dict.pkl", "rb"))
 
     def run(self, proposition_claim, opposition_claim=None,n_argument_clusters = 3,n_chunks_needed_per_cluster = 10, use_small_model=True):
         
