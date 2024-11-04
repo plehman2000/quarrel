@@ -108,7 +108,7 @@ def __():
                 is_supportive = False
             else:
                 is_supportive = None
-            
+
             return cls(
                 inputs=IsInformativeInput(
                     statement=data["inputs"]["statement"],
@@ -118,7 +118,6 @@ def __():
                     response=is_supportive
                 )
             )
-
     return (
         DataClass,
         Dict,
@@ -821,15 +820,12 @@ def __():
                 "is_supportive": 'false'
             }
         }]
-
-
     return false_examples, true_examples
 
 
 @app.cell
 def __(IsInformativeExample, true_examples):
     example = IsInformativeExample.from_dict(true_examples[0])
-
     return (example,)
 
 
@@ -857,10 +853,50 @@ def __(OllamaClient):
     model_kwargs={"model": "dolphin-llama3"},
     jugement_query="Does the predicted answer means the same as the ground truth answer? Say True if yes, False if no."
     )
-    llm_evaluator = LLMasJudge(llm_judge=llm_judge)
-    print(llm_judge)
+    llm_evaluator = LLMasJudge(llm_judge)
 
     return DefaultLLMJudge, LLMasJudge, llm_evaluator, llm_judge
+
+
+@app.cell
+def __():
+    return
+
+
+@app.cell
+def __(llm_evaluator):
+    questions = ["niasgfasfdaaga","niasdasdga""niasgasdgadsaa"]
+    pred_answers = ["Yes", "Yes, Appled is founded before Google", "Yes"]
+    gt_answers = ["Yes", "Yes", "No"]
+    judgement_query = "For the question, does the predicted answer contain the ground truth answer?"
+
+    result = llm_evaluator.compute(
+    questions=questions, gt_answers=gt_answers, pred_answers=pred_answers)
+    print(result)
+    return gt_answers, judgement_query, pred_answers, questions, result
+
+
+app._unparsable_cell(
+    r"""
+    >>> questions = [
+    \"Is Beijing in China?\",
+    \"Is Apple founded before Google?\",
+    \"Is earth flat?\",
+    ]
+    >>> pred_answers = [\"Yes\", \"Yes, Appled is founded before Google\", \"Yes\"]
+    >>> gt_answers = [\"Yes\", \"Yes\", \"No\"]
+    >>> judgement_query = \"For the question, does the predicted answer contain the ground truth answer?\"
+    >>> llm_judge = LLMasJudge()
+    >>> avg_judgement, judgement_list = llm_judge.compute(
+    questions, gt_answers, pred_answers, judgement_query
+    )
+    >>> avg_judgement
+    2 / 3
+    >>> judgement_list
+    [True, True, False]
+    """,
+    name="__"
+)
 
 
 if __name__ == "__main__":
