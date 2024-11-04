@@ -208,7 +208,6 @@ def __():
     # print(q)
 
     # filter_embeddings = prover.embed_chunks([q])
-
     return
 
 
@@ -225,15 +224,15 @@ def __(np, opp_all_chunk_vector_pairs, opposition_query, prover, tqdm):
             vector = np.array(chunky[1])
             sim = 1- simsimd.cosine(vector, filter_embedding)
             similarities.append(sim)
-        
+
         similarities = np.array(similarities)
-        
+
         indeces = np.where(similarities > 0.65)[0] 
         print(len(indeces))
         # for idx in indeces:
         #     x =     all_chunk_vector_pairs[idx][0]
         #     print(x)
-        
+
         return [all_chunk_vector_pairs[idx] for idx in indeces]
 
     opp_reduced_chunk_vector_pairs = filter_chunks_using_vsim(opposition_query, opp_all_chunk_vector_pairs)
