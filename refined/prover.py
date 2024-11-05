@@ -52,7 +52,7 @@ def get_claim_sources(query, use_mojk=False):
             results_final.append({'url':x.url})
     else:
         #use DDG
-        results = DDGS().text(query, max_results=15)
+        results = DDGS().text(query, max_results=50)
         for x in results:
             results_final.append({'url':x['href']})
 
@@ -103,7 +103,7 @@ def ingest_source_pages(filedir):
     return all_chunks
 
 def get_webdata_chunks(query):
-    results = get_claim_sources(query)
+    results = get_claim_sources(query, use_mojk=False)
     filedir = save_source_pages(results)
     chunks = ingest_source_pages(filedir)
     return chunks
@@ -149,7 +149,7 @@ def generate_cluster_dict(sampled_clusters, chunk_vector_pairs, cluster_ids):
 
 def get_n_informative_chunks(claim,cluster_to_chunk_dict,max_sampled_chunks_per_cluster, n_chunks_needed_per_cluster):
     informative_chunks = {}
-    for clust_i in tqdm(cluster_to_chunk_dict.keys(), desc="Getting N informative chunks"):
+    for clust_i in tqdm(cluster_to_chunk_dict.keys(), desc=f"Getting {n_chunks_needed_per_cluster} informative chunks per cluster"):
         if max_sampled_chunks_per_cluster < len(cluster_to_chunk_dict[clust_i]):
             sampled_chunks = sample(list(cluster_to_chunk_dict[clust_i]), max_sampled_chunks_per_cluster)
         else:

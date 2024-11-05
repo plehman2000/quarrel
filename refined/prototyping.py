@@ -1,6 +1,6 @@
 import marimo
 
-__generated_with = "0.9.10"
+__generated_with = "0.9.9"
 app = marimo.App(width="medium")
 
 
@@ -30,9 +30,10 @@ def __():
     from web_funcs import extract_text_from_html_file
     import asyncio
     import json
-    import prover
+    from prover import Prover
     return (
         Counter,
+        Prover,
         Search,
         asyncio,
         chunk_text,
@@ -51,7 +52,6 @@ def __():
         ollama,
         os,
         pd,
-        prover,
         restate_claim,
         restate_evidence,
         reverse_claim,
@@ -63,8 +63,7 @@ def __():
 
 
 @app.cell
-def __():
-    from prover import Prover
+def __(Prover):
     prover = Prover()
     claim = "The minecraft youtuber Dream is a pedophile"
     oppclaim = "The minecraft youtuber Dream is not a pedophile"
@@ -74,14 +73,13 @@ def __():
     for x in prover.run(proposition_claim=claim,opposition_claim = oppclaim, use_small_model=False):
         out = x
         print(out['status'])
-        print(time.time() - start_time )
+        print(f"Time Take: {time.time() - start_time}" )
         start_time = time.time()
     arg1_w_claims = out['arg1_w_claims']
     arg2_w_claims = out['arg2_w_claims']
     print(arg1_w_claims, arg2_w_claims)
     print(f"Winning Claim: {out['victor']}")
     return (
-        Prover,
         arg1_w_claims,
         arg2_w_claims,
         claim,
@@ -92,6 +90,20 @@ def __():
         time,
         x,
     )
+
+
+@app.cell
+def __():
+    # Getting N informative chunks: 100%|██████████| 3/3 [00:25<00:00,  8.66s/it]
+
+    # Reducing 1 chunks...
+    # Chunks Reduced!
+    # Reducing 1 chunks...
+    # Chunks Reduced!
+    # Generated proposition arguments
+
+    #Why is it gonly reducing 1 chunk? Shouldnt it be 3?
+    return
 
 
 @app.cell

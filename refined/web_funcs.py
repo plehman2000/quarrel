@@ -100,7 +100,7 @@ async def process_single_url(browser, url, filename, save_folder, timeout):
         print(f"Error processing {url}: {str(e)}")
         return False
 
-async def download_webpage_html(urls, filenames, save_folder="./documents/", timeout=0.1, max_concurrent=5):
+async def download_webpage_html(urls, filenames, save_folder="./documents/", timeout=0.1, max_concurrent=20):
     """
     Download multiple webpages concurrently and save their HTML content
     
