@@ -6,11 +6,6 @@ app = marimo.App(width="medium")
 
 @app.cell
 def __():
-    return
-
-
-@app.cell
-def __():
     from llm_funcs import reword_query, reverse_claim, restate_evidence,restate_claim, get_factoids
     from text_utils import chunk_text, is_non_informative
     from web_funcs import download_webpage_html

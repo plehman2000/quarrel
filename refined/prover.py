@@ -43,7 +43,6 @@ mojk_client = Search(api_key=api_key)
 
 from duckduckgo_search import DDGS
 
-
 def get_claim_sources(query, use_mojk=False):
     results_final = []
     if use_mojk:
@@ -51,7 +50,7 @@ def get_claim_sources(query, use_mojk=False):
         for x in results:
             results_final.append({'url':x.url})
     else:
-        #use DDG
+        #use DDGS 
         results = DDGS().text(query, max_results=50)
         for x in results:
             results_final.append({'url':x['href']})
