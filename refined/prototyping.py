@@ -61,7 +61,7 @@ def __(Prover):
     prover = Prover(
     proposition_claim="Donald Trump is racist",
         opposition_claim = "Donald Trump is not racist",
-        use_small_model=True, 
+        use_small_model=False, 
         n_websites=50,
         n_chunks_needed_per_cluster=6
     )
