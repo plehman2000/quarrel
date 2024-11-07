@@ -1,12 +1,7 @@
 import marimo
 
-__generated_with = "0.9.9"
+__generated_with = "0.9.10"
 app = marimo.App(width="medium")
-
-
-@app.cell
-def __():
-    return
 
 
 @app.cell
@@ -64,13 +59,22 @@ def __():
 
 @app.cell
 def __(Prover):
-    prover = Prover()
-    claim = "The minecraft youtuber Dream is a pedophile"
-    oppclaim = "The minecraft youtuber Dream is not a pedophile"
+    prover = Prover(
+    proposition_claim="Donald Trump is racist",
+        opposition_claim = "Donald Trump is not racist",
+        use_small_model=False, 
+        n_websites=30
+    )
+
+    return (prover,)
+
+
+@app.cell
+def __(prover):
     out = None
     import time
     start_time = time.time()
-    for x in prover.run(proposition_claim=claim,opposition_claim = oppclaim, use_small_model=False):
+    for x in prover.run():
         out = x
         print(out['status'])
         print(f"Time Take: {time.time() - start_time}" )
@@ -79,17 +83,12 @@ def __(Prover):
     arg2_w_claims = out['arg2_w_claims']
     print(arg1_w_claims, arg2_w_claims)
     print(f"Winning Claim: {out['victor']}")
-    return (
-        arg1_w_claims,
-        arg2_w_claims,
-        claim,
-        oppclaim,
-        out,
-        prover,
-        start_time,
-        time,
-        x,
-    )
+    return arg1_w_claims, arg2_w_claims, out, start_time, time, x
+
+
+@app.cell
+def __():
+    return
 
 
 @app.cell
@@ -156,70 +155,77 @@ def __(master_dict):
 
 
 @app.cell
-def __(master_dict, opposition_query, proposition_query, prover):
+def __(master_dict):
     # Generate opposition claim and queries
-
+    import prover as provely
 
     # Get chunks
-    prop_chunks_pairs = prover.get_webdata_chunks(proposition_query)
+    prop_chunks_pairs = provely.get_webdata_chunks("Trump is racist", 5)
     prop_chunks = [x['chunk'] for x in  prop_chunks_pairs]
     master_dict.update({
         "status": "Retrieved proposition web data",
         "progress": 30
     })
 
-    opp_chunks_pairs = prover.get_webdata_chunks(opposition_query)
-    opp_chunks = [x['chunk'] for x in  opp_chunks_pairs]
 
-    master_dict.update({
-        "status": "Retrieved opposition web data",
-        "progress": 40
-    })
-    return opp_chunks, opp_chunks_pairs, prop_chunks, prop_chunks_pairs
-
-
-@app.cell
-def __(mo):
-    mo.md(r"""# Prototype for Faster Chunk winnowing""")
-    return
+    return prop_chunks, prop_chunks_pairs, provely
 
 
 @app.cell
 def __(prop_chunks):
-    prop_chunks[0]
+    prop_chunks[8]
     return
 
 
 @app.cell
-def __(master_dict, opp_chunks, prop_chunks, prover):
+def __(prop_chunks, provely):
     # Embed chunks
-    prop_all_chunk_vector_pairs = prover.embed_chunks(prop_chunks)
-    master_dict.update({
-        "status": "Embedded proposition chunks",
-        "progress": 50
-    })
+    prop_all_chunk_vector_pairs = provely.embed_chunks(prop_chunks)
 
-    opp_all_chunk_vector_pairs = prover.embed_chunks(opp_chunks)
-    master_dict.update({
-        "status": "Embedded opposition chunks",
-        "progress": 60
-    })
-    return opp_all_chunk_vector_pairs, prop_all_chunk_vector_pairs
+    return (prop_all_chunk_vector_pairs,)
 
 
 @app.cell
-def __():
-    return
+def __(np):
+    from sklearn.cluster import KMeans
+
+    def cluster_data(data):
+        """
+        Performs KMeans clustering on a list of data points.
+        
+        Parameters:
+        data (list): A list of data points, where each data point is a list containing a string and a numeric vector.
+        
+        Returns:
+        clustered_data (list): A list of lists, where each inner list contains the data points that belong to that cluster.
+        cluster_centers (np.ndarray): The cluster centers found by KMeans.
+        """
+        # Extract the numeric vectors from the data
+        X = np.array([point[1] for point in data])
+        
+        # Perform KMeans clustering
+        kmeans = KMeans(n_clusters=3, random_state=42)
+        labels = kmeans.fit_predict(X)
+        cluster_centers = kmeans.cluster_centers_
+        
+        # Group the data points by their cluster labels
+        clustered_data = [[] for _ in range(3)]
+        for i, label in enumerate(labels):
+            clustered_data[label].append(data[i])
+        
+        return clustered_data
+    return KMeans, cluster_data
 
 
 @app.cell
-def __():
-    # Get embedding of filter chunks
+def __(cluster_data, prop_all_chunk_vector_pairs):
+    clustered_props = cluster_data(prop_all_chunk_vector_pairs)
+    return (clustered_props,)
 
-    # q = get_factoids(proposition_claim)
-    # print(q)
 
-    # filter_embeddings = prover.embed_chunks([q])
+@app.cell
+def __(clustered_props):
+    clustered_props[0][0]
     return
 
 
