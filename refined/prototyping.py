@@ -62,8 +62,8 @@ def __(Prover):
     proposition_claim="Donald Trump is racist",
         opposition_claim = "Donald Trump is not racist",
         use_small_model=True, 
-        n_websites=5,
-        n_chunks_needed_per_cluster=4
+        n_websites=50,
+        n_chunks_needed_per_cluster=6
     )
     return (prover,)
 
@@ -82,6 +82,7 @@ def __(prover):
     arg2_w_claims = out['arg2_w_claims']
     print(arg1_w_claims, arg2_w_claims)
     print(f"Winning Claim: {out['victor']}")
+
     return arg1_w_claims, arg2_w_claims, out, start_time, time, x
 
 

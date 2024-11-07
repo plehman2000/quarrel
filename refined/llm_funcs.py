@@ -17,8 +17,8 @@ def get_llm_response(prompt, model = MODEL):
     return output
 
 
-def get_llm_json_response(prompt):
-    response = ollama.generate(model=MODEL, prompt=prompt,format='json')
+def get_llm_json_response(prompt, model=MODEL):
+    response = ollama.generate(model=model, prompt=prompt,format='json')
     output = response['response']
     return output
 
