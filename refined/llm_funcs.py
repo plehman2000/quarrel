@@ -3,14 +3,15 @@ import json
 
 
 # MODEL = "Hudson/llama3.1-uncensored:8b"
-MODEL = 'dolphin-llama3'
+# MODEL = 'dolphin-llama3'
 MODEL = 'CognitiveComputations/dolphin-llama3.1'
+SMALL_MODEL = 'tinydolphin'
 # MODEL = 'llama3.2'
 
 
 
 
-def get_llm_response(prompt, model='dolphin-llama3'):
+def get_llm_response(prompt, model = MODEL):
     response = ollama.generate(model=model, prompt=prompt)
     output = response['response']
     return output
@@ -33,9 +34,15 @@ def get_llm_json_response(prompt):
 
 
 ################################
-def determine_informative(chunk, claim):
-    json_res = get_llm_json_response(f'Determine if the following statement is useful in supporting the claim "{claim}". Return {{"response" : "true"}} or {{"response" : "false"}}. Statement: {chunk}')
-    try:
+def determine_informative(chunk, claim, use_small=True):
+    if use_small:
+        m = SMALL_MODEL
+    else:
+        m = MODEL
+    json_res = get_llm_json_response(f'Determine if the following statement is useful in supporting the claim "{claim}". Return a JSON in the form {{"response" : "true"}} or {{"response" : "false"}}. Statement: {chunk}', model=m)
+    
+    try: 
+        # print(f"INFORMATIVE: {dict(json.loads(json_res))}")
         return dict(json.loads(json_res))
     except Exception:
         return {"error": "Error in JSON output"}
@@ -88,8 +95,7 @@ def combine_claims(claim, chunk1, chunk2):
             Instructions:
             Analyze the claim and statements.
             Synthesize into one clear sentence.
-            ONLY RETURN a one-sentence summary encompassing the main points from the claim and statements."""
-                             )
+            ONLY RETURN a one-sentence summary encompassing the main points from the claim and statements.""")
     return query
 
 
@@ -212,7 +218,7 @@ def get_final_judgement(arg1, arg2, use_small_model=False):
     model = "dolphin-llama3:70b"
 
     if use_small_model:
-        model = "dolphin-llama3"
+        model = MODEL
 
 
     response = ollama.generate(model=model, prompt=prompt,format='json', options={'temperature':0.1})

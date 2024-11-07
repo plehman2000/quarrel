@@ -61,8 +61,8 @@ def __(Prover):
     prover = Prover(
     proposition_claim="Donald Trump is racist",
         opposition_claim = "Donald Trump is not racist",
-        use_small_model=False, 
-        n_websites=3,
+        use_small_model=True, 
+        n_websites=5,
         n_chunks_needed_per_cluster=4
     )
     return (prover,)
@@ -86,7 +86,15 @@ def __(prover):
 
 
 @app.cell
-def __():
+def __(out):
+    # now look at what's coming out of cluster functions so I can duplicate it
+    out
+    return
+
+
+@app.cell
+def __(out):
+    out['prop_chunk']
     return
 
 

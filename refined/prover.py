@@ -159,6 +159,7 @@ def get_n_informative_chunks(claim,cluster_to_chunk_dict,max_sampled_chunks_per_
             informative = determine_informative(chu, claim)
             if 'response' in informative:
                 if informative['response'].lower() == 'true':
+                    # print(f"Info chunk: {chu}")
                     informative_chunks[clust_i].append(chu)
                     ct +=1
                     if DEBUG:
