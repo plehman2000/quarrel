@@ -178,6 +178,7 @@ def reduce_chunks(claim, chunks):
     if len(chunks) == 0:
         return None
     print(f"Reducing {len(chunks)} chunks...")
+    print(chunks)
     intermediate_summaries = chunks
     while len(intermediate_summaries) != 1:
         temp = []
