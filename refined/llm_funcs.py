@@ -4,6 +4,8 @@ import json
 
 # MODEL = "Hudson/llama3.1-uncensored:8b"
 MODEL = 'dolphin-llama3'
+MODEL = 'CognitiveComputations/dolphin-llama3.1'
+# MODEL = 'llama3.2'
 
 
 
@@ -20,19 +22,19 @@ def get_llm_json_response(prompt):
     return output
 
 
-def convert_html_markdown(prompt):
-    response = ollama.generate(model='reader-lm:0.5b', messages=[  #*  reader-lm is alt model
-    {
-    'role': 'user',
-    'content': prompt}])
-    output = response['response']
-    return output
+# def convert_html_markdown(prompt):
+#     response = ollama.generate(model='reader-lm:0.5b', messages=[  #*  reader-lm is alt model
+#     {
+#     'role': 'user',
+#     'content': prompt}])
+#     output = response['response']
+#     return output
 
 
 
 ################################
 def determine_informative(chunk, claim):
-    json_res = get_llm_json_response(f'Determine if the following statement is useful in supporting the claim "{claim}". Return "true" or "false". Statement: {chunk}')
+    json_res = get_llm_json_response(f'Determine if the following statement is useful in supporting the claim "{claim}". Return {{"response" : "true"}} or {{"response" : "false"}}. Statement: {chunk}')
     try:
         return dict(json.loads(json_res))
     except Exception:

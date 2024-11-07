@@ -1,6 +1,6 @@
 import marimo
 
-__generated_with = "0.9.10"
+__generated_with = "0.9.9"
 app = marimo.App(width="medium")
 
 
@@ -21,7 +21,7 @@ def __():
     import numpy as np
     from collections import Counter
     from random import sample
-    from llm_funcs import determine_informative, combine_claims, get_final_judgement, convert_html_markdown
+    from llm_funcs import determine_informative, combine_claims, get_final_judgement
     from web_funcs import extract_text_from_html_file
     import asyncio
     import json
@@ -33,7 +33,6 @@ def __():
         asyncio,
         chunk_text,
         combine_claims,
-        convert_html_markdown,
         determine_informative,
         dotenv,
         download_webpage_html,
@@ -63,9 +62,9 @@ def __(Prover):
     proposition_claim="Donald Trump is racist",
         opposition_claim = "Donald Trump is not racist",
         use_small_model=False, 
-        n_websites=30
+        n_websites=3,
+        n_chunks_needed_per_cluster=4
     )
-
     return (prover,)
 
 
@@ -166,8 +165,6 @@ def __(master_dict):
         "status": "Retrieved proposition web data",
         "progress": 30
     })
-
-
     return prop_chunks, prop_chunks_pairs, provely
 
 
@@ -181,7 +178,6 @@ def __(prop_chunks):
 def __(prop_chunks, provely):
     # Embed chunks
     prop_all_chunk_vector_pairs = provely.embed_chunks(prop_chunks)
-
     return (prop_all_chunk_vector_pairs,)
 
 
@@ -192,27 +188,27 @@ def __(np):
     def cluster_data(data):
         """
         Performs KMeans clustering on a list of data points.
-        
+
         Parameters:
         data (list): A list of data points, where each data point is a list containing a string and a numeric vector.
-        
+
         Returns:
         clustered_data (list): A list of lists, where each inner list contains the data points that belong to that cluster.
         cluster_centers (np.ndarray): The cluster centers found by KMeans.
         """
         # Extract the numeric vectors from the data
         X = np.array([point[1] for point in data])
-        
+
         # Perform KMeans clustering
         kmeans = KMeans(n_clusters=3, random_state=42)
         labels = kmeans.fit_predict(X)
         cluster_centers = kmeans.cluster_centers_
-        
+
         # Group the data points by their cluster labels
         clustered_data = [[] for _ in range(3)]
         for i, label in enumerate(labels):
             clustered_data[label].append(data[i])
-        
+
         return clustered_data
     return KMeans, cluster_data
 
