@@ -145,6 +145,18 @@ def generate_cluster_dict(sampled_clusters, chunk_vector_pairs, cluster_ids):
     return cluster_to_chunk
 
 
+def determine_informative_bespoke(doc, claim):
+
+    prompt = f"""Document: {doc}\n Claim: {claim}"""
+    response = ollama.generate(model="bespoke-minicheck", prompt=prompt)
+    output = response['response']
+    if output == "Yes":
+        return {"response" : "true"}
+    else:
+        return {"response" : "false"}
+        
+
+
 
 def get_n_informative_chunks(claim,cluster_to_chunk_dict,max_sampled_chunks_per_cluster, n_chunks_needed_per_cluster):
     informative_chunks = {}
@@ -156,7 +168,8 @@ def get_n_informative_chunks(claim,cluster_to_chunk_dict,max_sampled_chunks_per_
         informative_chunks[clust_i] = []
         ct = 0
         for chu in sampled_chunks:
-            informative = determine_informative(chu, claim)
+            # informative = determine_informative(chu, claim)
+            informative = determine_informative_bespoke(chu, claim)
             if 'response' in informative:
                 if informative['response'].lower() == 'true':
                     # print(f"Info chunk: {chu}")
