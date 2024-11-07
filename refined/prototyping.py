@@ -82,7 +82,6 @@ def __(prover):
     arg2_w_claims = out['arg2_w_claims']
     print(arg1_w_claims, arg2_w_claims)
     print(f"Winning Claim: {out['victor']}")
-
     return arg1_w_claims, arg2_w_claims, out, start_time, time, x
 
 
