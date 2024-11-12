@@ -185,7 +185,7 @@ def determine_informative_bespoke(doc, claim):
     prompt = f"""Document: {doc}\n Claim: {claim}"""
     response = ollama.generate(model="bespoke-minicheck", prompt=prompt)
     output = response['response']
-    print(output)
+    # print(output)
     if output == "Yes":
         return {"response" : "true"}
     else:
@@ -293,7 +293,7 @@ def get_n_informative_chunks(claim, cluster_to_chunk_dict, max_sampled_chunks_pe
             for chu in tqdm(sampled_chunks, desc="All Chunks..."):
                 # Call determine_informative_bespoke function to evaluate the chunk
                 informative = determine_informative_bespoke(chu, claim)
-                print(chu)
+                # print(chu)
                 # Ensure 'response' key exists and its value is 'true'
                 if informative.get('response', '').lower() == 'true':
                     # print(chu)#TODOD
@@ -648,7 +648,7 @@ def prover_F(proposition_claim,opposition_claim, n_argument_clusters, n_chunks_n
         
 
 
-        print(proposition_claim, prop_cluster_dict,max_sampled_chunks_per_cluster, n_chunks_needed_per_cluster)
+        # print(proposition_claim, prop_cluster_dict,max_sampled_chunks_per_cluster, n_chunks_needed_per_cluster)
         
         prop_informative_chunks =  get_n_informative_chunks(proposition_claim, prop_cluster_dict,max_sampled_chunks_per_cluster, n_chunks_needed_per_cluster)
         if prop_informative_chunks[0] == []:
@@ -662,11 +662,11 @@ def prover_F(proposition_claim,opposition_claim, n_argument_clusters, n_chunks_n
         })
         yield master_dict
         # prop_final_args = [""] #TODO
-        print(opposition_claim, opp_cluster_dict, max_sampled_chunks_per_cluster, n_chunks_needed_per_cluster)
+        # print(opposition_claim, opp_cluster_dict, max_sampled_chunks_per_cluster, n_chunks_needed_per_cluster)
         opp_informative_chunks =  get_n_informative_chunks(opposition_claim, opp_cluster_dict,max_sampled_chunks_per_cluster, n_chunks_needed_per_cluster)
         print(f"WHAT THE FUCK:{opp_informative_chunks}")
         if opp_informative_chunks[0] == []:
-            return 
+            return master_dict 
         opp_final_args = get_final_args(opposition_claim, opp_cluster_dict, max_sampled_chunks_per_cluster, opp_informative_chunks)
         master_dict.update({
             "opp_final_args": opp_final_args,

@@ -16,11 +16,11 @@ def __(prover_F):
     import time
     start_time = time.time()
     for x in prover_F(
-    proposition_claim="Donald Trump is racist",
-        opposition_claim = "Donald Trump is not racist",
+    proposition_claim="Donald Trump is not racist",
+        opposition_claim = "Donald Trump is racist",
         use_small_model=False, 
-        n_websites=6,
-        n_chunks_needed_per_cluster=1,
+        n_websites=40,
+        n_chunks_needed_per_cluster=3,
         n_argument_clusters=2
     ):
         out = x
