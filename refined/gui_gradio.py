@@ -9,17 +9,19 @@ from llm_funcs import get_final_judgement
 
 
 
+# import asyncio
+# import nest_asyncio
+# loop = asyncio.ProactorEventLoop()
+# asyncio.set_event_loop(loop)
+# get_webdata_chunks("is u s?", 2)
 
-# async def async_download_websites(urls, files):
-#     download_webpage_html(urls=test_urls, filenames=test_filenames)
-#     return res
 
 
     
 
 
 
-async def run_prover(proposition_claim, opposition_claim, use_small_model, n_websites, n_chunks_needed_per_cluster, progress=gr.Progress()):
+def run_prover(proposition_claim, opposition_claim, use_small_model, n_websites, n_chunks_needed_per_cluster, progress=gr.Progress()):
     # await asyncio.wait_for(async_download_websites(prompt), timeout=6)
 
     try:
@@ -78,7 +80,7 @@ async def run_prover(proposition_claim, opposition_claim, use_small_model, n_web
         prop_chunks = [x['chunk'] for x in  prop_chunks_pairs]
         master_dict.update({
             "status": "Retrieved proposition web data",
-            "progress": 30
+            "progress": 25
         })
         progress(master_dict['progress']/100)
 
@@ -88,7 +90,7 @@ async def run_prover(proposition_claim, opposition_claim, use_small_model, n_web
 
         master_dict.update({
             "status": "Retrieved opposition web data",
-            "progress": 40
+            "progress": 30
         })
         progress(master_dict['progress']/100)
 
@@ -96,14 +98,14 @@ async def run_prover(proposition_claim, opposition_claim, use_small_model, n_web
         prop_all_chunk_vector_pairs = embed_chunks(prop_chunks)
         master_dict.update({
             "status": "Embedded proposition chunks",
-            "progress": 50
+            "progress": 35
         })
         progress(master_dict['progress']/100)
 
         opp_all_chunk_vector_pairs = embed_chunks(opp_chunks)
         master_dict.update({
             "status": "Embedded opposition chunks",
-            "progress": 60
+            "progress": 40
         })
         progress(master_dict['progress']/100)
 
@@ -120,7 +122,7 @@ async def run_prover(proposition_claim, opposition_claim, use_small_model, n_web
         master_dict.update({
             "prop_cluster_dict":prop_cluster_dict, #for debuggiign
             "status": "Generated proposition clusters",
-            "progress": 70
+            "progress": 45
         })
         progress(master_dict['progress']/100)
 
@@ -131,7 +133,7 @@ async def run_prover(proposition_claim, opposition_claim, use_small_model, n_web
         master_dict.update({
             "opp_cluster_dict":opp_cluster_dict, #for debuggiign
             "status": "Generated opposition clusters",
-            "progress": 80
+            "progress": 50
         })
         progress(master_dict['progress']/100)
 
@@ -146,7 +148,7 @@ async def run_prover(proposition_claim, opposition_claim, use_small_model, n_web
             "prop_final_args": prop_final_args,
             "prop_chunk":prop_informative_chunks,
             "status": "Generated proposition arguments",
-            "progress": 85
+            "progress": 60
         })
         progress(master_dict['progress']/100)
 
@@ -157,7 +159,7 @@ async def run_prover(proposition_claim, opposition_claim, use_small_model, n_web
             "opp_final_args": opp_final_args,
             "opp_chunks":opp_informative_chunks,
             "status": "Generated opposition arguments",
-            "progress": 90
+            "progress": 70
         })
         progress(master_dict['progress']/100)
 
@@ -174,7 +176,7 @@ async def run_prover(proposition_claim, opposition_claim, use_small_model, n_web
             "arg1_w_claims": arg1_w_claims,
             "arg2_w_claims": arg2_w_claims,
             "status": "Formatted arguments",
-            "progress": 95
+            "progress": 75
         })
         progress(master_dict['progress']/100)
 
@@ -291,4 +293,4 @@ with gr.Blocks(theme=gr.themes.Soft()) as app:
 
 # Launch the app
 if __name__ == "__main__":
-    app.queue().launch(show_error=True)
+    app.queue().launch(show_error=True, share=False)

@@ -6,21 +6,85 @@ import json
 # MODEL = 'dolphin-llama3'
 MODEL = 'CognitiveComputations/dolphin-llama3.1'
 SMALL_MODEL = 'tinydolphin'
+BIG_MODEL = "dolphin-llama3:70b"
 # MODEL = 'llama3.2'
 
 
 
 
-def get_llm_response(prompt, model = MODEL):
-    response = ollama.generate(model=model, prompt=prompt)
-    output = response['response']
-    return output
+from openai import OpenAI
+from openai import OpenAI
+import json
+import os
+import dotenv # type: ignore
+
+dotenv.load_dotenv(dotenv.find_dotenv(usecwd=True))
+
+def get_llm_response(prompt, force_json=False, model = SMALL_MODEL):
+    """
+    Get a completion from OpenAI's API using GPT-4
+    Args:
+        prompt (str): The input prompt
+        force_json (bool): Whether to force JSON output format
+    """
+    # Initialize the client with your API key
+    client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
+    
+    model_type = None
+    if model == MODEL or model == BIG_MODEL:
+        model_type = "gpt-4o"
+    else:
+
+        model_type = "gpt-4o-mini"
+    try:
+        # Base parameters
+        params = {
+            "model": model_type,  # or "gpt-3.5-turbo" for a faster, cheaper option
+            "messages": [{"role": "user", "content": prompt}],
+            "temperature": 0.7,
+            "max_tokens": 150
+        }
+        
+        # Add response format if JSON is required
+        if force_json:
+            params["response_format"] = {"type": "json_object"}
+            # Add instruction to respond in JSON if not already in prompt
+            if not "json" in prompt.lower():
+                params["messages"][0]["content"] = f"{prompt} Respond in JSON format."
+        
+        # Make the API call
+        response = client.chat.completions.create(**params)
+        
+        # Extract the response text
+        result = response.choices[0].message.content
+        
+        # If JSON was requested, validate it
+        if force_json:
+            try:
+                return json.loads(result)
+            except json.JSONDecodeError:
+                return "Failed to parse JSON response"
+                
+        return result
+    
+    except Exception as e:
+        return f"An error occurred: {str(e)}"
 
 
 def get_llm_json_response(prompt, model=MODEL):
-    response = ollama.generate(model=model, prompt=prompt,format='json')
-    output = response['response']
-    return output
+    return get_llm_json_response(prompt=prompt,force_json=True, model=model)
+
+
+# def get_llm_response_local(prompt, model = MODEL):
+#     response = ollama.generate(model=model, prompt=prompt)
+#     output = response['response']
+#     return output
+
+
+# def get_llm_json_response_local(prompt, model=MODEL):
+#     response = ollama.generate(model=model, prompt=prompt,format='json')
+#     output = response['response']
+#     return output
 
 
 # def convert_html_markdown(prompt):
@@ -80,7 +144,7 @@ def reverse_claim(claim_to_reverse):
 
        Claim to reverse: {claim_to_reverse}
        
-       Reversed claim: """,    model = "dolphin-llama3:70b")
+       Reversed claim: """,    model = BIG_MODEL)
    return query.strip()
 def combine_claims(claim, chunk1, chunk2):
     query = get_llm_response(
@@ -95,7 +159,7 @@ def combine_claims(claim, chunk1, chunk2):
             Instructions:
             Analyze the claim and statements.
             Synthesize into one clear sentence.
-            ONLY RETURN a one-sentence summary encompassing the main points from the claim and statements.""")
+            ONLY RETURN a one-sentence summary encompassing the main points from the claim and statements.""", model=BIG_MODEL)
     return query
 
 
@@ -109,7 +173,7 @@ def restate_claim(claim, chunk):
             Instructions:
             Analyze the claim and statements.
             Synthesize into one clear sentence.
-            ONLY RETURN a one-sentence summary encompassing the main points from the claim and statements."""
+            ONLY RETURN a one-sentence summary encompassing the main points from the claim and statements.""", model=BIG_MODEL
                              )
     return query
 
@@ -136,7 +200,7 @@ def restate_evidence(claim, evidence):
 
         Restate the evidence in support of the claim, returning only this restatement as a single sentence:"""
 
-    restatement = get_llm_response(prompt)
+    restatement = get_llm_response(prompt, model=BIG_MODEL)
     return restatement
 ################################################################################################################
 #? EXAMPLE for extract_info_json()
@@ -220,15 +284,7 @@ def get_final_judgement(arg1, arg2, use_small_model=False):
     if use_small_model:
         model = MODEL
 
-
-    response = ollama.generate(model=model, prompt=prompt,format='json', options={'temperature':0.1})
-    try:
-        return dict(json.loads(output = response['response']))
-    except Exception:
-        try:
-            return json.loads(get_llm_json_response(f"""Make the following valid JSON, in the form of {{"argument": "1"}}. Only return JSON: {response['response']}"""))
-        except Exception:
-            #now ig im fucked
-            return response['response']
+    response = get_llm_response(prompt=prompt, force_json=True, model=BIG_MODEL)
+    return response
 
 
