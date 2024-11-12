@@ -115,8 +115,8 @@ def determine_informative(chunk, claim, use_small=True):
 def reword_query(claim):
     query = get_llm_response(
         f""" 
-        Assume the inputted claim is true, and rephrase into a question about why it is true. Be careful to use the same tense (past/present/future) as the original claim.:
-        Return only the query as a single, brief question.
+        Assume the inputted claim is true, and rephrase into a web search query for evidence that supports the claim. Be careful to use the same tense (past/present/future) as the original claim.:
+        Return only the single, brief query for use in searching the web.
         Claim: {claim}    
         Query: """)
     return query

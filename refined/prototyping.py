@@ -19,9 +19,9 @@ def __(prover_F):
     proposition_claim="Donald Trump is racist",
         opposition_claim = "Donald Trump is not racist",
         use_small_model=False, 
-        n_websites=1,
+        n_websites=6,
         n_chunks_needed_per_cluster=1,
-        n_argument_clusters=3
+        n_argument_clusters=2
     ):
         out = x
         print(out['status'])
@@ -35,14 +35,7 @@ def __(prover_F):
 
 
 @app.cell
-def __(out):
-    out['opp_chunks']
-    return
-
-
-@app.cell
-def __(out):
-    out['opp_final_args']
+def __():
     return
 
 

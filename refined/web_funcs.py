@@ -9,6 +9,7 @@ DEBUG = False
 
 
 def extract_text_from_html_file(file_path, guess_layout=True):
+    print(f"FILEPATH: {file_path}")
     try:
         # Check if the file exists
         if not os.path.exists(file_path):
@@ -509,27 +510,11 @@ def download_webpage_html(
 import hashlib
 import re
 
-def url_to_unique_name(url: str, word_count: int = 3) -> str:
-    # Remove www. and clean up the URL
-    url = re.sub(r'www\.', '', url)
-    
-    # Extract words, excluding protocol and symbols
-    words = re.sub(r"https?://|[^\w\s]", " ", url).strip().split()
-    
-    # Take first few meaningful words
-    meaningful_words = [w for w in words[:word_count] if w]
-    
-    # If we have no meaningful words, use 'page' as fallback
-    if not meaningful_words:
-        meaningful_words = ['page']
-    
-    words_part = "_".join(meaningful_words)
-    
+def url_to_unique_name(url: str) -> str:
     # Generate hash
-    unique_hash = hashlib.sha256(url.encode()).hexdigest()
-    
+    unique_hash = str(hashlib.sha256(url.encode()).hexdigest())
     # Create filename, ensuring it starts with L and a word (not underscore)
-    unique_name = f"L{words_part}_{unique_hash[:10]}.html"
+    unique_name = f"L{unique_hash[:25]}_L.html"
     
     return unique_name
 

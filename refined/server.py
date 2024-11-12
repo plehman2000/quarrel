@@ -49,13 +49,6 @@ async def download_single(
             raise Exception(f"Download task for {url} was cancelled")
             return None
         
-        # except Exception as e:
-        #     if attempt == retry_attempts - 1:
-        #         print(f"Failed to download {url} after {retry_attempts} attempts: {str(e)}")
-        #         return None
-
-    
-    # raise Exception(f"Failed to download {url} after {retry_attempts} attempts")
 
 @app.route("/download/", methods=["POST"])
 async def download_webpages():
