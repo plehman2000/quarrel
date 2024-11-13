@@ -98,7 +98,7 @@ def get_llm_json_response(prompt, model=MODEL):
 
 
 ################################
-def determine_informative(chunk, claim, use_small=True):
+def determine_informative_local(chunk, claim, use_small=True):
     if use_small:
         m = SMALL_MODEL
     else:
@@ -112,6 +112,30 @@ def determine_informative(chunk, claim, use_small=True):
         return {"error": "Error in JSON output"}
     
 
+
+import dotenv # type: ignore
+
+dotenv.load_dotenv(dotenv.find_dotenv(usecwd=True))
+# client.py
+import os
+from bespokelabs import BespokeLabs
+
+bl = BespokeLabs(
+    # This is the default and can be omitted
+    auth_token=os.getenv("BESPOKE_API_KEY"),
+)
+def determine_informative(chunk, claim, use_small=True):
+    response = bl.minicheck.factcheck.create(
+        claim=claim,
+        context=chunk,
+    )
+    if response.support_prob > 0.6:
+        return {"response" : "true"}
+    else:
+        return {"response" : "false"}
+
+
+    
 def reword_query(claim):
     query = get_llm_response(
         f""" 

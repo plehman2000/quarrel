@@ -45,5 +45,20 @@
 # print(f"Prompt: {prompt}")
 # print(f"Response: {result}")
 
+import dotenv # type: ignore
 
+dotenv.load_dotenv(dotenv.find_dotenv(usecwd=True))
 # client.py
+import os
+from bespokelabs import BespokeLabs
+
+bl = BespokeLabs(
+    # This is the default and can be omitted
+    auth_token=os.getenv("BESPOKE_API_KEY"),
+)
+
+response = bl.minicheck.factcheck.create(
+    claim="d",
+    context="",
+)
+print(response)
