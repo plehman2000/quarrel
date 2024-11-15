@@ -13,8 +13,10 @@ from web_funcs import url_to_unique_name
 
 dotenv.load_dotenv(dotenv.find_dotenv(usecwd=True))
 
-URL_DICTIONARY_FILEPATH = os.getenv("URL_DICTIONARY_FILEPATH")
-
+try:
+    URL_DICTIONARY_FILEPATH = os.getenv("URL_DICTIONARY_FILEPATH")
+except:
+    URL_DICTIONARY_FILEPATH = "./"
 app = Quart(__name__)
 
 class DownloadRequest(BaseModel):
