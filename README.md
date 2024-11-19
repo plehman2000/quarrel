@@ -1,9 +1,7 @@
 #  :mag: Quarrel 
-![alt text](https://github.com/plehman2000/quarrel/blob/main/assets/im1.png)
-
 An AI-powered tool that analyzes opposing claims by gathering and evaluating evidence from web sources to determine the stronger argument.
 
-![alt text](https://github.com/plehman2000/quarrel/blob/main/assets/im2.png)
+![alt text](https://github.com/plehman2000/quarrel/blob/main/assets/im1.png)
 
 ## Features
 
@@ -11,7 +9,11 @@ An AI-powered tool that analyzes opposing claims by gathering and evaluating evi
 - Semantic clustering of evidence using embeddings
 - Intelligent argument construction and evaluation 
 - Support for both proposition and opposition claims
-- Configurable analysis parameters
+- Configurable analysis parameters to balance tradeoff of precision and speed
+  
+
+![alt text](https://github.com/plehman2000/quarrel/blob/main/assets/im2.png)
+
 
 ## Usage
 
@@ -19,8 +21,8 @@ An AI-powered tool that analyzes opposing claims by gathering and evaluating evi
 2. Optionally enter an opposition claim (auto-generated if not provided)
 3. Configure analysis settings:
    - Model size (Large/Small)
-   - Number of websites to search (10-100)
-   - Evidence chunks per argument (2-20)
+   - Number of websites to search (10-100) - number of websites collected for the opposition and proposition
+   - Evidence chunks per argument (2-20) - number of informative chunks found for each cluster of website text chunks
 4. Click "Start Analysis" to begin evaluation
 
 ## Technical Details
