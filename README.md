@@ -1,4 +1,4 @@
-# Quarrel 
+#  :mag: Quarrel 
 ![alt text](https://github.com/plehman2000/quarrel/blob/main/assets/im1.png)
 
 An AI-powered tool that analyzes opposing claims by gathering and evaluating evidence from web sources to determine the stronger argument.
