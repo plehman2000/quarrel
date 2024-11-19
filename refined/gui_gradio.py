@@ -23,6 +23,7 @@ from llm_funcs import get_final_judgement
 
 def run_prover(proposition_claim, opposition_claim, use_small_model, n_websites, n_chunks_needed_per_cluster, progress=gr.Progress()):
     try:
+        
         # Input validation
         if not proposition_claim or proposition_claim.strip() == "":
             yield "Error: Proposition claim cannot be empty. Please enter a claim to analyze."
@@ -43,7 +44,10 @@ def run_prover(proposition_claim, opposition_claim, use_small_model, n_websites,
             "status": "Starting",
             "progress": 0
         }
+        pickle.dump(master_dict, open("MASTER_DICT_DEBUGGING.pkl", 'wb'))
+
         progress(master_dict['progress']/100)
+        print(master_dict['progress']/100)
 
         # Generate opposition claim and queries
         if opposition_claim == None:
@@ -55,6 +59,7 @@ def run_prover(proposition_claim, opposition_claim, use_small_model, n_websites,
             "progress": 10
         })
         progress(master_dict['progress']/100)
+        print(master_dict['progress']/100)
         
         proposition_query = reword_query(proposition_claim)
         opposition_query = reword_query(opposition_claim)
@@ -65,6 +70,7 @@ def run_prover(proposition_claim, opposition_claim, use_small_model, n_websites,
             "progress": 20
         })
         progress(master_dict['progress']/100)
+        print(master_dict['progress']/100)
 
         # Get chunks
         prop_chunks_pairs = get_webdata_chunks(proposition_query, n_websites)
@@ -74,6 +80,7 @@ def run_prover(proposition_claim, opposition_claim, use_small_model, n_websites,
             "progress": 30
         })
         progress(master_dict['progress']/100)
+        print(master_dict['progress']/100)
 
         opp_chunks_pairs = get_webdata_chunks(opposition_query, n_websites)
         opp_chunks = [x['chunk'] for x in opp_chunks_pairs]
@@ -82,6 +89,7 @@ def run_prover(proposition_claim, opposition_claim, use_small_model, n_websites,
             "progress": 40
         })
         progress(master_dict['progress']/100)
+        print(master_dict['progress']/100)
 
         # Embed chunks
         prop_all_chunk_vector_pairs = embed_chunks(prop_chunks)
@@ -90,6 +98,7 @@ def run_prover(proposition_claim, opposition_claim, use_small_model, n_websites,
             "progress": 50
         })
         progress(master_dict['progress']/100)
+        print(master_dict['progress']/100)
 
         opp_all_chunk_vector_pairs = embed_chunks(opp_chunks)
         master_dict.update({
@@ -97,7 +106,8 @@ def run_prover(proposition_claim, opposition_claim, use_small_model, n_websites,
             "progress": 60
         })
         progress(master_dict['progress']/100)
-
+        print(master_dict['progress']/100)
+        
         prop_reduced_chunk_vector_pairs = filter_chunks_using_vsim(opposition_query, prop_all_chunk_vector_pairs, 0.65)
         opp_reduced_chunk_vector_pairs = filter_chunks_using_vsim(opposition_query, opp_all_chunk_vector_pairs, 0.65)
 
@@ -109,6 +119,7 @@ def run_prover(proposition_claim, opposition_claim, use_small_model, n_websites,
             "progress": 70
         })
         progress(master_dict['progress']/100)
+        print(master_dict['progress']/100)
 
         opp_cluster_dict = process_clusters(opp_reduced_chunk_vector_pairs, n_argument_clusters)
         master_dict.update({
@@ -117,6 +128,7 @@ def run_prover(proposition_claim, opposition_claim, use_small_model, n_websites,
             "progress": 80
         })
         progress(master_dict['progress']/100)
+        print(master_dict['progress']/100)
 
         prop_informative_chunks = get_n_informative_chunks(proposition_claim, prop_cluster_dict, max_sampled_chunks_per_cluster, n_chunks_needed_per_cluster)
         if prop_informative_chunks[0] == []:
@@ -131,6 +143,7 @@ def run_prover(proposition_claim, opposition_claim, use_small_model, n_websites,
             "progress": 85
         })
         progress(master_dict['progress']/100)
+        print(master_dict['progress']/100)
 
         opp_informative_chunks = get_n_informative_chunks(opposition_claim, opp_cluster_dict, max_sampled_chunks_per_cluster, n_chunks_needed_per_cluster)
         if opp_informative_chunks[0] == []:
@@ -145,6 +158,7 @@ def run_prover(proposition_claim, opposition_claim, use_small_model, n_websites,
             "progress": 90
         })
         progress(master_dict['progress']/100)
+        print(master_dict['progress']/100)
 
         # Format arguments
         arg1_w_claims = f"Claim: {proposition_claim}\n"
@@ -162,6 +176,7 @@ def run_prover(proposition_claim, opposition_claim, use_small_model, n_websites,
             "progress": 95
         })
         progress(master_dict['progress']/100)
+        pickle.dump(master_dict, open("MASTER_DICT_DEBUGGING.pkl", 'wb'))
 
         # Get final judgment
         final_judge = get_final_judgement(arg1_w_claims, arg2_w_claims, use_small_model=use_small_model)
@@ -176,7 +191,6 @@ def run_prover(proposition_claim, opposition_claim, use_small_model, n_websites,
             "victor": choice
         })
         progress(master_dict['progress']/100)
-
         output_text = f"Winner: {master_dict['victor']}\n\n{arg1_w_claims}\n{arg2_w_claims}"
         yield output_text
         
@@ -186,8 +200,8 @@ def run_prover(proposition_claim, opposition_claim, use_small_model, n_websites,
 # Create the Gradio interface with improved styling and validation
 with gr.Blocks(theme=gr.themes.Soft()) as app:
     gr.Markdown("""
-    # 🔍 Argument Prover
-    Enter your claims below to analyze and evaluate arguments.
+    # 🔍 Quarrel
+    Enter your claims below to analyze the best arguments for and against them.
     """)
     
     with gr.Row():

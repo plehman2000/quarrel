@@ -49,9 +49,9 @@ async def download_single(
                     return full_path
         except asyncio.CancelledError:
             raise Exception(f"Download task for {url} was cancelled")
-            return None
-        
+                    
 
+from tqdm import tqdm
 @app.route("/download/", methods=["POST"])
 async def download_webpages():
     try:
@@ -81,12 +81,19 @@ async def download_webpages():
         with open(URL_DICTIONARY_FILEPATH, 'wb') as file:
             pickle.dump({}, file)
 
+    print(sorted(site_id_dict.keys()))
+    # print(download_request.urls)
+    dbg_names = []
+    for url,file in tqdm(zip(download_request.urls, download_request.filenames), desc="Checking Cache"):
+        if url_to_unique_name(url) not in set(site_id_dict.keys()):
+            urls.append(url)
+            filenames.append(file)
 
-    for u,f in zip(download_request.urls, download_request.filenames):
-        if url_to_unique_name(f) not in site_id_dict:
-            urls.append(u)
-            filenames.append(f)
-
+            dbg_names.append(url_to_unique_name(url))
+    print(sorted(dbg_names))
+    print(str(len(filenames)) + '  '  + str(len(urls)))
+    print(filenames)
+    print(urls)
     print(f"Saved {len(filenames) - len(list(download_request.filenames))} Web Download API Calls...")
 
     try:

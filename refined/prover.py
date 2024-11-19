@@ -71,16 +71,17 @@ def save_source_pages(results):
     for x in results:
         unique_name = url_to_unique_name(x['url'])
         files_for_argument.append(unique_name)
-        if unique_name not in site_id_dict:
-            site_id_dict[unique_name] = str(x['url'])
-            urls_for_download.append(x['url']) 
-            filenames_for_download.append(unique_name)
+        # if unique_name not in site_id_dict:
+        site_id_dict[unique_name] = str(x['url'])
+        urls_for_download.append(x['url']) 
+        filenames_for_download.append(unique_name)
 
     download_webpage_html(urls_for_download, filenames_for_download, save_folder=filedir)
 
     with open(URL_DICTIONARY_FILEPATH, 'wb') as file:
         pickle.dump(site_id_dict, file)
     print("SAVED")
+    print(filenames_for_download)
     return files_for_argument
 def ingest_source_pages(files):
     all_chunks = []
@@ -120,6 +121,8 @@ def ingest_source_pages(files):
                     all_chunks.append({"chunk":c, "source":file, "chunk_index": i,"URL":site_id_dict[file]})
                 # if file not in webchunk_dict:
                 webchunk_dict[file] = chunks
+            else:
+                print(f"File does not exist!")
     return all_chunks
 
 def get_webdata_chunks(query, n_websites):
@@ -369,9 +372,11 @@ def filter_chunks_using_vsim(query, all_chunk_vector_pairs, thresh=0.65):
         sim = 1- simsimd.cosine(vector, filter_embedding)
         similarities.append(sim)
     similarities = np.array(similarities)
-    indeces = np.where(similarities > 0.65)[0] 
-    
-    return [all_chunk_vector_pairs[idx] for idx in indeces]
+    indeces = np.where(similarities > thresh)[0] 
+    results = [all_chunk_vector_pairs[idx] for idx in indeces]
+    if len(results) < 10:
+        results = filter_chunks_using_vsim(query, all_chunk_vector_pairs, thresh=max(thresh-0.2,0))
+    return results
 
 
 
