@@ -1,12 +1,17 @@
 import gradio as gr
-from prover import embed_chunks, filter_chunks_using_vsim, process_clusters, get_final_args, get_n_informative_chunks, get_webdata_chunks, reverse_claim,reword_query
+from prover import (
+    embed_chunks,
+    filter_chunks_using_vsim,
+    process_clusters,
+    get_final_args,
+    get_n_informative_chunks,
+    get_webdata_chunks,
+    reverse_claim,
+    reword_query,
+)
 import pickle
 
 from llm_funcs import get_final_judgement
-
-
-
-
 
 
 # import asyncio
@@ -16,23 +21,29 @@ from llm_funcs import get_final_judgement
 # get_webdata_chunks("is u s?", 2)
 
 
-
-    
-
-
-
-def run_prover(proposition_claim, opposition_claim, use_small_model, n_websites, n_chunks_needed_per_cluster, progress=gr.Progress()):
+def run_prover(
+    proposition_claim,
+    opposition_claim,
+    use_small_model,
+    n_websites,
+    n_chunks_needed_per_cluster,
+    progress=gr.Progress(),
+):
     try:
-        
+
         # Input validation
         if not proposition_claim or proposition_claim.strip() == "":
             yield "Error: Proposition claim cannot be empty. Please enter a claim to analyze."
             return
-            
+
         # Initialize status
         status = "Starting"
         proposition_claim = proposition_claim.strip()
-        opposition_claim = opposition_claim.strip() if opposition_claim and opposition_claim.strip() else None
+        opposition_claim = (
+            opposition_claim.strip()
+            if opposition_claim and opposition_claim.strip()
+            else None
+        )
         use_small_model = use_small_model
         n_websites = int(n_websites)
         n_chunks_needed_per_cluster = int(n_chunks_needed_per_cluster)
@@ -42,123 +53,161 @@ def run_prover(proposition_claim, opposition_claim, use_small_model, n_websites,
         master_dict = {
             "proposition_claim": proposition_claim,
             "status": "Starting",
-            "progress": 0
+            "progress": 0,
         }
-        pickle.dump(master_dict, open("MASTER_DICT_DEBUGGING.pkl", 'wb'))
+        pickle.dump(master_dict, open("MASTER_DICT_DEBUGGING.pkl", "wb"))
 
-        progress(master_dict['progress']/100)
-        print(master_dict['progress']/100)
+        progress(master_dict["progress"] / 100)
+        print(master_dict["progress"] / 100)
 
         # Generate opposition claim and queries
         if opposition_claim == None:
             opposition_claim = reverse_claim(proposition_claim)
         print(opposition_claim)
-        master_dict.update({
-            "opposition_claim": opposition_claim,
-            "status": "Generated opposition claim",
-            "progress": 10
-        })
-        progress(master_dict['progress']/100)
-        print(master_dict['progress']/100)
-        
+        master_dict.update(
+            {
+                "opposition_claim": opposition_claim,
+                "status": "Generated opposition claim",
+                "progress": 10,
+            }
+        )
+        progress(master_dict["progress"] / 100)
+        print(master_dict["progress"] / 100)
+
         proposition_query = reword_query(proposition_claim)
         opposition_query = reword_query(opposition_claim)
-        master_dict.update({
-            "proposition_query": proposition_query,
-            "opposition_query": opposition_query,
-            "status": "Generated search queries",
-            "progress": 20
-        })
-        progress(master_dict['progress']/100)
-        print(master_dict['progress']/100)
+        master_dict.update(
+            {
+                "proposition_query": proposition_query,
+                "opposition_query": opposition_query,
+                "status": "Generated search queries",
+                "progress": 20,
+            }
+        )
+        progress(master_dict["progress"] / 100)
+        print(master_dict["progress"] / 100)
 
         # Get chunks
         prop_chunks_pairs = get_webdata_chunks(proposition_query, n_websites)
-        prop_chunks = [x['chunk'] for x in prop_chunks_pairs]
-        master_dict.update({
-            "status": f"Retrieved proposition web data: {len(prop_chunks)} chunks",
-            "progress": 30
-        })
-        progress(master_dict['progress']/100)
-        print(master_dict['progress']/100)
+        prop_chunks = [x["chunk"] for x in prop_chunks_pairs]
+        master_dict.update(
+            {
+                "status": f"Retrieved proposition web data: {len(prop_chunks)} chunks",
+                "progress": 30,
+            }
+        )
+        progress(master_dict["progress"] / 100)
+        print(master_dict["progress"] / 100)
 
         opp_chunks_pairs = get_webdata_chunks(opposition_query, n_websites)
-        opp_chunks = [x['chunk'] for x in opp_chunks_pairs]
-        master_dict.update({
-            "status": f"Retrieved opposition web data: {len(opp_chunks)} chunks",
-            "progress": 40
-        })
-        progress(master_dict['progress']/100)
-        print(master_dict['progress']/100)
+        opp_chunks = [x["chunk"] for x in opp_chunks_pairs]
+        master_dict.update(
+            {
+                "status": f"Retrieved opposition web data: {len(opp_chunks)} chunks",
+                "progress": 40,
+            }
+        )
+        progress(master_dict["progress"] / 100)
+        print(master_dict["progress"] / 100)
 
         # Embed chunks
         prop_all_chunk_vector_pairs = embed_chunks(prop_chunks)
-        master_dict.update({
-            "status": "Embedded proposition chunks",
-            "progress": 50
-        })
-        progress(master_dict['progress']/100)
-        print(master_dict['progress']/100)
+        master_dict.update({"status": "Embedded proposition chunks", "progress": 50})
+        progress(master_dict["progress"] / 100)
+        print(master_dict["progress"] / 100)
 
         opp_all_chunk_vector_pairs = embed_chunks(opp_chunks)
-        master_dict.update({
-            "status": "Embedded opposition chunks",
-            "progress": 60
-        })
-        progress(master_dict['progress']/100)
-        print(master_dict['progress']/100)
-        
-        prop_reduced_chunk_vector_pairs = filter_chunks_using_vsim(opposition_query, prop_all_chunk_vector_pairs, 0.65)
-        opp_reduced_chunk_vector_pairs = filter_chunks_using_vsim(opposition_query, opp_all_chunk_vector_pairs, 0.65)
+        master_dict.update({"status": "Embedded opposition chunks", "progress": 60})
+        progress(master_dict["progress"] / 100)
+        print(master_dict["progress"] / 100)
+
+        prop_reduced_chunk_vector_pairs = filter_chunks_using_vsim(
+            opposition_query, prop_all_chunk_vector_pairs, 0.65
+        )
+        opp_reduced_chunk_vector_pairs = filter_chunks_using_vsim(
+            opposition_query, opp_all_chunk_vector_pairs, 0.65
+        )
 
         # Updated to use process_clusters instead of get_clusters
-        prop_cluster_dict = process_clusters(prop_reduced_chunk_vector_pairs, n_argument_clusters)
-        master_dict.update({
-            "prop_cluster_dict": prop_cluster_dict,
-            "status": "Generated proposition clusters",
-            "progress": 70
-        })
-        progress(master_dict['progress']/100)
-        print(master_dict['progress']/100)
+        prop_cluster_dict = process_clusters(
+            prop_reduced_chunk_vector_pairs, n_argument_clusters
+        )
+        master_dict.update(
+            {
+                "prop_cluster_dict": prop_cluster_dict,
+                "status": "Generated proposition clusters",
+                "progress": 70,
+            }
+        )
+        progress(master_dict["progress"] / 100)
+        print(master_dict["progress"] / 100)
 
-        opp_cluster_dict = process_clusters(opp_reduced_chunk_vector_pairs, n_argument_clusters)
-        master_dict.update({
-            "opp_cluster_dict": opp_cluster_dict,
-            "status": "Generated opposition clusters",
-            "progress": 80
-        })
-        progress(master_dict['progress']/100)
-        print(master_dict['progress']/100)
+        opp_cluster_dict = process_clusters(
+            opp_reduced_chunk_vector_pairs, n_argument_clusters
+        )
+        master_dict.update(
+            {
+                "opp_cluster_dict": opp_cluster_dict,
+                "status": "Generated opposition clusters",
+                "progress": 80,
+            }
+        )
+        progress(master_dict["progress"] / 100)
+        print(master_dict["progress"] / 100)
 
-        prop_informative_chunks = get_n_informative_chunks(proposition_claim, prop_cluster_dict, max_sampled_chunks_per_cluster, n_chunks_needed_per_cluster)
+        prop_informative_chunks = get_n_informative_chunks(
+            proposition_claim,
+            prop_cluster_dict,
+            max_sampled_chunks_per_cluster,
+            n_chunks_needed_per_cluster,
+        )
         if prop_informative_chunks[0] == []:
             yield "ERROR: Could not generate proposition arguments"
             return
-            
-        prop_final_args = get_final_args(proposition_claim, prop_cluster_dict, max_sampled_chunks_per_cluster, prop_informative_chunks)
-        master_dict.update({
-            "prop_final_args": prop_final_args,
-            "prop_chunks": prop_informative_chunks,
-            "status": "Generated proposition arguments",
-            "progress": 85
-        })
-        progress(master_dict['progress']/100)
-        print(master_dict['progress']/100)
 
-        opp_informative_chunks = get_n_informative_chunks(opposition_claim, opp_cluster_dict, max_sampled_chunks_per_cluster, n_chunks_needed_per_cluster)
+        prop_final_args = get_final_args(
+            proposition_claim,
+            prop_cluster_dict,
+            max_sampled_chunks_per_cluster,
+            prop_informative_chunks,
+        )
+        master_dict.update(
+            {
+                "prop_final_args": prop_final_args,
+                "prop_chunks": prop_informative_chunks,
+                "status": "Generated proposition arguments",
+                "progress": 85,
+            }
+        )
+        progress(master_dict["progress"] / 100)
+        print(master_dict["progress"] / 100)
+
+        opp_informative_chunks = get_n_informative_chunks(
+            opposition_claim,
+            opp_cluster_dict,
+            max_sampled_chunks_per_cluster,
+            n_chunks_needed_per_cluster,
+        )
         if opp_informative_chunks[0] == []:
             yield "ERROR: Could not generate opposition arguments"
             return
-            
-        opp_final_args = get_final_args(opposition_claim, opp_cluster_dict, max_sampled_chunks_per_cluster, opp_informative_chunks)
-        master_dict.update({
-            "opp_final_args": opp_final_args,
-            "opp_chunks": opp_informative_chunks,
-            "status": "Generated opposition arguments",
-            "progress": 90
-        })
-        progress(master_dict['progress']/100)
-        print(master_dict['progress']/100)
+
+        opp_final_args = get_final_args(
+            opposition_claim,
+            opp_cluster_dict,
+            max_sampled_chunks_per_cluster,
+            opp_informative_chunks,
+        )
+        master_dict.update(
+            {
+                "opp_final_args": opp_final_args,
+                "opp_chunks": opp_informative_chunks,
+                "status": "Generated opposition arguments",
+                "progress": 90,
+            }
+        )
+        progress(master_dict["progress"] / 100)
+        print(master_dict["progress"] / 100)
 
         # Format arguments
         arg1_w_claims = f"Claim: {proposition_claim}\n"
@@ -169,72 +218,85 @@ def run_prover(proposition_claim, opposition_claim, use_small_model, n_websites,
         for i, zx in enumerate(opp_final_args):
             arg2_w_claims += f"Premise {i+1}: {zx}\n"
 
-        master_dict.update({
-            "arg1_w_claims": arg1_w_claims,
-            "arg2_w_claims": arg2_w_claims,
-            "status": "Formatted arguments",
-            "progress": 95
-        })
-        progress(master_dict['progress']/100)
-        pickle.dump(master_dict, open("MASTER_DICT_DEBUGGING.pkl", 'wb'))
+        master_dict.update(
+            {
+                "arg1_w_claims": arg1_w_claims,
+                "arg2_w_claims": arg2_w_claims,
+                "status": "Formatted arguments",
+                "progress": 95,
+            }
+        )
+        progress(master_dict["progress"] / 100)
+        pickle.dump(master_dict, open("MASTER_DICT_DEBUGGING.pkl", "wb"))
 
         # Get final judgment
-        final_judge = get_final_judgement(arg1_w_claims, arg2_w_claims, use_small_model=use_small_model)
-        idx = int(final_judge['argument'])-1
-        choice = [master_dict['proposition_claim'], master_dict['opposition_claim']][idx]
-        master_dict['victor'] = choice
+        final_judge = get_final_judgement(
+            arg1_w_claims, arg2_w_claims, use_small_model=use_small_model
+        )
+        idx = int(final_judge["argument"]) - 1
+        choice = [master_dict["proposition_claim"], master_dict["opposition_claim"]][
+            idx
+        ]
+        master_dict["victor"] = choice
 
-        master_dict.update({
-            "final_judge": final_judge,
-            "status": "Complete",
-            "progress": 100,
-            "victor": choice
-        })
-        progress(master_dict['progress']/100)
-        output_text = f"Winner: {master_dict['victor']}\n\n{arg1_w_claims}\n{arg2_w_claims}"
+        master_dict.update(
+            {
+                "final_judge": final_judge,
+                "status": "Complete",
+                "progress": 100,
+                "victor": choice,
+            }
+        )
+        progress(master_dict["progress"] / 100)
+        output_text = (
+            f"Winner: {master_dict['victor']}\n\n{arg1_w_claims}\n{arg2_w_claims}"
+        )
         yield output_text
-        
+
     except Exception as e:
         yield f"An error occurred: {str(e)}\nPlease check your inputs and try again."
 
+
 # Create the Gradio interface with improved styling and validation
 with gr.Blocks(theme=gr.themes.Soft()) as app:
-    gr.Markdown("""
+    gr.Markdown(
+        """
     # 🔍 Quarrel
     Enter your claims below to analyze the best arguments for and against them.
-    """)
-    
+    """
+    )
+
     with gr.Row():
         with gr.Column():
             proposition_input = gr.Textbox(
                 label="Proposition Claim",
                 placeholder="Enter the main claim (e.g., 'Electric vehicles are better for the environment')",
                 lines=3,
-                scale=2
+                scale=2,
             )
             opposition_input = gr.Textbox(
                 label="Opposition Claim (optional)",
                 placeholder="Enter the opposing claim (optional)",
                 lines=3,
-                scale=2
+                scale=2,
             )
-            
+
         with gr.Column():
             with gr.Group():
                 gr.Markdown("### Analysis Settings")
                 model_checkbox = gr.Checkbox(
                     label="Use Large Model (Recommended)",
                     value=True,
-                    info="Large model provides more detailed analysis"
+                    info="Large model provides more detailed analysis",
                 )
                 websites_slider = gr.Slider(
                     minimum=10,
                     maximum=100,
                     # value=50,#TODO Revert to
-                    value=10,# DEBUGGING
+                    value=10,  # DEBUGGING
                     step=10,
                     label="Number of Websites to Search",
-                    info="More websites = broader analysis but slower processing"
+                    info="More websites = broader analysis but slower processing",
                 )
                 chunks_slider = gr.Slider(
                     minimum=2,
@@ -243,29 +305,24 @@ with gr.Blocks(theme=gr.themes.Soft()) as app:
                     value=2,
                     step=2,
                     label="Evidence Chunks per Argument",
-                    info="More chunks = stronger evidence but slower processing"
+                    info="More chunks = stronger evidence but slower processing",
                 )
-    
+
     with gr.Row():
         clear_button = gr.Button("Clear", variant="secondary")
         start_button = gr.Button("Start Analysis", variant="primary")
-    
 
     output_text = gr.Textbox(
         label="Analysis Progress and Results",
         lines=20,
         show_copy_button=True,
-        placeholder="Results will appear here..."
+        placeholder="Results will appear here...",
     )
-    
+
     # Event handlers
     def clear_inputs():
-        return {
-            proposition_input: "",
-            opposition_input: "",
-            output_text: ""
-        }
-    
+        return {proposition_input: "", opposition_input: "", output_text: ""}
+
     start_button.click(
         fn=run_prover,
         inputs=[
@@ -273,15 +330,15 @@ with gr.Blocks(theme=gr.themes.Soft()) as app:
             opposition_input,
             model_checkbox,
             websites_slider,
-            chunks_slider
+            chunks_slider,
         ],
-        outputs=[output_text]
+        outputs=[output_text],
     )
-    
+
     clear_button.click(
         fn=clear_inputs,
         inputs=[],
-        outputs=[proposition_input, opposition_input, output_text]
+        outputs=[proposition_input, opposition_input, output_text],
     )
 
 # Launch the app

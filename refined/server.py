@@ -5,7 +5,7 @@ import aiohttp
 import asyncio
 import os
 from pathlib import Path
-import dotenv # type: ignore
+import dotenv  # type: ignore
 import pickle
 
 from web_funcs import url_to_unique_name
@@ -19,6 +19,7 @@ except:
     URL_DICTIONARY_FILEPATH = "./"
 app = Quart(__name__)
 
+
 class DownloadRequest(BaseModel):
     urls: List[str]
     filenames: List[str]
@@ -27,31 +28,34 @@ class DownloadRequest(BaseModel):
     max_concurrent: int = 5
     retry_attempts: int = 3
 
+
 async def download_single(
     session: aiohttp.ClientSession,
     url: str,
     filename: str,
     save_folder: str,
     timeout: float,
-    retry_attempts: int
+    retry_attempts: int,
 ) -> str:
     for attempt in range(retry_attempts):
         try:
-            await asyncio.sleep(1) 
+            await asyncio.sleep(1)
             async with session.get(url, timeout=timeout) as response:
                 if response.status == 200:
                     content = await response.text()
                     full_path = os.path.join(save_folder, filename)
                     os.makedirs(os.path.dirname(full_path), exist_ok=True)
                     print(f"Saving: {full_path}")
-                    with open(full_path, 'w', encoding='utf-8') as f:
+                    with open(full_path, "w", encoding="utf-8") as f:
                         f.write(content)
                     return full_path
         except asyncio.CancelledError:
             raise Exception(f"Download task for {url} was cancelled")
-                    
+
 
 from tqdm import tqdm
+
+
 @app.route("/download/", methods=["POST"])
 async def download_webpages():
     try:
@@ -67,7 +71,7 @@ async def download_webpages():
     # Ensure the save folder exists
     Path(download_request.save_folder).mkdir(parents=True, exist_ok=True)
     saved_files = []
-    
+
     # Use a connector with a limited number of concurrent connections
     connector = aiohttp.TCPConnector(limit=download_request.max_concurrent)
     urls = []
@@ -75,26 +79,30 @@ async def download_webpages():
 
     site_id_dict = None
     if os.path.exists(URL_DICTIONARY_FILEPATH):
-        with open(URL_DICTIONARY_FILEPATH, 'rb') as file:
+        with open(URL_DICTIONARY_FILEPATH, "rb") as file:
             site_id_dict = pickle.load(file)
     else:
-        with open(URL_DICTIONARY_FILEPATH, 'wb') as file:
+        with open(URL_DICTIONARY_FILEPATH, "wb") as file:
             pickle.dump({}, file)
 
     print(sorted(site_id_dict.keys()))
     # print(download_request.urls)
     dbg_names = []
-    for url,file in tqdm(zip(download_request.urls, download_request.filenames), desc="Checking Cache"):
+    for url, file in tqdm(
+        zip(download_request.urls, download_request.filenames), desc="Checking Cache"
+    ):
         if url_to_unique_name(url) not in set(site_id_dict.keys()):
             urls.append(url)
             filenames.append(file)
 
             dbg_names.append(url_to_unique_name(url))
     print(sorted(dbg_names))
-    print(str(len(filenames)) + '  '  + str(len(urls)))
+    print(str(len(filenames)) + "  " + str(len(urls)))
     print(filenames)
     print(urls)
-    print(f"Saved {len(filenames) - len(list(download_request.filenames))} Web Download API Calls...")
+    print(
+        f"Saved {len(filenames) - len(list(download_request.filenames))} Web Download API Calls..."
+    )
 
     try:
         async with aiohttp.ClientSession(connector=connector) as session:
@@ -106,25 +114,25 @@ async def download_webpages():
                     filename=filename,
                     save_folder=download_request.save_folder,
                     timeout=download_request.timeout,
-                    retry_attempts=download_request.retry_attempts
+                    retry_attempts=download_request.retry_attempts,
                 )
                 tasks.append(task)
-            
+
             results = await asyncio.gather(*tasks, return_exceptions=True)
-            
+
             for result in results:
                 if isinstance(result, Exception):
                     raise result
                 if result:
                     saved_files.append(result)
-                
+
             return jsonify(saved_files)
-    
 
     except asyncio.CancelledError:
         return jsonify({"error": "Download operation was cancelled"}), 500
     except Exception as e:
         return jsonify({"error": str(e)}), 500
+
 
 # Run the app with an ASGI server such as hypercorn
 # hypercorn server:app --bind 0.0.0.0:8000

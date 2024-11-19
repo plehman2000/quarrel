@@ -13,8 +13,6 @@
 # print(res)
 
 
-
-
 # async def async_download_websites(prompt):
 #     download_webpage_html(urls=test_urls, filenames=test_filenames)
 #     return res
@@ -37,7 +35,6 @@
 # iface.launch()
 
 
-
 # Example usage
 # from llm_funcs import get_llm_response
 # prompt = "What is the capital of France?"
@@ -45,7 +42,7 @@
 # print(f"Prompt: {prompt}")
 # print(f"Response: {result}")
 
-import dotenv # type: ignore
+import dotenv  # type: ignore
 
 dotenv.load_dotenv(dotenv.find_dotenv(usecwd=True))
 # client.py

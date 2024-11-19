@@ -32,9 +32,8 @@ def extract_text_from_html_file(file_path, guess_layout=True):
         return None
 
 
+import requests
 
-
-import requests 
 
 def download_webpage_html(
     urls,
@@ -43,7 +42,7 @@ def download_webpage_html(
     timeout=5.0,
     max_concurrent=10,
     retry_attempts=3,
-    api_url="http://localhost:8000"
+    api_url="http://localhost:8000",
 ):
     payload = {
         "urls": urls,
@@ -51,16 +50,17 @@ def download_webpage_html(
         "save_folder": save_folder,
         "timeout": timeout,
         "max_concurrent": max_concurrent,
-        "retry_attempts": retry_attempts
+        "retry_attempts": retry_attempts,
     }
-    
+
     response = requests.post(f"{api_url}/download/", json=payload)
-    
+
     if response.status_code == 200:
         return True
     else:
         print(f"API CALL FAILED: {response}")
         return False
+
 
 # # Example usage of the client
 # urls = ["https://example.com", "https://example.org"]
@@ -73,15 +73,14 @@ def download_webpage_html(
 #     print(f"Error: {e}")
 
 
-
 import hashlib
 import re
+
 
 def url_to_unique_name(url: str) -> str:
     # Generate hash
     unique_hash = str(hashlib.sha256(url.encode()).hexdigest())
     # Create filename, ensuring it starts with L and a word (not underscore)
     unique_name = f"L{unique_hash[:25]}_L.html"
-    
-    return unique_name
 
+    return unique_name

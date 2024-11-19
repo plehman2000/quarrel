@@ -20,6 +20,33 @@ import dotenv # type: ignore
 
 dotenv.load_dotenv(dotenv.find_dotenv(usecwd=True))
 
+
+
+#########################################################################################
+#UNCOMMENT ME TO RUN COMPLETELY "OFFLINE" (STILL NEED TO USE WEB SEARCH API)
+# Make sure to comment out the duplicate functions below after uncommenting these
+#########################################################################################
+"""
+def get_llm_response(prompt, model = MODEL):
+    response = ollama.generate(model=model, prompt=prompt)
+    output = response['response']
+    return output
+
+
+def get_llm_json_response(prompt, model=MODEL):
+    response = ollama.generate(model=model, prompt=prompt,format='json')
+    output = response['response']
+    return output
+"""
+#########################################################################################
+
+#########################################################################################
+
+
+#########################################################################################
+#COMMENT ME TO RUN COMPLETELY "OFFLINE" (STILL NEED TO USE WEB SEARCH API)
+#########################################################################################
+
 def get_llm_response(prompt, force_json=False, model = SMALL_MODEL):
     """
     Get a completion from OpenAI's API using GPT-4
@@ -74,30 +101,11 @@ def get_llm_response(prompt, force_json=False, model = SMALL_MODEL):
 def get_llm_json_response(prompt, model=MODEL):
     return get_llm_json_response(prompt=prompt,force_json=True, model=model)
 
-
-# def get_llm_response_local(prompt, model = MODEL):
-#     response = ollama.generate(model=model, prompt=prompt)
-#     output = response['response']
-#     return output
-
-
-# def get_llm_json_response_local(prompt, model=MODEL):
-#     response = ollama.generate(model=model, prompt=prompt,format='json')
-#     output = response['response']
-#     return output
-
-
-# def convert_html_markdown(prompt):
-#     response = ollama.generate(model='reader-lm:0.5b', messages=[  #*  reader-lm is alt model
-#     {
-#     'role': 'user',
-#     'content': prompt}])
-#     output = response['response']
-#     return output
+#########################################################################################
+#########################################################################################
 
 
 
-################################
 def determine_informative_local(chunk, claim, use_small=True):
     if use_small:
         m = SMALL_MODEL
